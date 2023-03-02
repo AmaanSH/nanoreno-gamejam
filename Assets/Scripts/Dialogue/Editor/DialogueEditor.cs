@@ -21,6 +21,9 @@ namespace Nanoreno.Dialogue.Editor
         DialogueNode deletingNode = null;
         [NonSerialized]
         DialogueNode draggingNode = null;
+        [NonSerialized]
+        DialogueNode linkingParentNode = null;
+        Vector2 scrollPosition; 
 
         [MenuItem("Window/Dialogue Editor")]
         public static void ShowEditorWindow()
@@ -72,6 +75,10 @@ namespace Nanoreno.Dialogue.Editor
             {
                 ProcessEvents();
 
+                scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
+
+                GUILayoutUtility.GetRect(4000, 4000);
+
                 foreach (DialogueNode node in selectedDialogue.GetAllNodes())
                 {
                     DrawConnections(node);
@@ -80,6 +87,8 @@ namespace Nanoreno.Dialogue.Editor
                 {
                     DrawNode(node);
                 }
+
+                EditorGUILayout.EndScrollView();
 
                 if (creatingNode != null)
                 {
@@ -100,7 +109,7 @@ namespace Nanoreno.Dialogue.Editor
         {
             if (Event.current.type == EventType.MouseDown && draggingNode == null)
             {
-                draggingNode = GetNodeAtPoint(Event.current.mousePosition);
+                draggingNode = GetNodeAtPoint(Event.current.mousePosition + scrollPosition);
                 if (draggingNode != null)
                 {
                     draggingOffset = draggingNode.rect.position - Event.current.mousePosition;
@@ -153,6 +162,9 @@ namespace Nanoreno.Dialogue.Editor
             {
                 deletingNode = node;
             }
+
+            DrawLinkButton(node);
+
             if (GUILayout.Button("+"))
             {
                 creatingNode = node;
@@ -180,6 +192,42 @@ namespace Nanoreno.Dialogue.Editor
                     startPosition + controlPointOffset, endPosition - controlPointOffset, 
                     Color.white, null, 4f
                 );
+            }
+        }
+
+        private void DrawLinkButton(DialogueNode node)
+        {
+            if (linkingParentNode == null)
+            {
+                if (GUILayout.Button("link"))
+                {
+                    linkingParentNode = node;
+                }
+            }
+            else if (linkingParentNode == node)
+            {
+                if (GUILayout.Button("cancel"))
+                {
+                    linkingParentNode = null;
+                }
+            }
+            else if (linkingParentNode.children.Contains(node.uniqueID))
+            {
+                if (GUILayout.Button("unlink"))
+                {
+                    Undo.RecordObject(selectedDialogue, "Remove Dialogue Link");
+                    linkingParentNode.children.Remove(node.uniqueID);
+                    linkingParentNode = null;
+                }
+            }
+            else
+            {
+                if (GUILayout.Button("child"))
+                {
+                    Undo.RecordObject(selectedDialogue, "Add Dialogue Link");
+                    linkingParentNode.children.Add(node.uniqueID);
+                    linkingParentNode = null;
+                }
             }
         }
     }
