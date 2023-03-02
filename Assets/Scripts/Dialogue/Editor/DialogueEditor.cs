@@ -126,6 +126,12 @@ namespace Nanoreno.Dialogue.Editor
                 node.uniqueID = newUniqueID;
             }
 
+            // child node text
+            foreach(DialogueNode childNode in selectedDialogue.GetAllChildren(node))
+            {
+                EditorGUILayout.LabelField(childNode.text);
+            }
+
             GUILayout.EndArea();
         }
     }
