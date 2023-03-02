@@ -29,6 +29,9 @@ namespace Nanoreno.Dialogue.Editor
         [NonSerialized]
         Vector2 draggingCanvasOffset;
 
+        const float CANVAS_SIZE = 4000;
+        const float BACKGROUND_SIZE = 50;
+
         [MenuItem("Window/Dialogue Editor")]
         public static void ShowEditorWindow()
         {
@@ -81,7 +84,11 @@ namespace Nanoreno.Dialogue.Editor
 
                 scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
 
-                GUILayoutUtility.GetRect(4000, 4000);
+                Rect canvas = GUILayoutUtility.GetRect(CANVAS_SIZE, CANVAS_SIZE);
+                Texture2D backgroundTex = Resources.Load("background") as Texture2D;
+                Rect texCoords = new Rect(0, 0, CANVAS_SIZE / BACKGROUND_SIZE, CANVAS_SIZE / BACKGROUND_SIZE);
+
+                GUI.DrawTextureWithTexCoords(canvas, backgroundTex, texCoords);
 
                 foreach (DialogueNode node in selectedDialogue.GetAllNodes())
                 {
