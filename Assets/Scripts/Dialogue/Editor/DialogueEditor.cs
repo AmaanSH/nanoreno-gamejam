@@ -18,6 +18,8 @@ namespace Nanoreno.Dialogue.Editor
         [NonSerialized]
         DialogueNode creatingNode = null;
         [NonSerialized]
+        DialogueNode deletingNode = null;
+        [NonSerialized]
         DialogueNode draggingNode = null;
 
         [MenuItem("Window/Dialogue Editor")]
@@ -85,6 +87,12 @@ namespace Nanoreno.Dialogue.Editor
                     selectedDialogue.CreateNode(creatingNode);
                     creatingNode = null;
                 }
+                if (deletingNode != null)
+                {
+                    Undo.RecordObject(selectedDialogue, "Deleting Dialogue Node");
+                    selectedDialogue.DeleteNode(deletingNode);
+                    deletingNode = null;
+                }
             }
         }
 
@@ -139,10 +147,18 @@ namespace Nanoreno.Dialogue.Editor
                 node.text = newText;
             }
 
+            GUILayout.BeginHorizontal();
+
+            if (GUILayout.Button("x"))
+            {
+                deletingNode = node;
+            }
             if (GUILayout.Button("+"))
             {
                 creatingNode = node;
             }
+
+            GUILayout.EndHorizontal();
 
             GUILayout.EndArea();
         }
