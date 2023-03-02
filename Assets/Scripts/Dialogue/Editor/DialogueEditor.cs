@@ -1,8 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.Callbacks;
-using UnityEditor.MPE;
 using UnityEngine;
 
 namespace Nanoreno.Dialogue.Editor
@@ -10,9 +10,14 @@ namespace Nanoreno.Dialogue.Editor
     public class DialogueEditor : EditorWindow
     {
         Dialogue selectedDialogue = null;
-        GUIStyle nodeStyle;
-        Vector2 draggingOffset;
 
+        [NonSerialized]
+        GUIStyle nodeStyle;
+        [NonSerialized]
+        Vector2 draggingOffset;
+        [NonSerialized]
+        DialogueNode creatingNode = null;
+        [NonSerialized]
         DialogueNode draggingNode = null;
 
         [MenuItem("Window/Dialogue Editor")]
@@ -65,9 +70,20 @@ namespace Nanoreno.Dialogue.Editor
             {
                 ProcessEvents();
 
-                foreach(DialogueNode node in selectedDialogue.GetAllNodes())
+                foreach (DialogueNode node in selectedDialogue.GetAllNodes())
                 {
-                    OnGUINode(node);
+                    DrawConnections(node);
+                }
+                foreach (DialogueNode node in selectedDialogue.GetAllNodes())
+                {
+                    DrawNode(node);
+                }
+
+                if (creatingNode != null)
+                {
+                    Undo.RecordObject(selectedDialogue, "Added Dialogue Node");
+                    selectedDialogue.CreateNode(creatingNode);
+                    creatingNode = null;
                 }
             }
         }
@@ -109,30 +125,46 @@ namespace Nanoreno.Dialogue.Editor
             return foundNode;
         }
 
-        private void OnGUINode(DialogueNode node)
+        private void DrawNode(DialogueNode node)
         {
             GUILayout.BeginArea(node.rect, nodeStyle);
             EditorGUI.BeginChangeCheck();
 
-            EditorGUILayout.LabelField("Node:", EditorStyles.whiteLabel);
             string newText = EditorGUILayout.TextField(node.text);
-            string newUniqueID = EditorGUILayout.TextField(node.uniqueID);
 
             if (EditorGUI.EndChangeCheck())
             {
                 Undo.RecordObject(selectedDialogue, "Update Dialogue Text");
 
                 node.text = newText;
-                node.uniqueID = newUniqueID;
             }
 
-            // child node text
-            foreach(DialogueNode childNode in selectedDialogue.GetAllChildren(node))
+            if (GUILayout.Button("+"))
             {
-                EditorGUILayout.LabelField(childNode.text);
+                creatingNode = node;
             }
 
             GUILayout.EndArea();
+        }
+
+        private void DrawConnections(DialogueNode node)
+        {
+            Vector3 startPosition = new Vector2(node.rect.xMax, node.rect.center.y);
+
+            foreach (DialogueNode childNode in selectedDialogue.GetAllChildren(node))
+            {
+                Vector3 endPosition = new Vector2(childNode.rect.xMin, childNode.rect.center.y);
+                
+                Vector3 controlPointOffset = endPosition - startPosition;
+                controlPointOffset.y = 0;
+                controlPointOffset.x *= 0.8f;
+
+                Handles.DrawBezier(
+                    startPosition, endPosition, 
+                    startPosition + controlPointOffset, endPosition - controlPointOffset, 
+                    Color.white, null, 4f
+                );
+            }
         }
     }
 }
