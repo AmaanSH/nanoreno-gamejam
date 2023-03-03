@@ -1,3 +1,4 @@
+using Nanoreno.Characters;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace Nanoreno.Dialogue.Editor
 
         [NonSerialized]
         GUIStyle nodeStyle;
+
         [NonSerialized]
         Vector2 draggingOffset;
         [NonSerialized]
@@ -31,6 +33,8 @@ namespace Nanoreno.Dialogue.Editor
 
         const float CANVAS_SIZE = 4000;
         const float BACKGROUND_SIZE = 50;
+
+        CharacterManifest characterManifest;
 
         [MenuItem("Window/Dialogue Editor")]
         public static void ShowEditorWindow()
@@ -60,7 +64,9 @@ namespace Nanoreno.Dialogue.Editor
             nodeStyle.normal.textColor = Color.white;
             nodeStyle.padding = new RectOffset(20, 20, 20, 20);
             nodeStyle.border = new RectOffset(12, 12, 12, 12);
-;        }
+
+            characterManifest = Resources.Load("character_manifest") as CharacterManifest;
+        }
 
         private void OnSelectionChanged()
         {
@@ -169,8 +175,10 @@ namespace Nanoreno.Dialogue.Editor
 
         private void DrawNode(DialogueNode node)
         {
-            GUILayout.BeginArea(node.GetRect(), nodeStyle);
+            GUIStyle style = nodeStyle;
+            GUILayout.BeginArea(node.GetRect(), style);
 
+            node.SetCharacter(EditorGUILayout.Popup(node.GetCharacterIndex(), GetCharacters()));
             node.SetText(EditorGUILayout.TextField(node.GetText()));
 
             GUILayout.BeginHorizontal();
@@ -188,8 +196,18 @@ namespace Nanoreno.Dialogue.Editor
             }
 
             GUILayout.EndHorizontal();
-
             GUILayout.EndArea();
+        }
+
+        private string[] GetCharacters()
+        {
+            List<string> characterNames = new List<string>();
+            foreach(Character character in characterManifest.GetCharacters())
+            {
+                characterNames.Add(character.GetName());
+            }
+
+            return characterNames.ToArray();
         }
 
         private void DrawConnections(DialogueNode node)

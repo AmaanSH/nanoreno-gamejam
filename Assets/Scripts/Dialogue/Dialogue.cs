@@ -6,12 +6,14 @@ using UnityEditor;
 
 namespace Nanoreno.Dialogue
 {
-    [CreateAssetMenu(fileName = "New Dialogue", menuName = "Nanoreno/Dialogue", order = 0)]
+    [CreateAssetMenu(fileName = "New Dialogue", menuName = "Nanoreno/Dialogue/Create Dialogue", order = 0)]
     public class Dialogue : ScriptableObject, ISerializationCallbackReceiver
     {
         [SerializeField]
         List<DialogueNode> nodes = new List<DialogueNode>();
+
         [SerializeField]
+
         Vector2 newNodeOffset = new Vector2(250, 0);
 
         Dictionary<string, DialogueNode> nodeLookup = new Dictionary<string, DialogueNode>();
