@@ -7,7 +7,7 @@ using UnityEditor;
 namespace Nanoreno.Dialogue
 {
     [CreateAssetMenu(fileName = "New Dialogue", menuName = "Nanoreno/Dialogue", order = 0)]
-    public class Dialogue : ScriptableObject
+    public class Dialogue : ScriptableObject, ISerializationCallbackReceiver
     {
         [SerializeField]
         List<DialogueNode> nodes = new List<DialogueNode>();
@@ -16,12 +16,6 @@ namespace Nanoreno.Dialogue
 
         private void Awake()
         {
-#if UNITY_EDITOR
-            if (nodes.Count == 0)
-            {
-                CreateNode(null);
-            }
-#endif
             OnValidate();
         }
 
@@ -30,7 +24,6 @@ namespace Nanoreno.Dialogue
             nodeLookup.Clear();
             foreach(DialogueNode node in GetAllNodes())
             {
-                // store the lookup in the dictionary
                 nodeLookup[node.name] = node;
             }
         }
@@ -47,7 +40,7 @@ namespace Nanoreno.Dialogue
 
         public IEnumerable<DialogueNode> GetAllChildren(DialogueNode parentNode)
         {
-            foreach (string childID in parentNode.children)
+            foreach (string childID in parentNode.GetChildren())
             {
                 if (nodeLookup.ContainsKey(childID))
                 {
@@ -56,27 +49,24 @@ namespace Nanoreno.Dialogue
             }
         }
 
+#if UNITY_EDITOR
         public void CreateNode(DialogueNode parent)
         {
-            DialogueNode newNode = CreateInstance<DialogueNode>();
-            newNode.name = Guid.NewGuid().ToString();
+            DialogueNode newNode = MakeNode(parent);
+
             Undo.RegisterCreatedObjectUndo(newNode, "Created Dialogue Node");
+            Undo.RecordObject(this, "Added Dialogue Node");
 
-            if (parent != null)
-            {
-                parent.children.Add(newNode.name);
-            }
-
-            nodes.Add(newNode);
-            OnValidate();
+            AddNode(newNode);
         }
 
         public void DeleteNode(DialogueNode nodeToDelete)
         {
+            Undo.RecordObject(this, "Deleting Dialogue Node");
             nodes.Remove(nodeToDelete);
+            
             OnValidate();
             CleanDanglingChildren(nodeToDelete);
-
             Undo.DestroyObjectImmediate(nodeToDelete);
         }
 
@@ -84,8 +74,53 @@ namespace Nanoreno.Dialogue
         {
             foreach (DialogueNode node in GetAllNodes())
             {
-                node.children.Remove(nodeToDelete.name);
+                node.RemoveChild(nodeToDelete.name);
             }
+        }
+
+        private DialogueNode MakeNode(DialogueNode parent)
+        {
+            DialogueNode newNode = CreateInstance<DialogueNode>();
+            newNode.name = Guid.NewGuid().ToString();
+            if (parent != null)
+            {
+                parent.AddChild(newNode.name);
+            }
+
+            return newNode;
+        }
+
+        private void AddNode(DialogueNode newNode)
+        {
+            nodes.Add(newNode);
+            OnValidate();
+        }
+#endif
+        public void OnBeforeSerialize()
+        {
+#if UNITY_EDITOR
+            if (nodes.Count == 0)
+            {
+                DialogueNode newNode = MakeNode(null);
+                AddNode(newNode);
+            }
+
+            if (AssetDatabase.GetAssetPath(this) != "")
+            {
+                foreach(DialogueNode node in GetAllNodes())
+                {
+                    if (AssetDatabase.GetAssetPath(node) == "")
+                    {
+                        AssetDatabase.AddObjectToAsset(node, this);
+                    }
+                }
+            }
+#endif
+        }
+
+        public void OnAfterDeserialize()
+        {
+
         }
     }
 }
