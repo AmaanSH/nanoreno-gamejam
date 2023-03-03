@@ -11,6 +11,8 @@ namespace Nanoreno.Dialogue
     {
         [SerializeField]
         List<DialogueNode> nodes = new List<DialogueNode>();
+        [SerializeField]
+        Vector2 newNodeOffset = new Vector2(250, 0);
 
         Dictionary<string, DialogueNode> nodeLookup = new Dictionary<string, DialogueNode>();
 
@@ -85,6 +87,7 @@ namespace Nanoreno.Dialogue
             if (parent != null)
             {
                 parent.AddChild(newNode.name);
+                newNode.SetPosition(parent.GetRect().position + newNodeOffset);
             }
 
             return newNode;
