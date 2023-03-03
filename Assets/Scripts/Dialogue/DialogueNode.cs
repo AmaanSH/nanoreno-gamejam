@@ -35,6 +35,7 @@ namespace Nanoreno.Dialogue
         {
             Undo.RecordObject(this, "Move Dialogue Node");
             rect.position = newPosition;
+            EditorUtility.SetDirty(this);
         }
 
         public void SetText(string newText)
@@ -43,6 +44,7 @@ namespace Nanoreno.Dialogue
             {
                 Undo.RecordObject(this, "Update Dialogue Text");
                 text = newText;
+                EditorUtility.SetDirty(this);
             }
         }
 
@@ -50,12 +52,14 @@ namespace Nanoreno.Dialogue
         {
             Undo.RecordObject(this, "Add Dialogue Link");
             children.Add(child);
+            EditorUtility.SetDirty(this);
         }
 
         public void RemoveChild(string child)
         {
             Undo.RecordObject(this, "Remove Dialogue Link");
             children.Remove(child);
+            EditorUtility.SetDirty(this);
         }
 #endif
     }
