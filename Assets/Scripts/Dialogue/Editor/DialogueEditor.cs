@@ -10,7 +10,7 @@ namespace Nanoreno.Dialogue.Editor
 {
     public class DialogueEditor : EditorWindow
     {
-        Dialogue selectedDialogue = null;
+        Chapter selectedDialogue = null;
 
         [NonSerialized]
         GUIStyle nodeStyle;
@@ -45,7 +45,7 @@ namespace Nanoreno.Dialogue.Editor
         [OnOpenAsset(1)]
         public static bool OnOpenAsset(int instanceID, int line)
         {
-            Dialogue dialogue = EditorUtility.InstanceIDToObject(instanceID) as Dialogue;
+            Chapter dialogue = EditorUtility.InstanceIDToObject(instanceID) as Chapter;
             if (dialogue != null)
             {
                 ShowEditorWindow();
@@ -70,7 +70,7 @@ namespace Nanoreno.Dialogue.Editor
 
         private void OnSelectionChanged()
         {
-            Dialogue newDialogue = Selection.activeObject as Dialogue;
+            Chapter newDialogue = Selection.activeObject as Chapter;
             if (newDialogue != null)
             {
                 selectedDialogue = newDialogue;
@@ -178,6 +178,10 @@ namespace Nanoreno.Dialogue.Editor
             GUIStyle style = nodeStyle;
             GUILayout.BeginArea(node.GetRect(), style);
 
+            EditorGUILayout.LabelField("Scene Background");
+            node.SetBackground((Sprite)EditorGUILayout.ObjectField(node.GetBackground(), typeof(Sprite), true));
+            GUILayout.Space(10);
+
             node.SetCharacter(EditorGUILayout.Popup(node.GetCharacterIndex(), GetCharacters()));
             node.SetText(EditorGUILayout.TextField(node.GetText()));
 
@@ -202,7 +206,8 @@ namespace Nanoreno.Dialogue.Editor
         private string[] GetCharacters()
         {
             List<string> characterNames = new List<string>();
-            foreach(Character character in characterManifest.GetCharacters())
+
+            foreach (Character character in characterManifest.GetCharacters())
             {
                 characterNames.Add(character.GetName());
             }

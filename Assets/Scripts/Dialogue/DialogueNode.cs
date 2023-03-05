@@ -19,7 +19,10 @@ namespace Nanoreno.Dialogue
         List<string> children = new List<string>();
 
         [SerializeField]
-        Rect rect = new Rect(0, 0, 200, 100);
+        Sprite background;
+
+        [SerializeField]
+        Rect rect = new Rect(0, 0, 200, 200);
 
         public string GetText()
         {
@@ -39,6 +42,18 @@ namespace Nanoreno.Dialogue
         public Rect GetRect()
         {
             return rect;
+        }
+
+        public Sprite GetBackground()
+        {
+            return background;
+        }
+
+        public void SetBackground(Sprite sprite)
+        {
+            Undo.RecordObject(this, "Add Dialogue Background");
+            background = sprite;
+            EditorUtility.SetDirty(this);
         }
 
 #if UNITY_EDITOR

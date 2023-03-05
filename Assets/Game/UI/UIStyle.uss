@@ -1,0 +1,9 @@
+.choiceButton {
+    height: 30px;
+    width: 150px;
+    white-space: normal;
+    text-overflow: clip;
+    font-size: 15px;
+    visibility: visible;
+    display: flex;
+}

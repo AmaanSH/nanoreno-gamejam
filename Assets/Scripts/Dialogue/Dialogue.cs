@@ -6,14 +6,13 @@ using UnityEditor;
 
 namespace Nanoreno.Dialogue
 {
-    [CreateAssetMenu(fileName = "New Dialogue", menuName = "Nanoreno/Dialogue/Create Dialogue", order = 0)]
-    public class Dialogue : ScriptableObject, ISerializationCallbackReceiver
+    [CreateAssetMenu(fileName = "New Chapter", menuName = "Nanoreno/Dialogue/Create Chapter", order = 0)]
+    public class Chapter : ScriptableObject, ISerializationCallbackReceiver
     {
         [SerializeField]
         List<DialogueNode> nodes = new List<DialogueNode>();
 
         [SerializeField]
-
         Vector2 newNodeOffset = new Vector2(250, 0);
 
         Dictionary<string, DialogueNode> nodeLookup = new Dictionary<string, DialogueNode>();
@@ -30,6 +29,11 @@ namespace Nanoreno.Dialogue
             {
                 nodeLookup[node.name] = node;
             }
+        }
+
+        public DialogueNode GetNode(int index)
+        {
+            return nodes[index];
         }
 
         public IEnumerable<DialogueNode> GetAllNodes()
@@ -51,6 +55,16 @@ namespace Nanoreno.Dialogue
                     yield return nodeLookup[childID];
                 }
             }
+        }
+
+        public DialogueNode GetChild(string childID)
+        {
+            if (nodeLookup.ContainsKey(childID))
+            {
+                return nodeLookup[childID];
+            }
+
+            return null;
         }
 
 #if UNITY_EDITOR

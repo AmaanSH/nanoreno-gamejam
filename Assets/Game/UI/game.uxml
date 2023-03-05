@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/UIStyle.uss?fileID=7433441132597879392&amp;guid=6990184db6c2f224fa2a69b2306f8395&amp;type=3#UIStyle" />
+    <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse;">
+        <ui:VisualElement name="narrativePanel" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.44); height: 150px; flex-direction: row; align-items: stretch; visibility: visible; display: none;">
+            <ui:VisualElement name="charSprite" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 150px; flex-shrink: 1; background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/character_Mode@4x.png?fileID=2800000&amp;guid=0ccc508108fa6ed4fa11b4a467d7f609&amp;type=3#character_Mode@4x&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:VisualElement name="textHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Label tabindex="-1" text="CHARACTER_NAME" display-tooltip-when-elided="true" name="characterName" enable-rich-text="false" style="color: rgb(255, 255, 255); -unity-font-style: bold;" />
+                <ui:Label tabindex="-1" text="CHARACTER_TEXT" display-tooltip-when-elided="true" name="characterText" style="color: rgb(255, 255, 255); flex-grow: 1;">
+                    <ui:VisualElement name="skip" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 30px; height: 30px; align-self: flex-end; justify-content: space-around; align-items: stretch; transform-origin: center; top: 70%; background-image: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=-1087164816274819069&amp;guid=723366d2adb19cf498b5f4f815991678&amp;type=3#arrow-right@2x&apos;); -unity-background-scale-mode: stretch-to-fill; visibility: hidden;" />
+                    <ui:Button display-tooltip-when-elided="true" name="skipButton" style="background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; position: absolute; width: 100%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                </ui:Label>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="choicePanel" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.44); height: 150px; flex-direction: column; align-items: stretch; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; display: none;">
+            <ui:Label tabindex="-1" text="Pick an option" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: bold; margin-bottom: 10px;" />
+            <ui:VisualElement name="choiceButtonHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-self: center; flex-shrink: 1;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
