@@ -19,6 +19,8 @@ namespace Nanoreno.Game
         private Chapter chapter;
         private DialogueNode currentNode;
 
+        private bool showChoicesOnNextPrompt;
+
         private void Start()
         {
             dialoguePanel.TextEndReached += Next;
@@ -42,22 +44,27 @@ namespace Nanoreno.Game
 
         public void TypeText()
         {
-            // TODO: check how many children this has
-            // TODO: if we have children the nwe need to setup a choice panel and log what choice has been made
-            if (currentNode.GetChildren().Count > 1)
+            if (showChoicesOnNextPrompt)
             {
                 dialoguePanel.SetupChoices(BuildChoices());
+                showChoicesOnNextPrompt = false;
+
+                return;
             }
-            else
+            
+            if (currentNode.GetChildren().Count > 1)
             {
-                dialoguePanel.SetText(currentNode.GetText());
-
-                Character character = characterManifest.GetCharacterByIndex(currentNode.GetCharacterIndex());
-                dialoguePanel.SetCharacterSprite(character.GetSprite());
-                dialoguePanel.SetCharacterName(character.GetName());
-
-                StartCoroutine(dialoguePanel.Type());
+                showChoicesOnNextPrompt = true;
             }
+
+            dialoguePanel.SetText(currentNode.GetText());
+
+            Character character = characterManifest.GetCharacterByIndex(currentNode.GetCharacterIndex());
+            dialoguePanel.SetCharacterSprite(character.GetSprite());
+            dialoguePanel.SetCharacterName(character.GetName());
+
+            StartCoroutine(dialoguePanel.Type());
+
         }
 
         public List<DialogueNode> BuildChoices()
@@ -81,7 +88,11 @@ namespace Nanoreno.Game
             }
             else
             {
-                currentNode = chapter.GetChild(children[0]);
+                if (!showChoicesOnNextPrompt)
+                {
+                    currentNode = chapter.GetChild(children[0]);
+                }
+
                 TypeText();
             }
         }

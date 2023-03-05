@@ -101,11 +101,29 @@ namespace Nanoreno.UI
 
         public void SetCharacterName(string name)
         {
+            if (name == "No Name")
+            {
+                characterNameElement.style.display = DisplayStyle.None;
+            }
+            else
+            {
+                characterNameElement.style.display = DisplayStyle.Flex;
+            }
+
             characterNameElement.text = name;
         }
 
         public void SetCharacterSprite(Sprite sprite)
         {
+            if (sprite == null)
+            {
+                characterSprite.style.display = DisplayStyle.None;
+            }
+            else
+            {
+                characterSprite.style.display = DisplayStyle.Flex;
+            }
+
             characterSprite.style.backgroundImage = new StyleBackground(sprite);
         }
 

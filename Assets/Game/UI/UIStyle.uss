@@ -7,3 +7,17 @@
     visibility: visible;
     display: flex;
 }
+
+.panel {
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0.44);
+    height: 100px;
+    flex-direction: row;
+    align-items: stretch;
+    visibility: visible;
+    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

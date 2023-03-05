@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 namespace Nanoreno.Characters
 {
@@ -16,7 +17,7 @@ namespace Nanoreno.Characters
         // TODO: emotion data
         public string GetName()
         {
-            return characterName;
+            return !string.IsNullOrEmpty(characterName) ? characterName : "No Name";
         }
 
         public Sprite GetSprite()
