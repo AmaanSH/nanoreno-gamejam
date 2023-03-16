@@ -13,11 +13,11 @@ namespace Nanoreno.UI
         public event Action TextEndReached;
         public event Action<DialogueNode> ChoiceMade;
 
-        public UIDocument document;
-
         private string text;
         private bool skipped = false;
         private float typingSpeed = 0.02f;
+
+        private UI uiPanel;
 
         private TextElement textElement;
         private TextElement characterNameElement;
@@ -33,17 +33,19 @@ namespace Nanoreno.UI
 
         private void Start()
         {
-            narrativePanel = document.rootVisualElement.Q("narrativePanel");
+            uiPanel = new UI("narrativePanel");
 
-            choicePanel = document.rootVisualElement.Q("choicePanel");
-            choiceButtonHolder = document.rootVisualElement.Q("choiceButtonHolder");
+            narrativePanel = uiPanel.GetElement("narrativePanel");
 
-            textElement = document.rootVisualElement.Q("characterText") as TextElement;
-            characterNameElement = document.rootVisualElement.Q("characterName") as TextElement;
-            characterSprite = document.rootVisualElement.Q("charSprite");
+            choicePanel = uiPanel.GetElement("choicePanel");
+            choiceButtonHolder = uiPanel.GetElement("choiceButtonHolder");
 
-            skipElement = document.rootVisualElement.Q("skip");
-            skipButton = document.rootVisualElement.Q("skipButton") as Button;
+            textElement = uiPanel.GetElement("characterText") as TextElement;
+            characterNameElement = uiPanel.GetElement("characterName") as TextElement;
+            characterSprite = uiPanel.GetElement("charSprite");
+
+            skipElement = uiPanel.GetElement("skip");
+            skipButton = uiPanel.GetElement("skipButton") as Button;
 
             skipButton.clicked += Skip;
         }
@@ -58,9 +60,9 @@ namespace Nanoreno.UI
 
         public void SetupChoices(List<DialogueNode> choices)
         {
-            Cleanup();
-            
-            narrativePanel.style.display = DisplayStyle.None;
+            skipElement.style.visibility = Visibility.Hidden;
+            skipped = false;
+
             choiceButtonHolder.Clear();
 
             foreach(DialogueNode node in choices)
@@ -79,6 +81,8 @@ namespace Nanoreno.UI
 
         private void OnChoiceButtonClicked(DialogueNode node)
         {
+            choicePanel.style.display = DisplayStyle.None;
+
             ChoiceMade?.Invoke(node);
         }
 
@@ -91,9 +95,6 @@ namespace Nanoreno.UI
 
         private void Cleanup()
         {
-            choicePanel.style.display = DisplayStyle.None;
-            narrativePanel.style.display = DisplayStyle.Flex;
-
             textElement.text = "";
             skipElement.style.visibility = Visibility.Hidden;
             skipped = false;
@@ -101,7 +102,7 @@ namespace Nanoreno.UI
 
         public void SetCharacterName(string name)
         {
-            if (name == "No Name")
+            if (string.IsNullOrEmpty(name))
             {
                 characterNameElement.style.display = DisplayStyle.None;
             }

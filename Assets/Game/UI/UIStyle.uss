@@ -1,6 +1,6 @@
 .choiceButton {
     height: 30px;
-    width: 150px;
+    width: 50%;
     white-space: normal;
     text-overflow: clip;
     font-size: 15px;
@@ -11,7 +11,7 @@
 .panel {
     flex-grow: 0;
     background-color: rgba(0, 0, 0, 0.44);
-    height: 100px;
+    height: 150px;
     flex-direction: row;
     align-items: stretch;
     visibility: visible;
@@ -20,4 +20,12 @@
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.optionButton {
+    width: 50px;
+}
+
+.logPanelEntry {
+    margin-bottom: 10px;
 }
