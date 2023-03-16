@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="saveSlot" class="savePanel" style="flex-direction: row; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; height: 130px;">
+        <ui:VisualElement name="image" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.28); width: 40%; height: auto; max-width: 200px; min-width: 200px;" />
+        <ui:VisualElement name="metadataHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); min-width: auto; max-width: none;">
+            <ui:VisualElement name="slotAndChapterHolder" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: space-between;">
+                <ui:Label tabindex="-1" text="Slot 1" display-tooltip-when-elided="true" name="slotTitle" style="flex-grow: 1; -unity-font-style: normal; font-size: 14px; color: rgb(255, 255, 255);" />
+                <ui:Label tabindex="-1" text="Chapter X" display-tooltip-when-elided="true" name="chapterLabel" style="color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="chapterTitleHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Label tabindex="-1" text="CHAPTER_NAME_TEXT" display-tooltip-when-elided="true" name="chapterLabel" style="color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

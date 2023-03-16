@@ -25,7 +25,3 @@
 .optionButton {
     width: 50px;
 }
-
-.logPanelEntry {
-    padding: 20px;
-}

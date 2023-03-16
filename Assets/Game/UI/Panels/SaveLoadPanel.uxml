@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/Stylesheets/SavePanelStyle.uss?fileID=7433441132597879392&amp;guid=faca0fc816b27554e85604a18b32de15&amp;type=3#SavePanelStyle" />
+    <ui:VisualElement name="holder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+        <ui:VisualElement name="titleHolder" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+            <ui:Label tabindex="-1" text="PANEL_MODE" display-tooltip-when-elided="true" name="titleLabel" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 24px; justify-content: flex-start; align-items: flex-end; align-self: auto; flex-grow: 1; width: auto;" />
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="backButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="grid" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); justify-content: space-between; align-self: stretch; width: 100%; align-items: stretch;">
+            <ui:VisualElement name="saveGrid" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: center; flex-basis: auto; flex-shrink: 0; flex-wrap: wrap; width: 100%; align-self: center; flex-direction: row; align-items: center; height: 300px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -7,6 +7,13 @@ namespace Nanoreno.UI.Builder
 {
     public abstract class Builder
     {
+        protected VisualTreeAsset treeAsset;
+
+        public Builder(VisualTreeAsset asset)
+        {
+            treeAsset = asset;
+        }
+
         public abstract VisualElement Build();
     }
 }

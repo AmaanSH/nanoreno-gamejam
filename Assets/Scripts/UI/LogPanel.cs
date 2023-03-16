@@ -1,8 +1,6 @@
 using Nanoreno.UI.Builder;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal.VersionControl;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -10,6 +8,8 @@ namespace Nanoreno.UI
 {
     public class LogPanel : MonoBehaviour
     {
+        public VisualTreeAsset logEntryAsset;
+
         private UI uiPanel;
         private Button logButton;
         private ListView entryListView;
@@ -30,21 +30,21 @@ namespace Nanoreno.UI
         {
             entryListView = uiPanel.GetElement("textHolder") as ListView;
 
-            Func<VisualElement> makeItem = () => new LogEntryBuilder().Build();
+            Func<VisualElement> makeItem = () => logEntryAsset.CloneTree();
             Action<VisualElement, int> bindItem = (e, i) =>
             {
-                e.Q<TextElement>("logEntryCharacterText").text = elements[i].Text;
-                e.Q<Image>("logEntryCharacterSprite").sprite = elements[i].Sprite;
+                e.Q<Label>("logEntryCharacterText").text = elements[i].Text;
+                e.Q<VisualElement>("logEntryCharacterSprite").style.backgroundImage = new StyleBackground(elements[i].Sprite);
 
                 if (!string.IsNullOrEmpty(elements[i].CharacterName))
                 {
-                    e.Q<TextElement>("logEntryCharacterName").style.display = DisplayStyle.Flex;
-                    e.Q<TextElement>("logEntryCharacterName").text = elements[i].CharacterName;
+                    e.Q<Label>("logEntryCharacterName").style.display = DisplayStyle.Flex;
+                    e.Q<Label>("logEntryCharacterName").text = elements[i].CharacterName;
                 }
                 else
                 {
-                    e.Q<TextElement>("logEntryCharacterText").style.unityTextAlign = TextAnchor.MiddleLeft;
-                    e.Q<TextElement>("logEntryCharacterName").style.display = DisplayStyle.None;
+                    e.Q<Label>("logEntryCharacterText").style.unityTextAlign = TextAnchor.MiddleLeft;
+                    e.Q<Label>("logEntryCharacterName").style.display = DisplayStyle.None;
                 }
             };
 
@@ -91,7 +91,7 @@ namespace Nanoreno.UI
 
         private LogEntryBuilder CreateEntry(string characterName, string text, Sprite sprite)
         {
-            return new LogEntryBuilder()
+            return new LogEntryBuilder(logEntryAsset)
                 .SetName(characterName)
                 .SetText(text)
                 .SetSprite(sprite);
