@@ -16,10 +16,12 @@ namespace Nanoreno.Game
         [SerializeField]
         private CharacterManifest characterManifest;
 
-        private Chapter chapter;
+        private DialogueHolder chapter;
+        private Dialogue.Dialogue currentDialogues;
         private DialogueNode currentNode;
 
         private bool showChoicesOnNextPrompt;
+        private int currentIndex = 0;
 
         private void Start()
         {
@@ -33,11 +35,11 @@ namespace Nanoreno.Game
             dialoguePanel.ChoiceMade -= OnChoiceMade;
         }
 
-        public void Setup(Chapter chapter)
+        public void Setup(DialogueHolder chapter)
         {       
             this.chapter = chapter;
-
-            currentNode = chapter.GetAllNodes().ToList()[0];
+            currentNode = chapter.dialogues[currentIndex].GetAllNodes().ToList()[0];
+            currentDialogues = chapter.dialogues[currentIndex];
 
             TypeText();
         }
@@ -73,7 +75,7 @@ namespace Nanoreno.Game
 
             foreach(string nodeID in currentNode.GetChildren())
             {
-                choices.Add(chapter.GetChild(nodeID));
+                choices.Add(currentDialogues.GetChild(nodeID));
             }
 
             return choices;
@@ -84,23 +86,38 @@ namespace Nanoreno.Game
             List<string> children = currentNode.GetChildren();
             if (children.Count == 0)
             {
+                if (currentIndex + 1 < chapter.dialogues.Count)
+                {
+                    SetNextIndex();
+                    return;
+                }
+
                 OnChapterEnded();
             }
             else
             {
                 if (!showChoicesOnNextPrompt)
                 {
-                    currentNode = chapter.GetChild(children[0]);
+                    currentNode = currentDialogues.GetChild(children[0]);
                 }
 
                 TypeText();
             }
         }
 
+        private void SetNextIndex()
+        {
+            currentIndex++;
+            currentDialogues = chapter.dialogues[currentIndex];
+            currentNode = chapter.dialogues[currentIndex].GetAllNodes().ToList()[0];
+
+            Next();
+        }
+
         public void OnChoiceMade(DialogueNode choice)
         {
             Debug.Log($"Choice Picked: {choice.GetText()}");
-            currentNode = chapter.GetChild(choice.GetChildren()[0]);
+            currentNode = currentDialogues.GetChild(choice.GetChildren()[0]);
 
             TypeText();
         }

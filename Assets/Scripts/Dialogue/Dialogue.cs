@@ -6,8 +6,8 @@ using UnityEditor;
 
 namespace Nanoreno.Dialogue
 {
-    [CreateAssetMenu(fileName = "New Chapter", menuName = "Nanoreno/Dialogue/Create Chapter", order = 0)]
-    public class Chapter : ScriptableObject, ISerializationCallbackReceiver
+    [CreateAssetMenu(fileName = "New Chapter", menuName = "Nanoreno/Dialogue/Create Dialogue", order = 0)]
+    public class Dialogue : ScriptableObject, ISerializationCallbackReceiver
     {
         [SerializeField]
         List<DialogueNode> nodes = new List<DialogueNode>();

@@ -10,7 +10,7 @@ namespace Nanoreno.Dialogue.Editor
 {
     public class DialogueEditor : EditorWindow
     {
-        Chapter selectedDialogue = null;
+        Dialogue selectedDialogue = null;
 
         [NonSerialized]
         GUIStyle nodeStyle;
@@ -31,7 +31,7 @@ namespace Nanoreno.Dialogue.Editor
         [NonSerialized]
         Vector2 draggingCanvasOffset;
 
-        const float CANVAS_SIZE = 4000;
+        const float CANVAS_SIZE = 100000;
         const float BACKGROUND_SIZE = 50;
 
         CharacterManifest characterManifest;
@@ -45,7 +45,7 @@ namespace Nanoreno.Dialogue.Editor
         [OnOpenAsset(1)]
         public static bool OnOpenAsset(int instanceID, int line)
         {
-            Chapter dialogue = EditorUtility.InstanceIDToObject(instanceID) as Chapter;
+            Dialogue dialogue = EditorUtility.InstanceIDToObject(instanceID) as Dialogue;
             if (dialogue != null)
             {
                 ShowEditorWindow();
@@ -70,7 +70,7 @@ namespace Nanoreno.Dialogue.Editor
 
         private void OnSelectionChanged()
         {
-            Chapter newDialogue = Selection.activeObject as Chapter;
+            Dialogue newDialogue = Selection.activeObject as Dialogue;
             if (newDialogue != null)
             {
                 selectedDialogue = newDialogue;
@@ -118,6 +118,12 @@ namespace Nanoreno.Dialogue.Editor
                     deletingNode = null;
                 }
             }
+        }
+
+        private void Resize()
+        {
+            // get the total number of nodes in the scenes and their thickness
+            // increase the size of the area with this
         }
 
         private void ProcessEvents()

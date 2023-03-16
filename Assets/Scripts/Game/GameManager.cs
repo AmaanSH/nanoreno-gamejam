@@ -13,16 +13,16 @@ namespace Nanoreno.Game
         private DialogeManager dialogeManager;
 
         [SerializeField]
-        private List<Chapter> chapters = new List<Chapter>();
+        private List<DialogueHolder> chapters = new List<DialogueHolder>();
 
-        private Chapter currentChapter;
+        private DialogueHolder currentChapter;
         private int currentChapterIndex;
 
         public void Start()
         {
             dialogeManager.OnChapterEnd += OnChapterEnded;
 
-            StartChapter(0);
+            StartChapter(0); // TODO: load saved
         }
 
         public void StartChapter(int index)
