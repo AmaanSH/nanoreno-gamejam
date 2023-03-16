@@ -17,7 +17,7 @@ namespace Nanoreno.Characters
         // TODO: emotion data
         public string GetName()
         {
-            return !string.IsNullOrEmpty(characterName) ? characterName : "No Name";
+            return characterName;
         }
 
         public Sprite GetSprite()
