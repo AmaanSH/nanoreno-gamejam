@@ -16,6 +16,9 @@ namespace Nanoreno.Game
         [SerializeField]
         private CharacterManifest characterManifest;
 
+        [SerializeField]
+        private LogPanel logPanel;
+
         private DialogueHolder chapter;
         private Dialogue.Dialogue currentDialogues;
         private DialogueNode currentNode;
@@ -65,8 +68,9 @@ namespace Nanoreno.Game
             dialoguePanel.SetCharacterSprite(character.GetSprite());
             dialoguePanel.SetCharacterName(character.GetName());
 
-            StartCoroutine(dialoguePanel.Type());
+            logPanel.AddEntry(character.GetName(), currentNode.GetText(), character.GetSprite());
 
+            StartCoroutine(dialoguePanel.Type());
         }
 
         public List<DialogueNode> BuildChoices()

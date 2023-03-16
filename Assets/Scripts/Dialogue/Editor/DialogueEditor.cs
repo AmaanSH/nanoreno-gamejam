@@ -215,7 +215,13 @@ namespace Nanoreno.Dialogue.Editor
 
             foreach (Character character in characterManifest.GetCharacters())
             {
-                characterNames.Add(character.GetName());
+                string name = character.GetName();
+                if (string.IsNullOrEmpty(name))
+                {
+                    name = "No Name";
+                }
+
+                characterNames.Add(name);
             }
 
             return characterNames.ToArray();
