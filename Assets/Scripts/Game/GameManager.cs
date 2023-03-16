@@ -16,21 +16,41 @@ namespace Nanoreno.Game
         private List<DialogueHolder> chapters = new List<DialogueHolder>();
 
         private DialogueHolder currentChapter;
+
         private int currentChapterIndex;
 
         public void Start()
         {
             dialogeManager.OnChapterEnd += OnChapterEnded;
+            StartChapter(0);
+        }
 
-            StartChapter(0); // TODO: load saved
+        public void LoadSave()
+        {
+            dialogeManager.Cleanup();
+
+            currentChapterIndex = SaveState.chapterIndex;
+            currentChapter = chapters[SaveState.chapterIndex];
+
+            DialogueNode node = dialogeManager.FindNodeWithUniqueId(SaveState.textUniqueId);
+
+            dialogeManager.SetChapter(currentChapter);
+            dialogeManager.SetNode(node);
+
+            dialogeManager.TypeText();
         }
 
         public void StartChapter(int index)
         {
             currentChapterIndex = index;
             currentChapter = chapters[index];
-            
-            dialogeManager.Setup(currentChapter);
+
+            SaveState.chapterIndex = currentChapterIndex;
+
+            dialogeManager.SetChapter(currentChapter);
+            dialogeManager.SetNode();
+
+            dialogeManager.TypeText();
         }
         
         public void OnChapterEnded()

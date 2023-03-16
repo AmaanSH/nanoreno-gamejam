@@ -70,7 +70,7 @@ namespace Nanoreno.UI
             }
         }
 
-        private void ShowPanel()
+        public void ShowPanel()
         {
             if (hideOnClose)
             {
@@ -82,7 +82,7 @@ namespace Nanoreno.UI
             }
         }
 
-        private void HidePanel()
+        public void HidePanel()
         {
             if (hideOnClose)
             {

@@ -33,8 +33,9 @@ namespace Nanoreno.UI
             Func<VisualElement> makeItem = () => logEntryAsset.CloneTree();
             Action<VisualElement, int> bindItem = (e, i) =>
             {
+                if (elements.Count == 0) { return; }
+
                 e.Q<Label>("logEntryCharacterText").text = elements[i].Text;
-                e.Q<VisualElement>("logEntryCharacterSprite").style.backgroundImage = new StyleBackground(elements[i].Sprite);
 
                 if (!string.IsNullOrEmpty(elements[i].CharacterName))
                 {
@@ -66,8 +67,7 @@ namespace Nanoreno.UI
         {
             return new LogEntryBuilder(logEntryAsset)
                 .SetName(characterName)
-                .SetText(text)
-                .SetSprite(sprite);
+                .SetText(text);
         }
     }
 }
