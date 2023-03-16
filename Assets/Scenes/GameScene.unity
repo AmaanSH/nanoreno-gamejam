@@ -255,7 +255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cc3a9d80f08f524481ef85b10fe653f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openCloseButtonId: saveButton
+  saveOpenId: saveButton
+  loadOpenId: loadButton
+  panelMode: 0
   savePanel: {fileID: 9197481963319205126, guid: 96b569fe8fd2ffb4f9115a4297a2374b, type: 3}
   saveSlot: {fileID: 9197481963319205126, guid: 5525d9474390dc4408bf266137cddda2, type: 3}
   saveSlotCount: 4
