@@ -120,12 +120,6 @@ namespace Nanoreno.Dialogue.Editor
             }
         }
 
-        private void Resize()
-        {
-            // get the total number of nodes in the scenes and their thickness
-            // increase the size of the area with this
-        }
-
         private void ProcessEvents()
         {
             if (Event.current.type == EventType.MouseDown && draggingNode == null)
@@ -184,8 +178,8 @@ namespace Nanoreno.Dialogue.Editor
             GUIStyle style = nodeStyle;
             GUILayout.BeginArea(node.GetRect(), style);
 
-            EditorGUILayout.LabelField("Scene Background");
-            node.SetBackground((Sprite)EditorGUILayout.ObjectField(node.GetBackground(), typeof(Sprite), true));
+            EditorGUILayout.LabelField("Sprite Position On Screen");
+            node.SetSpritePosition((SpritePosition)EditorGUILayout.EnumPopup(node.GetSpritePosition()));
             GUILayout.Space(10);
 
             node.SetCharacter(EditorGUILayout.Popup(node.GetCharacterIndex(), GetCharacters()));

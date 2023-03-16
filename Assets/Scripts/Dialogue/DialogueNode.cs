@@ -5,6 +5,16 @@ using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
+public enum SpritePosition
+{
+    None,
+    FarLeft,
+    Left,
+    Center,
+    Right,
+    FarRight
+}
+
 namespace Nanoreno.Dialogue
 {
     public class DialogueNode : ScriptableObject
@@ -16,10 +26,10 @@ namespace Nanoreno.Dialogue
         string text;
 
         [SerializeField]
-        List<string> children = new List<string>();
+        SpritePosition spritePositionOnScreen;
 
         [SerializeField]
-        Sprite background;
+        List<string> children = new List<string>();
 
         [SerializeField]
         Rect rect = new Rect(0, 0, 200, 200);
@@ -44,16 +54,9 @@ namespace Nanoreno.Dialogue
             return rect;
         }
 
-        public Sprite GetBackground()
+        public SpritePosition GetSpritePosition()
         {
-            return background;
-        }
-
-        public void SetBackground(Sprite sprite)
-        {
-            Undo.RecordObject(this, "Add Dialogue Background");
-            background = sprite;
-            EditorUtility.SetDirty(this);
+            return spritePositionOnScreen;
         }
 
 #if UNITY_EDITOR
@@ -61,6 +64,13 @@ namespace Nanoreno.Dialogue
         {
             Undo.RecordObject(this, "Move Dialogue Node");
             rect.position = newPosition;
+            EditorUtility.SetDirty(this);
+        }
+
+        public void SetSpritePosition(SpritePosition newSpritePosition)
+        {
+            Undo.RecordObject(this, "Update Sprite Position");
+            spritePositionOnScreen = newSpritePosition;
             EditorUtility.SetDirty(this);
         }
 
