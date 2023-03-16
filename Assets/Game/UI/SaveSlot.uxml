@@ -7,7 +7,7 @@
                 <ui:Label tabindex="-1" text="Chapter X" display-tooltip-when-elided="true" name="chapterLabel" style="color: rgb(255, 255, 255);" />
             </ui:VisualElement>
             <ui:VisualElement name="chapterTitleHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-                <ui:Label tabindex="-1" text="CHAPTER_NAME_TEXT" display-tooltip-when-elided="true" name="chapterLabel" style="color: rgb(255, 255, 255);" />
+                <ui:Label tabindex="-1" text="CHAPTER_NAME_TEXT" display-tooltip-when-elided="true" name="chapterName" style="color: rgb(255, 255, 255);" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
