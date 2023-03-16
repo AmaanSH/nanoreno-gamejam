@@ -51,12 +51,14 @@ namespace Nanoreno.UI.Builder
             charName.name = "logEntryCharacterName";
             charName.style.whiteSpace = WhiteSpace.Normal;
             charName.style.flexGrow = 1;
+            charName.style.fontSize = 20;
             charName.style.unityFontStyleAndWeight = FontStyle.Bold;
             charName.style.color = Color.white;
             textAndNameHolder.Add(charName);
 
             TextElement charText = new TextElement();
             charText.name = "logEntryCharacterText";
+            charText.style.fontSize = 24;
             charText.style.flexGrow = 1;
             charText.style.flexShrink = 0;
             charText.style.whiteSpace = WhiteSpace.Normal;
