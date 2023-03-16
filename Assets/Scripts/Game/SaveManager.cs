@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Nanoreno.Game
 {
@@ -13,7 +14,18 @@ namespace Nanoreno.Game
 
     public class SaveManager : MonoBehaviour
     {
+        public static SaveManager instance;
+
         public GameManager gameManager;
+
+        private void Start()
+        {
+            if (instance == null)
+            {
+                instance = this;
+                DontDestroyOnLoad(this);
+            }
+        }
 
         public void SaveProgress(int slot)
         {
@@ -29,7 +41,14 @@ namespace Nanoreno.Game
             SaveState.chapterIndex = chapterIndex;
             SaveState.textUniqueId = textUniqueId;
 
-            gameManager.LoadSave();
+            if (gameManager != null)
+            {
+                gameManager.LoadSave();
+            }
+            else
+            {
+                SceneManager.LoadScene(1);
+            }
         }
     }
 }

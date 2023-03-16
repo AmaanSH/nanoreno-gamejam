@@ -15,8 +15,6 @@ namespace Nanoreno.UI
 
     public class SaveLoadPanel : MonoBehaviour
     {
-        public SaveManager saveManager;
-
         public string saveOpenId;
         public string loadOpenId;
 
@@ -35,14 +33,18 @@ namespace Nanoreno.UI
 
             UIDocument document = UIManager.GetActiveUIDocument();
 
-            Button openButtonSave = document.rootVisualElement.Q(saveOpenId) as Button;
-            Button openButtonLoad = document.rootVisualElement.Q(loadOpenId) as Button;
-
-            openButtonSave.clicked += () => SetPanelMode(PanelMode.Save);
-            openButtonLoad.clicked += () => SetPanelMode(PanelMode.Load);
-
-            uiPanel.SetOpenButton(openButtonSave);
-            uiPanel.SetOpenButton(openButtonLoad);
+            if (!string.IsNullOrEmpty(saveOpenId))
+            {
+                Button openButtonSave = document.rootVisualElement.Q(saveOpenId) as Button;
+                openButtonSave.clicked += () => SetPanelMode(PanelMode.Save);
+                uiPanel.SetOpenButton(openButtonSave);
+            }
+            if (!string.IsNullOrEmpty(loadOpenId))
+            {
+                Button openButtonLoad = document.rootVisualElement.Q(loadOpenId) as Button;
+                openButtonLoad.clicked += () => SetPanelMode(PanelMode.Load);
+                uiPanel.SetOpenButton(openButtonLoad);
+            }
 
             Button closeButton = uiPanel.GetElement("backButton") as Button;
             uiPanel.SetCloseButton(closeButton);
@@ -55,7 +57,6 @@ namespace Nanoreno.UI
             Label title = uiPanel.GetElement("titleLabel") as Label;
             title.text = GetTitle();
 
-            // resetup panel
             Setup();
         }
 
@@ -115,11 +116,11 @@ namespace Nanoreno.UI
             switch(panelMode)
             {
                 case PanelMode.Save:
-                    saveManager.SaveProgress(index);
+                    SaveManager.instance.SaveProgress(index);
                     Setup();
                     break;
                 case PanelMode.Load:
-                    saveManager.LoadProgress(index);
+                    SaveManager.instance.LoadProgress(index);
                     uiPanel.HidePanel();
                     break;
             }

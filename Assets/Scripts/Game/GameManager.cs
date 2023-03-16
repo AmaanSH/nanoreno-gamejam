@@ -22,7 +22,15 @@ namespace Nanoreno.Game
         public void Start()
         {
             dialogeManager.OnChapterEnd += OnChapterEnded;
-            StartChapter(0);
+            
+            if (!string.IsNullOrEmpty(SaveState.textUniqueId))
+            {
+                LoadSave();
+            }
+            else
+            {
+                StartChapter(0);
+            }
         }
 
         public void LoadSave()
@@ -31,10 +39,9 @@ namespace Nanoreno.Game
 
             currentChapterIndex = SaveState.chapterIndex;
             currentChapter = chapters[SaveState.chapterIndex];
+            dialogeManager.SetChapter(currentChapter);
 
             DialogueNode node = dialogeManager.FindNodeWithUniqueId(SaveState.textUniqueId);
-
-            dialogeManager.SetChapter(currentChapter);
             dialogeManager.SetNode(node);
 
             dialogeManager.TypeText();
