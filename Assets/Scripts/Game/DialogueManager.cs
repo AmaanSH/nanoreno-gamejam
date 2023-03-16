@@ -38,13 +38,44 @@ namespace Nanoreno.Game
             dialoguePanel.ChoiceMade -= OnChoiceMade;
         }
 
-        public void Setup(DialogueHolder chapter)
+        public void Cleanup()
+        {
+            dialoguePanel.StopAllCoroutines();
+        }
+
+        public DialogueNode FindNodeWithUniqueId(string uniqueId)
+        {
+            foreach(Dialogue.Dialogue node in chapter.dialogues)
+            {
+                DialogueNode foundNode = node.GetChild(uniqueId);
+                if (foundNode != null)
+                {
+                    currentDialogues = node;
+                    currentIndex = chapter.dialogues.IndexOf(currentDialogues);
+
+                    return foundNode;
+                }
+            }
+
+            return null;
+        }
+
+        public void SetChapter(DialogueHolder chapter)
         {       
             this.chapter = chapter;
-            currentNode = chapter.dialogues[currentIndex].GetAllNodes().ToList()[0];
-            currentDialogues = chapter.dialogues[currentIndex];
+        }
 
-            TypeText();
+        public void SetNode(DialogueNode node = null)
+        {
+            if (node != null)
+            {
+                currentNode = node;
+            }
+            else
+            {
+                currentNode = chapter.dialogues[currentIndex].GetAllNodes().ToList()[0];
+                currentDialogues = chapter.dialogues[currentIndex];
+            }
         }
 
         public void TypeText()
@@ -65,10 +96,11 @@ namespace Nanoreno.Game
             dialoguePanel.SetText(currentNode.GetText());
 
             Character character = characterManifest.GetCharacterByIndex(currentNode.GetCharacterIndex());
-            dialoguePanel.SetCharacterSprite(character.GetSprite());
             dialoguePanel.SetCharacterName(character.GetName());
 
             logPanel.AddEntry(character.GetName(), currentNode.GetText(), character.GetSprite());
+
+            SaveState.textUniqueId = currentNode.name;
 
             StartCoroutine(dialoguePanel.Type());
         }

@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &154910864 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 956038108401623551, guid: 01d680febe04fde42b114e6b3476f2e4, type: 3}
+  m_PrefabInstance: {fileID: 956038109524109513}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8871ba68ca7584eac128ee711aa73e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &333486638 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1701060737411414722, guid: 6bf6f7028278b664ba8fdb49b8fe4806, type: 3}
@@ -236,6 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 861276570}
   - component: {fileID: 861276569}
+  - component: {fileID: 861276571}
   m_Layer: 0
   m_Name: SavePanel
   m_TagString: Untagged
@@ -255,9 +267,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cc3a9d80f08f524481ef85b10fe653f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  saveManager: {fileID: 861276571}
   saveOpenId: saveButton
   loadOpenId: loadButton
-  panelMode: 0
   savePanel: {fileID: 9197481963319205126, guid: 96b569fe8fd2ffb4f9115a4297a2374b, type: 3}
   saveSlot: {fileID: 9197481963319205126, guid: 5525d9474390dc4408bf266137cddda2, type: 3}
   saveSlotCount: 4
@@ -276,6 +288,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &861276571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861276568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3671042abb6ddd741833f4bb43d63a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 154910864}
 --- !u!1001 &956038109524109513
 PrefabInstance:
   m_ObjectHideFlags: 0

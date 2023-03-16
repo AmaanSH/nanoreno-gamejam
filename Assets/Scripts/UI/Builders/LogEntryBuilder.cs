@@ -9,7 +9,6 @@ namespace Nanoreno.UI.Builder
     {
         public string CharacterName { get; private set; }
         public string Text { get; private set; }
-        public Sprite Sprite { get; private set; }
 
         public LogEntryBuilder(VisualTreeAsset asset) : base(asset) { }
 
@@ -22,12 +21,6 @@ namespace Nanoreno.UI.Builder
         public LogEntryBuilder SetText(string text)
         {
             Text = text;
-            return this;
-        }
-
-        public LogEntryBuilder SetSprite(Sprite sprite)
-        {
-            Sprite = sprite;
             return this;
         }
 

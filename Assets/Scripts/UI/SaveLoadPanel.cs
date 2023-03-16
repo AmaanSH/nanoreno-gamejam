@@ -1,3 +1,4 @@
+using Nanoreno.Game;
 using Nanoreno.UI.Builder;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,15 +15,17 @@ namespace Nanoreno.UI
 
     public class SaveLoadPanel : MonoBehaviour
     {
+        public SaveManager saveManager;
+
         public string saveOpenId;
         public string loadOpenId;
-        public PanelMode panelMode;
 
         public VisualTreeAsset savePanel;
         public VisualTreeAsset saveSlot;
         public int saveSlotCount = 4;
 
         private UI uiPanel;
+        private PanelMode panelMode;
 
         private void Start()
         {
@@ -35,17 +38,14 @@ namespace Nanoreno.UI
             Button openButtonSave = document.rootVisualElement.Q(saveOpenId) as Button;
             Button openButtonLoad = document.rootVisualElement.Q(loadOpenId) as Button;
 
-            Button closeButton = uiPanel.GetElement("backButton") as Button;
-
             openButtonSave.clicked += () => SetPanelMode(PanelMode.Save);
             openButtonLoad.clicked += () => SetPanelMode(PanelMode.Load);
 
             uiPanel.SetOpenButton(openButtonSave);
             uiPanel.SetOpenButton(openButtonLoad);
 
+            Button closeButton = uiPanel.GetElement("backButton") as Button;
             uiPanel.SetCloseButton(closeButton);
-
-            Setup();
         }
 
         private void SetPanelMode(PanelMode mode)
@@ -54,6 +54,9 @@ namespace Nanoreno.UI
 
             Label title = uiPanel.GetElement("titleLabel") as Label;
             title.text = GetTitle();
+
+            // resetup panel
+            Setup();
         }
 
         public void Setup()
@@ -64,16 +67,33 @@ namespace Nanoreno.UI
             for (int i = 0; i < saveSlotCount; i++)
             {
                 int slotNumber = i + 1;
-                VisualElement slot = new SlotBuilder(saveSlot)
-                    .SetSlotNumber(slotNumber)
-                    .SetChapterNumber(0)
-                    .SetChapterName("")
-                    .Build();
+                SlotBuilder slot = new SlotBuilder(saveSlot);
 
-                Button button = slot.Q("slotButton") as Button;
+                // find data for this
+                string uniqueId = PlayerPrefs.GetString($"save-{slotNumber}-textUniqueId", "");
+                if (!string.IsNullOrEmpty(uniqueId))
+                {
+                    int chapter = PlayerPrefs.GetInt($"save-{slotNumber}-chapter");
+
+                    slot
+                        .SetSlotNumber(slotNumber)
+                        .SetChapterNumber(chapter + 1)
+                        .SetChapterName(uniqueId);
+                }
+                else
+                {
+                    slot
+                        .SetSlotNumber(slotNumber)
+                        .SetChapterNumber(0)
+                        .SetChapterName("");
+                }
+
+                VisualElement slotVisualElement = slot.Build();
+
+                Button button = slotVisualElement.Q("slotButton") as Button;
                 button.clicked += () => SlotClicked(slotNumber);
 
-                saveSlotHolder.Add(slot);
+                saveSlotHolder.Add(slotVisualElement);
             }
         }
 
@@ -92,7 +112,17 @@ namespace Nanoreno.UI
 
         private void SlotClicked(int index)
         {
-            Debug.Log(index);
+            switch(panelMode)
+            {
+                case PanelMode.Save:
+                    saveManager.SaveProgress(index);
+                    Setup();
+                    break;
+                case PanelMode.Load:
+                    saveManager.LoadProgress(index);
+                    uiPanel.HidePanel();
+                    break;
+            }
         }
     }
 }

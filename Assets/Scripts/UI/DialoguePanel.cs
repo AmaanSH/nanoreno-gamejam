@@ -42,7 +42,6 @@ namespace Nanoreno.UI
 
             textElement = uiPanel.GetElement("characterText") as TextElement;
             characterNameElement = uiPanel.GetElement("characterName") as TextElement;
-            characterSprite = uiPanel.GetElement("charSprite");
 
             skipElement = uiPanel.GetElement("skip");
             skipButton = uiPanel.GetElement("skipButton") as Button;
@@ -112,20 +111,6 @@ namespace Nanoreno.UI
             }
 
             characterNameElement.text = name;
-        }
-
-        public void SetCharacterSprite(Sprite sprite)
-        {
-            if (sprite == null)
-            {
-                characterSprite.style.display = DisplayStyle.None;
-            }
-            else
-            {
-                characterSprite.style.display = DisplayStyle.Flex;
-            }
-
-            characterSprite.style.backgroundImage = new StyleBackground(sprite);
         }
 
         public IEnumerator Type()

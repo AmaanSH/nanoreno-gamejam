@@ -8,7 +8,7 @@
                 <ui:Label tabindex="-1" text="Chapter X" display-tooltip-when-elided="true" name="chapterLabel" style="color: rgb(255, 255, 255);" />
             </ui:VisualElement>
             <ui:VisualElement name="chapterTitleHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-                <ui:Label tabindex="-1" text="CHAPTER_NAME_TEXT" display-tooltip-when-elided="true" name="chapterName" style="color: rgb(255, 255, 255);" />
+                <ui:Label tabindex="-1" text="CHAPTER_NAME_TEXT" display-tooltip-when-elided="true" name="chapterName" style="color: rgb(255, 255, 255); white-space: normal;" />
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:Button display-tooltip-when-elided="true" name="slotButton" style="position: absolute; width: 100%; height: 100%; background-color: rgba(188, 188, 188, 0); -unity-background-image-tint-color: rgba(255, 255, 255, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />

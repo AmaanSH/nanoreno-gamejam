@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/Game/UI/UIStyle.uss?fileID=7433441132597879392&amp;guid=6990184db6c2f224fa2a69b2306f8395&amp;type=3#UIStyle" />
+    <Style src="project://database/Assets/Game/UI/Stylesheets/UIStyle.uss?fileID=7433441132597879392&amp;guid=6990184db6c2f224fa2a69b2306f8395&amp;type=3#UIStyle" />
     <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse;">
         <ui:VisualElement name="panels" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; justify-content: center; align-self: auto;">
             <ui:VisualElement name="logPanel" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.53); width: 90%; height: 50%; align-self: center; justify-content: flex-start; align-items: flex-start; margin-bottom: 200px; flex-direction: column; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; display: none;">
@@ -9,7 +9,7 @@
         </ui:VisualElement>
         <ui:VisualElement name="narrativePanel" class="panel" style="display: flex; flex-direction: column; height: auto; min-height: 180px;">
             <ui:VisualElement name="textAndSpriteHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-shrink: 0;">
-                <ui:VisualElement name="charSprite" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 150px; flex-shrink: 1; background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/character_Mode@4x.png?fileID=2800000&amp;guid=0ccc508108fa6ed4fa11b4a467d7f609&amp;type=3#character_Mode@4x&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement name="charSprite" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 150px; flex-shrink: 1; background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/character_Mode@4x.png?fileID=2800000&amp;guid=0ccc508108fa6ed4fa11b4a467d7f609&amp;type=3#character_Mode@4x&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-background-scale-mode: scale-to-fit; display: none;" />
                 <ui:VisualElement name="textHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0;">
                     <ui:Label tabindex="-1" text="CHARACTER_NAME" display-tooltip-when-elided="true" name="characterName" enable-rich-text="false" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 18px;" />
                     <ui:Label tabindex="-1" text="CHARACTER_TEXT" display-tooltip-when-elided="true" name="characterText" style="color: rgb(255, 255, 255); flex-grow: 1; white-space: normal; font-size: 24px; flex-shrink: 0; flex-wrap: nowrap; text-overflow: clip; -unity-text-align: upper-left;">
