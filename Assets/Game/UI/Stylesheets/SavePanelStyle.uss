@@ -9,3 +9,11 @@
     margin-right: 30px;
     margin-left: 0;
 }
+
+.saveSlot:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.saveSlot {
+    transition: background-color 0.5s;
+}
