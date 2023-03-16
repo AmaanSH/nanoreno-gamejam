@@ -23,7 +23,7 @@ namespace Nanoreno.UI
             SetupEntryListView();
 
             logButton = UIManager.GetElement("logButton") as Button;
-            logButton.clicked += Toggle;
+            uiPanel.SetToggleButton(logButton);
         }
 
         private void SetupEntryListView()
@@ -53,33 +53,6 @@ namespace Nanoreno.UI
             entryListView.itemsSource = elements;
 
             entryListView.style.flexGrow = 1.0f;
-        }
-
-        private void OnDisable()
-        {
-            logButton.clicked -= Toggle;
-        }
-
-        private void Toggle()
-        {
-            if (uiPanel.Element.style.display == DisplayStyle.Flex)
-            {
-                HidePanel();
-            }
-            else
-            {
-                ShowPanel();
-            }
-        }
-
-        private void ShowPanel()
-        {
-            uiPanel.Element.style.display = DisplayStyle.Flex;
-        }
-
-        private void HidePanel()
-        {
-            uiPanel.Element.style.display = DisplayStyle.None;
         }
 
         public void AddEntry(string characterName, string text, Sprite sprite)
