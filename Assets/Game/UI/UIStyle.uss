@@ -1,0 +1,31 @@
+.choiceButton {
+    height: 30px;
+    width: 50%;
+    white-space: normal;
+    text-overflow: clip;
+    font-size: 15px;
+    visibility: visible;
+    display: flex;
+}
+
+.panel {
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0.44);
+    height: 150px;
+    flex-direction: row;
+    align-items: stretch;
+    visibility: visible;
+    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.optionButton {
+    width: 50px;
+}
+
+.logPanelEntry {
+    margin-bottom: 10px;
+}
