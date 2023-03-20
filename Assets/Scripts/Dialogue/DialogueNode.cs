@@ -1,18 +1,14 @@
-using Nanoreno.Characters;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public enum SpritePosition
 {
     None,
-    FarLeft,
     Left,
-    Center,
+    Centre,
     Right,
-    FarRight
+    Custom
 }
 
 namespace Nanoreno.Dialogue
@@ -26,7 +22,7 @@ namespace Nanoreno.Dialogue
         string text;
 
         [SerializeField]
-        SpritePosition spritePositionOnScreen;
+        ControlNode controlNode;
 
         [SerializeField]
         List<string> children = new List<string>();
@@ -54,9 +50,9 @@ namespace Nanoreno.Dialogue
             return rect;
         }
 
-        public SpritePosition GetSpritePosition()
+        public ControlNode GetControlNode()
         {
-            return spritePositionOnScreen;
+            return controlNode;
         }
 
 #if UNITY_EDITOR
@@ -64,13 +60,6 @@ namespace Nanoreno.Dialogue
         {
             Undo.RecordObject(this, "Move Dialogue Node");
             rect.position = newPosition;
-            EditorUtility.SetDirty(this);
-        }
-
-        public void SetSpritePosition(SpritePosition newSpritePosition)
-        {
-            Undo.RecordObject(this, "Update Sprite Position");
-            spritePositionOnScreen = newSpritePosition;
             EditorUtility.SetDirty(this);
         }
 
@@ -88,6 +77,21 @@ namespace Nanoreno.Dialogue
         {
             Undo.RecordObject(this, "Add Dialogue Link");
             children.Add(child);
+            EditorUtility.SetDirty(this);
+        }
+
+        public void SetControlNode(ControlNode controlNode)
+        {
+            Undo.RecordObject(this, "Add Control Node");
+            this.controlNode = controlNode;
+            EditorUtility.SetDirty(this);
+        }
+
+        public void RemoveControlNode()
+        {
+            Undo.RecordObject(this, "Removed Control Node");
+            Undo.DestroyObjectImmediate(controlNode);
+            controlNode = null;
             EditorUtility.SetDirty(this);
         }
 

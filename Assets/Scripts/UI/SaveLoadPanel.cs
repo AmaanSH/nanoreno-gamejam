@@ -91,8 +91,11 @@ namespace Nanoreno.UI
 
                 VisualElement slotVisualElement = slot.Build();
 
-                Button button = slotVisualElement.Q("slotButton") as Button;
-                button.clicked += () => SlotClicked(slotNumber);
+                if (panelMode == PanelMode.Save || (panelMode == PanelMode.Load && !string.IsNullOrEmpty(uniqueId)))
+                {
+                    Button button = slotVisualElement.Q("slotButton") as Button;
+                    button.clicked += () => SlotClicked(slotNumber);
+                }
 
                 saveSlotHolder.Add(slotVisualElement);
             }

@@ -44,6 +44,11 @@ namespace Nanoreno.Game
             DialogueNode node = dialogeManager.FindNodeWithUniqueId(SaveState.textUniqueId);
             dialogeManager.SetNode(node);
 
+            if (!string.IsNullOrEmpty(SaveState.lastControlNodeId))
+            {
+                dialogeManager.SetupControlNodeWithId(SaveState.lastControlNodeId);
+            }
+
             dialogeManager.TypeText();
         }
 

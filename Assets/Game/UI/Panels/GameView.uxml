@@ -1,7 +1,10 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/Game/UI/Stylesheets/UIStyle.uss?fileID=7433441132597879392&amp;guid=6990184db6c2f224fa2a69b2306f8395&amp;type=3#UIStyle" />
     <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse;">
-        <ui:VisualElement name="panels" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; justify-content: center; align-self: auto;">
+        <ui:VisualElement name="overlay" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; justify-content: center; align-self: auto; display: flex;">
+            <ui:VisualElement name="character" class="characterStyle" style="display: none; scale: 1 1; opacity: 1; align-self: flex-start; translate: 0 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="panels" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; justify-content: center; align-self: auto; top: 3px; left: 2px;">
             <ui:VisualElement name="logPanel" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.53); width: 90%; height: 50%; align-self: center; justify-content: flex-start; align-items: flex-start; margin-bottom: 200px; flex-direction: column; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; display: none;">
                 <ui:Label tabindex="-1" text="Log" display-tooltip-when-elided="true" name="title" style="flex-grow: 0; flex-direction: column; color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 20px; flex-shrink: 1; width: 100%;" />
                 <ui:ListView focusable="false" name="textHolder" virtualization-method="DynamicHeight" show-border="false" reorder-mode="Simple" reorderable="false" show-add-remove-footer="false" fixed-item-height="50" horizontal-scrolling="false" show-alternating-row-backgrounds="None" show-bound-collection-size="false" selection-type="None" style="flex-grow: 0; flex-shrink: 1; width: 100%; height: 100%;" />

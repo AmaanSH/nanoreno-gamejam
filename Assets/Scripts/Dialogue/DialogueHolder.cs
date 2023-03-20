@@ -7,7 +7,6 @@ namespace Nanoreno.Dialogue
     [CreateAssetMenu(fileName = "New Chapter", menuName = "Nanoreno/Dialogue/Create Chapter", order = 1)]
     public class DialogueHolder : ScriptableObject
     {
-        public Sprite background;
-        public List<Dialogue> dialogues;
+        public List<Chapter> dialogues;
     }
 }
