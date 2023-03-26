@@ -7,13 +7,19 @@ using UnityEditor;
 namespace Nanoreno.Dialogue
 {
     [CreateAssetMenu(fileName = "New Chapter", menuName = "Nanoreno/Dialogue/Create Dialogue", order = 0)]
-    public class Dialogue : ScriptableObject, ISerializationCallbackReceiver
+    public class Chapter : ScriptableObject, ISerializationCallbackReceiver
     {
         [SerializeField]
         List<DialogueNode> nodes = new List<DialogueNode>();
 
         [SerializeField]
+        Sprite background;
+
+        [SerializeField]
         Vector2 newNodeOffset = new Vector2(250, 0);
+
+        [SerializeField]
+        Vector2 newControlNodeOffset = new Vector2(0, 200);
 
         Dictionary<string, DialogueNode> nodeLookup = new Dictionary<string, DialogueNode>();
 
@@ -78,12 +84,27 @@ namespace Nanoreno.Dialogue
             AddNode(newNode);
         }
 
+        public void CreateControlNode(DialogueNode parent)
+        {
+            ControlNode newNode = MakeControlNode(parent);
+
+            Undo.RegisterCreatedObjectUndo(newNode, "Created Control Node");
+            Undo.RecordObject(this, "Added Control Node");
+
+            OnValidate();
+        }
+
+        public void RemoveControlNode(DialogueNode parent)
+        {
+            Undo.RecordObject(this, "Deleting Control Node");
+            parent.RemoveControlNode();
+        }
+
         public void DeleteNode(DialogueNode nodeToDelete)
         {
             Undo.RecordObject(this, "Deleting Dialogue Node");
             nodes.Remove(nodeToDelete);
             
-            OnValidate();
             CleanDanglingChildren(nodeToDelete);
             Undo.DestroyObjectImmediate(nodeToDelete);
         }
@@ -105,6 +126,17 @@ namespace Nanoreno.Dialogue
                 parent.AddChild(newNode.name);
                 newNode.SetPosition(parent.GetRect().position + newNodeOffset);
             }
+
+            return newNode;
+        }
+
+        private ControlNode MakeControlNode(DialogueNode parent)
+        {
+            ControlNode newNode = CreateInstance<ControlNode>();
+            newNode.name = $"{parent.name}-CONTROL";
+
+            parent.SetControlNode(newNode);
+            newNode.SetPosition(parent.GetRect().position + newControlNodeOffset);
 
             return newNode;
         }
@@ -131,6 +163,14 @@ namespace Nanoreno.Dialogue
                     if (AssetDatabase.GetAssetPath(node) == "")
                     {
                         AssetDatabase.AddObjectToAsset(node, this);
+                    }
+                    
+                    if (node.GetControlNode())
+                    {
+                        if (AssetDatabase.GetAssetPath(node.GetControlNode()) == "")
+                        {
+                            AssetDatabase.AddObjectToAsset(node.GetControlNode(), this);
+                        }
                     }
                 }
             }

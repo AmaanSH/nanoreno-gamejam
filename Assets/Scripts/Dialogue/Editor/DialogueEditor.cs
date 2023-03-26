@@ -2,32 +2,48 @@ using Nanoreno.Characters;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.Callbacks;
+using UnityEditorInternal;
 using UnityEngine;
 
 namespace Nanoreno.Dialogue.Editor
 {
     public class DialogueEditor : EditorWindow
     {
-        Dialogue selectedDialogue = null;
+        Chapter selectedDialogue = null;
 
         [NonSerialized]
         GUIStyle nodeStyle;
 
         [NonSerialized]
+        GUIStyle controlNodeStyle;
+
+        [NonSerialized]
         Vector2 draggingOffset;
         [NonSerialized]
+        Vector2 draggingControlNodeOffset;
+
+        [NonSerialized]
         DialogueNode creatingNode = null;
+        [NonSerialized]
+        DialogueNode creatingControlNode = null;
+        [NonSerialized]
+        DialogueNode deletingControlNode = null;
         [NonSerialized]
         DialogueNode deletingNode = null;
         [NonSerialized]
         DialogueNode draggingNode = null;
         [NonSerialized]
         DialogueNode linkingParentNode = null;
+
         Vector2 scrollPosition;
+
         [NonSerialized]
         bool draggingCanvas = false;
+
         [NonSerialized]
         Vector2 draggingCanvasOffset;
 
@@ -45,7 +61,7 @@ namespace Nanoreno.Dialogue.Editor
         [OnOpenAsset(1)]
         public static bool OnOpenAsset(int instanceID, int line)
         {
-            Dialogue dialogue = EditorUtility.InstanceIDToObject(instanceID) as Dialogue;
+            Chapter dialogue = EditorUtility.InstanceIDToObject(instanceID) as Chapter;
             if (dialogue != null)
             {
                 ShowEditorWindow();
@@ -65,12 +81,18 @@ namespace Nanoreno.Dialogue.Editor
             nodeStyle.padding = new RectOffset(20, 20, 20, 20);
             nodeStyle.border = new RectOffset(12, 12, 12, 12);
 
+            controlNodeStyle = new GUIStyle();
+            controlNodeStyle.normal.background = EditorGUIUtility.Load("node1") as Texture2D;
+            controlNodeStyle.normal.textColor = Color.white;
+            controlNodeStyle.padding = new RectOffset(20, 20, 20, 20);
+            controlNodeStyle.border = new RectOffset(12, 12, 12, 12);
+
             characterManifest = Resources.Load("character_manifest") as CharacterManifest;
         }
 
         private void OnSelectionChanged()
         {
-            Dialogue newDialogue = Selection.activeObject as Dialogue;
+            Chapter newDialogue = Selection.activeObject as Chapter;
             if (newDialogue != null)
             {
                 selectedDialogue = newDialogue;
@@ -103,6 +125,11 @@ namespace Nanoreno.Dialogue.Editor
                 foreach (DialogueNode node in selectedDialogue.GetAllNodes())
                 {
                     DrawNode(node);
+
+                    if (node.GetControlNode() != null)
+                    {
+                        DrawControlNode(node.GetControlNode());
+                    }
                 }
 
                 EditorGUILayout.EndScrollView();
@@ -112,18 +139,22 @@ namespace Nanoreno.Dialogue.Editor
                     selectedDialogue.CreateNode(creatingNode);
                     creatingNode = null;
                 }
+                if (creatingControlNode != null)
+                {
+                    selectedDialogue.CreateControlNode(creatingControlNode);
+                    creatingControlNode = null;
+                }
+                if (deletingControlNode != null)
+                {
+                    selectedDialogue.RemoveControlNode(deletingControlNode);
+                    deletingControlNode = null;
+                }
                 if (deletingNode != null)
                 {
                     selectedDialogue.DeleteNode(deletingNode);
                     deletingNode = null;
                 }
             }
-        }
-
-        private void Resize()
-        {
-            // get the total number of nodes in the scenes and their thickness
-            // increase the size of the area with this
         }
 
         private void ProcessEvents()
@@ -134,6 +165,16 @@ namespace Nanoreno.Dialogue.Editor
                 if (draggingNode != null)
                 {
                     draggingOffset = draggingNode.GetRect().position - Event.current.mousePosition;
+
+                    if (draggingNode.GetControlNode())
+                    {
+                        draggingControlNodeOffset = draggingNode.GetControlNode().GetRect().position - Event.current.mousePosition;
+                    }
+                    else
+                    {
+                        draggingControlNodeOffset = Vector2.zero;
+                    }
+
                     Selection.activeObject = draggingNode;
                 }
                 else
@@ -146,6 +187,11 @@ namespace Nanoreno.Dialogue.Editor
             else if (Event.current.type == EventType.MouseDrag && draggingNode != null)
             {
                 draggingNode.SetPosition(Event.current.mousePosition + draggingOffset);
+
+                if (draggingNode.GetControlNode())
+                {
+                    draggingNode.GetControlNode().SetPosition(Event.current.mousePosition + draggingControlNodeOffset);
+                }
 
                 GUI.changed = true;
             }
@@ -184,10 +230,6 @@ namespace Nanoreno.Dialogue.Editor
             GUIStyle style = nodeStyle;
             GUILayout.BeginArea(node.GetRect(), style);
 
-            EditorGUILayout.LabelField("Scene Background");
-            node.SetBackground((Sprite)EditorGUILayout.ObjectField(node.GetBackground(), typeof(Sprite), true));
-            GUILayout.Space(10);
-
             node.SetCharacter(EditorGUILayout.Popup(node.GetCharacterIndex(), GetCharacters()));
             node.SetText(EditorGUILayout.TextField(node.GetText()));
 
@@ -206,6 +248,72 @@ namespace Nanoreno.Dialogue.Editor
             }
 
             GUILayout.EndHorizontal();
+
+            if (node.GetControlNode())
+            {
+                if (GUILayout.Button("Remove Control Node"))
+                {
+                    deletingControlNode = node;
+                }
+            }
+            else
+            {
+                if (GUILayout.Button("Create Control Node"))
+                {
+                    creatingControlNode = node;
+                }
+            }
+
+            GUILayout.EndArea();
+        }
+
+        private void DrawControlNode(ControlNode controlNode)
+        {
+            GUIStyle style = controlNodeStyle;
+            GUILayout.BeginArea(controlNode.GetRect(), style);
+
+            EditorGUILayout.LabelField("Background");
+            controlNode.backgroundImage = (Sprite)EditorGUILayout.ObjectField(controlNode.backgroundImage, typeof(Sprite), true);
+
+            EditorGUILayout.LabelField("BGM");
+            controlNode.BGM = (AudioClip)EditorGUILayout.ObjectField(controlNode.BGM, typeof(AudioClip), true);
+
+            EditorGUILayout.LabelField("SFX");
+            controlNode.SFX = (AudioClip)EditorGUILayout.ObjectField(controlNode.SFX, typeof(AudioClip), true);
+
+            EditorGUILayout.LabelField("Character Pos");
+            ReorderableList list = new ReorderableList(controlNode.characterPositions, typeof(CharacterPosition), true, false, true, true);
+
+            list.drawElementCallback = (Rect rect, int index, bool isActive, bool isFocused) =>
+            {
+                CharacterPosition element = list.list[index] as CharacterPosition;
+                if (element != null)
+                {
+                    int elementWidth = (element.screenPosition == SpritePosition.Custom) ? 90 : 60;
+
+                    element.screenPosition = (SpritePosition)EditorGUI.EnumPopup(
+                        new Rect(rect.x, rect.y, 60, EditorGUIUtility.singleLineHeight),
+                        element.screenPosition
+                    );
+
+                    element.character = (Character)EditorGUI.ObjectField(
+                        new Rect(rect.x + 60, rect.y, rect.width - elementWidth, EditorGUIUtility.singleLineHeight), 
+                        element.character, typeof(Character), 
+                        true
+                    );
+
+                    if (element.screenPosition == SpritePosition.Custom)
+                    {
+                        element.customPercentage = EditorGUI.IntField(
+                            new Rect(rect.x + 100, rect.y, rect.width - 90, EditorGUIUtility.singleLineHeight),
+                            element.customPercentage
+                        );
+                    }
+                }
+            };
+
+            list.DoLayoutList();
+
             GUILayout.EndArea();
         }
 

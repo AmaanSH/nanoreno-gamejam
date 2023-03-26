@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 
 namespace Nanoreno.Characters
 {
@@ -9,12 +8,16 @@ namespace Nanoreno.Characters
     public class Character : ScriptableObject
     {
         [SerializeField]
+        string undiscoveredName;
+
+        [SerializeField]
         string characterName;
 
         [SerializeField]
         Sprite sprite;
 
-        // TODO: emotion data
+        SpritePosition currentSlot = SpritePosition.None;
+
         public string GetName()
         {
             return characterName;
@@ -23,6 +26,16 @@ namespace Nanoreno.Characters
         public Sprite GetSprite()
         {
             return sprite;
+        }
+
+        public SpritePosition GetSpritePosition()
+        {
+            return currentSlot;
+        }
+
+        public void SetSpritePosition(SpritePosition position)
+        {
+            currentSlot = position;
         }
     }
 }

@@ -2,6 +2,7 @@ using Nanoreno.Characters;
 using Nanoreno.Dialogue;
 using Nanoreno.UI;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -12,6 +13,7 @@ namespace Nanoreno.Game
     {
         public event Action OnChapterEnd;
         public DialoguePanel dialoguePanel;
+        public CharacterPanel characterPanel;
 
         [SerializeField]
         private CharacterManifest characterManifest;
@@ -20,16 +22,18 @@ namespace Nanoreno.Game
         private LogPanel logPanel;
 
         private DialogueHolder chapter;
-        private Dialogue.Dialogue currentDialogues;
+        private Chapter currentDialogues;
         private DialogueNode currentNode;
 
         private bool showChoicesOnNextPrompt;
         private int currentIndex = 0;
 
-        private void Start()
+        private void Awake()
         {
             dialoguePanel.TextEndReached += Next;
             dialoguePanel.ChoiceMade += OnChoiceMade;
+
+            characterPanel.Setup();
         }
 
         private void OnDisable()
@@ -45,7 +49,7 @@ namespace Nanoreno.Game
 
         public DialogueNode FindNodeWithUniqueId(string uniqueId)
         {
-            foreach(Dialogue.Dialogue node in chapter.dialogues)
+            foreach(Chapter node in chapter.dialogues)
             {
                 DialogueNode foundNode = node.GetChild(uniqueId);
                 if (foundNode != null)
@@ -54,6 +58,24 @@ namespace Nanoreno.Game
                     currentIndex = chapter.dialogues.IndexOf(currentDialogues);
 
                     return foundNode;
+                }
+            }
+
+            return null;
+        }
+
+        public ControlNode SetupControlNodeWithId(string uniqueId)
+        {
+            foreach (Chapter node in chapter.dialogues)
+            {
+                DialogueNode foundNode = node.GetAllNodes().ToList().Find(x => x.GetControlNode() != null && x.GetControlNode().name == uniqueId);
+                if (foundNode != null)
+                {
+                    ControlNode controlNode = foundNode.GetControlNode();
+                    foreach (CharacterPosition characterPosition in controlNode.GetCharacterPositions())
+                    {
+                        characterPanel.PlaceCharacterInSlot(characterPosition.screenPosition, characterPosition.character);
+                    }
                 }
             }
 
@@ -96,13 +118,33 @@ namespace Nanoreno.Game
             dialoguePanel.SetText(currentNode.GetText());
 
             Character character = characterManifest.GetCharacterByIndex(currentNode.GetCharacterIndex());
+
             dialoguePanel.SetCharacterName(character.GetName());
 
-            logPanel.AddEntry(character.GetName(), currentNode.GetText(), character.GetSprite());
+            if (currentNode.GetControlNode())
+            {
+                ControlNode controlNode = currentNode.GetControlNode();
 
+                SaveState.lastControlNodeId = controlNode.name;
+
+                foreach (CharacterPosition characterPosition in controlNode.GetCharacterPositions())
+                {
+                    characterPanel.PlaceCharacterInSlot(characterPosition.screenPosition, characterPosition.character);
+                }
+            }
+
+            logPanel.AddEntry(character.GetName(), currentNode.GetText(), character.GetSprite());
             SaveState.textUniqueId = currentNode.name;
 
+            StartCoroutine(FadeInTalkingSprite(character));
             StartCoroutine(dialoguePanel.Type());
+        }
+
+        private IEnumerator FadeInTalkingSprite(Character character)
+        {
+            yield return null;
+
+            characterPanel.SetSpeakingSprite(character);
         }
 
         public List<DialogueNode> BuildChoices()

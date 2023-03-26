@@ -1,9 +1,15 @@
-using Nanoreno.Characters;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+
+public enum SpritePosition
+{
+    None,
+    Left,
+    Centre,
+    Right,
+    Custom
+}
 
 namespace Nanoreno.Dialogue
 {
@@ -16,10 +22,10 @@ namespace Nanoreno.Dialogue
         string text;
 
         [SerializeField]
-        List<string> children = new List<string>();
+        ControlNode controlNode;
 
         [SerializeField]
-        Sprite background;
+        List<string> children = new List<string>();
 
         [SerializeField]
         Rect rect = new Rect(0, 0, 200, 200);
@@ -44,16 +50,9 @@ namespace Nanoreno.Dialogue
             return rect;
         }
 
-        public Sprite GetBackground()
+        public ControlNode GetControlNode()
         {
-            return background;
-        }
-
-        public void SetBackground(Sprite sprite)
-        {
-            Undo.RecordObject(this, "Add Dialogue Background");
-            background = sprite;
-            EditorUtility.SetDirty(this);
+            return controlNode;
         }
 
 #if UNITY_EDITOR
@@ -78,6 +77,21 @@ namespace Nanoreno.Dialogue
         {
             Undo.RecordObject(this, "Add Dialogue Link");
             children.Add(child);
+            EditorUtility.SetDirty(this);
+        }
+
+        public void SetControlNode(ControlNode controlNode)
+        {
+            Undo.RecordObject(this, "Add Control Node");
+            this.controlNode = controlNode;
+            EditorUtility.SetDirty(this);
+        }
+
+        public void RemoveControlNode()
+        {
+            Undo.RecordObject(this, "Removed Control Node");
+            Undo.DestroyObjectImmediate(controlNode);
+            controlNode = null;
             EditorUtility.SetDirty(this);
         }
 

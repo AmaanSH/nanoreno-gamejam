@@ -21,11 +21,9 @@ namespace Nanoreno.UI
 
         private TextElement textElement;
         private TextElement characterNameElement;
-        private VisualElement characterSprite;
         private VisualElement skipElement;
         private Button skipButton;
 
-        private VisualElement narrativePanel;
         private VisualElement choicePanel;
         private VisualElement choiceButtonHolder;
 
@@ -34,8 +32,6 @@ namespace Nanoreno.UI
         private void Start()
         {
             uiPanel = new UI("narrativePanel");
-
-            narrativePanel = uiPanel.GetElement("narrativePanel");
 
             choicePanel = uiPanel.GetElement("choicePanel");
             choiceButtonHolder = uiPanel.GetElement("choiceButtonHolder");

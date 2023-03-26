@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61834895a4d90054d8b0b33eb7ee220a, type: 3}
   m_Name: Man
   m_EditorClassIdentifier: 
-  characterName: Man
-  sprite: {fileID: 21300000, guid: 19370790a791d4fc99ee3830251366f8, type: 3}
+  undiscoveredName: Man
+  characterName: Crow
+  sprite: {fileID: 21300000, guid: 818b2a3c5da62d7448b3d076fbfaeac2, type: 3}

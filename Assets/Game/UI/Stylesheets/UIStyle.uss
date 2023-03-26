@@ -25,3 +25,23 @@
 .optionButton {
     width: 50px;
 }
+
+.characterStyle {
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Game/Sprites/Leilani.png?fileID=2800000&guid=68e4eaa4778c1e44d9cd9debbb01fed7&type=3#Leilani');
+    width: 500px;
+    -unity-background-scale-mode: scale-to-fit;
+    left: auto;
+    flex-basis: 0;
+    height: 1100px;
+    position: absolute;
+    transform-origin: center;
+    translate: 0 0;
+    align-self: center;
+    top: 25px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    opacity: 0;
+    display: flex;
+}
