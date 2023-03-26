@@ -1,0 +1,2106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9027730906515477286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 606eeab9-8564-4006-a79f-dd730d52ac6b
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The doctor leads me back to the front door, with the twins trailing behind.
+    I place my shoes back on and stow my bag in place. I stand to face the doctor.
+  controlNode: {fileID: -8988021810621584226}
+  children:
+  - 158c1610-d74e-4516-9f96-3cf66840c235
+  rect:
+    serializedVersion: 2
+    x: 10498
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &-8988021810621584226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 606eeab9-8564-4006-a79f-dd730d52ac6b-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 10498
+    y: 458
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: c8188c42d5bebc64ba486ebdc109ba6f, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-8565362284851361720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 329535ba-972e-4fe8-8bff-2aba0cd1d4bf
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: Luke ran ahead and stopped at a bookshelf not far from Daisy and I.
+  controlNode: {fileID: 0}
+  children:
+  - 43d2d882-8d3c-4778-85f2-0fc157750b82
+  rect:
+    serializedVersion: 2
+    x: 5775
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-8358179474261321645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 158c1610-d74e-4516-9f96-3cf66840c235-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 10748
+    y: 458
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: c8188c42d5bebc64ba486ebdc109ba6f, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-8072203597572887736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0a167f37-6bf9-4883-8de9-cca66ded5e8f
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I say a quick thank you and head inside. I walk in and take off my shoes,
+    placing them on the side. The doctor shuts the door behind me. I could hear laughter
+    and footsteps getting louder.
+  controlNode: {fileID: 0}
+  children:
+  - 8d1e03ab-a58f-48ce-94a2-fba0f19fca59
+  rect:
+    serializedVersion: 2
+    x: 1529
+    y: 256
+    width: 200
+    height: 200
+--- !u!114 &-7969823645982666545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 923e9859-4720-41cc-a413-2be929d6eec7
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: "I\u2019ll have to get it ready; come in."
+  controlNode: {fileID: 0}
+  children:
+  - 0a167f37-6bf9-4883-8de9-cca66ded5e8f
+  rect:
+    serializedVersion: 2
+    x: 1279
+    y: 256
+    width: 200
+    height: 200
+--- !u!114 &-7461354207816881620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 1ed2ccf8-40a8-4751-8ccb-78c36a8827e5
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "Doctor\u2026 May I borrow this book?"
+  controlNode: {fileID: 0}
+  children:
+  - 89283ad3-c4ac-43c3-9748-5b15ef356023
+  rect:
+    serializedVersion: 2
+    x: 8998
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &-7358883038076710856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: e5bef1dd-f50e-4f9d-bbb1-03ad5972236f-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 6275
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-7298691147332726171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8b8d2d72-1c77-4c49-9b72-3257a6a43234
+  m_EditorClassIdentifier: 
+  characterIndex: 1
+  text: "Let\u2019s go then! I want to show you this book that Daddy got us!"
+  controlNode: {fileID: -6717573370171557898}
+  children:
+  - 671dc3bc-1f6a-405f-8c45-984ce23f4447
+  rect:
+    serializedVersion: 2
+    x: 5276
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-7236050937322948661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c437cd06-83ce-408f-985e-f5447438a4f4
+  m_EditorClassIdentifier: 
+  characterIndex: 1
+  text: "We didn\u2019t even get to play."
+  controlNode: {fileID: -1734063769110578715}
+  children:
+  - 3edc18f2-f8ec-408c-90d8-e1816ae495d9
+  rect:
+    serializedVersion: 2
+    x: 11749
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-7225078586144292764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 19c3b9ce-aef1-4a30-808d-a89cf9daf16e
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: Leilani?
+  controlNode: {fileID: 7392327776076231104}
+  children:
+  - 9d023586-d918-4b08-af50-70a043442824
+  rect:
+    serializedVersion: 2
+    x: 7522
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-6974878328346192093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 671dc3bc-1f6a-405f-8c45-984ce23f4447-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 5526
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-6717573370171557898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 8b8d2d72-1c77-4c49-9b72-3257a6a43234-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 5276
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-5955176918011210267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 4d6a65b5-ae9b-4525-8cee-374b16507ce9
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Sorry, not today.
+  controlNode: {fileID: 0}
+  children:
+  - 9139457a-9659-45fb-b09a-e20dbfa49e9e
+  rect:
+    serializedVersion: 2
+    x: 3278
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-5795352285295548604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 675ee6d8-b96b-4acd-9ed0-26d819618ac8
+  m_EditorClassIdentifier: 
+  characterIndex: 7
+  text: Are you here to play with us?
+  controlNode: {fileID: 1944065080146697161}
+  children:
+  - e2049192-8007-4f43-b2e9-8efce858cee4
+  rect:
+    serializedVersion: 2
+    x: 2778
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-5411363075280808203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 1979ebdc-f12b-4971-bda2-6601214c0c40
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "It\u2019s okay. Once my grandpa gets better, we can play for as long as
+    you want."
+  controlNode: {fileID: 0}
+  children:
+  - 9f935e68-ef03-4bcd-b3e2-dc552bec7171
+  rect:
+    serializedVersion: 2
+    x: 13998
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-5243766108585622245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9139457a-9659-45fb-b09a-e20dbfa49e9e
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The twins pout, crossing their arms
+  controlNode: {fileID: 0}
+  children:
+  - 2bb4daf3-7590-4fee-bef0-8c81fb44b226
+  rect:
+    serializedVersion: 2
+    x: 3528
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-5082479636043613032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 4f706f22-fbe0-4704-a0d6-90e3c3daef4c-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 12499
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-4770820251987133067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9138a6e0-1e05-4e29-8365-448c80ff4d07
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: Leilani is here for medicine, you two, not to play.
+  controlNode: {fileID: -3752339500604728686}
+  children:
+  - 1042f0ce-4900-4a0c-b387-260aa82c8ea2
+  rect:
+    serializedVersion: 2
+    x: 4278
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-4577004079109480572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 2bb4daf3-7590-4fee-bef0-8c81fb44b226
+  m_EditorClassIdentifier: 
+  characterIndex: 1
+  text: You never want to play with us anymore.
+  controlNode: {fileID: 0}
+  children:
+  - d7a0b9b6-540b-4e25-9597-aa8bc04d7372
+  rect:
+    serializedVersion: 2
+    x: 3778
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-4470628808423487321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6d98b3c6-0823-431c-affd-06330e57aa4e
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I shut the book and place it under my arm, walking over to the doctor. I
+    grab the bottle and gently place it inside my bag.
+  controlNode: {fileID: 0}
+  children:
+  - 0b92c8f5-55b3-4527-b61b-84c7fbdca2f3
+  rect:
+    serializedVersion: 2
+    x: 8272
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-3827734053230798643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a35c9c2c-f4ea-4cb1-981a-960489b103d6
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: While I wait for the medicine, we can play for a little bit.
+  controlNode: {fileID: 2500244550999415434}
+  children:
+  - 7934c433-b51f-4461-8554-ec119026e7b5
+  rect:
+    serializedVersion: 2
+    x: 4778
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-3752497138474987075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 43d2d882-8d3c-4778-85f2-0fc157750b82
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "He reaches over and pulls out a book with a leather cover. He runs over
+    and shoves the book in front of my face, making me lean back so I don\u2019t
+    crash head-first into the book."
+  controlNode: {fileID: 0}
+  children:
+  - e5bef1dd-f50e-4f9d-bbb1-03ad5972236f
+  rect:
+    serializedVersion: 2
+    x: 6025
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-3752339500604728686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 9138a6e0-1e05-4e29-8365-448c80ff4d07-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 4278
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: c8188c42d5bebc64ba486ebdc109ba6f, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-3678540795392163678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6899800d-e234-464e-aaf7-b2f1de611935
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The doctor sighs, scolding the twins.
+  controlNode: {fileID: 0}
+  children:
+  - bb598c2c-cf75-4c56-8043-295b7e5d4df7
+  rect:
+    serializedVersion: 2
+    x: 12748
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-3674601407652583617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 7ad4045e-1640-4c5c-a4e0-3aac48c4c252
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The twins shift moods, somewhat realizing their mistake.
+  controlNode: {fileID: 0}
+  children:
+  - 1a366ca4-783d-4ae3-85db-1cea5d64d331
+  rect:
+    serializedVersion: 2
+    x: 13248
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-3483238200561092617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 1a366ca4-783d-4ae3-85db-1cea5d64d331-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 13498
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 2
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-3421972512004939388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 934649a2-475e-4d96-8698-ccf0410aaee4
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I shake my head, not feeling bothered by their behavior.\" I\u2019ve known
+    them for years, so I\u2019m used to their antics."
+  controlNode: {fileID: 0}
+  children:
+  - 1979ebdc-f12b-4971-bda2-6601214c0c40
+  rect:
+    serializedVersion: 2
+    x: 13748
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-3028743714763702589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 4db105c9-7684-4666-b6e7-25d00a387120
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I walk out and give them a wave one last time.
+  controlNode: {fileID: 8102382313141446332}
+  children:
+  - 89917178-d664-4c3e-b304-952886a5314d
+  rect:
+    serializedVersion: 2
+    x: 14498
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-2996879079928169439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 85d56e91-af7e-4a4c-93ad-4a529e7bf8d2
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: Leilani, what brings you here at this hour?
+  controlNode: {fileID: 77472238749043024}
+  children:
+  - 5b7e28b9-a319-4c26-9614-5ee4919bad5f
+  rect:
+    serializedVersion: 2
+    x: 529
+    y: 256
+    width: 200
+    height: 200
+--- !u!114 &-2980039094315870835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: bb598c2c-cf75-4c56-8043-295b7e5d4df7
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: "Leilani has her hands full taking care of her grandfather; you two need
+    to be more considerate of her time. She can\u2019t always be playing."
+  controlNode: {fileID: 479205221872478368}
+  children:
+  - 7ad4045e-1640-4c5c-a4e0-3aac48c4c252
+  rect:
+    serializedVersion: 2
+    x: 12998
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-2437918681845231891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 671dc3bc-1f6a-405f-8c45-984ce23f4447
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I heard the doctor let out a sigh as I was pulled into a different room.
+  controlNode: {fileID: -6974878328346192093}
+  children:
+  - 329535ba-972e-4fe8-8bff-2aba0cd1d4bf
+  rect:
+    serializedVersion: 2
+    x: 5526
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-2210290544027163489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 89917178-d664-4c3e-b304-952886a5314d
+  m_EditorClassIdentifier: 
+  characterIndex: 12
+  text: Bye!
+  controlNode: {fileID: 0}
+  children:
+  - 256afc30-cc5d-473b-92c8-ff4945ed16ef
+  rect:
+    serializedVersion: 2
+    x: 14748
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-1920453617041971783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 1042f0ce-4900-4a0c-b387-260aa82c8ea2-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 4528
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: c8188c42d5bebc64ba486ebdc109ba6f, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-1734063769110578715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: c437cd06-83ce-408f-985e-f5447438a4f4-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 11749
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-1703504942481225790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 3c7a9ec9-704f-41cb-bc21-21ea3664446d
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: The medicine is ready.
+  controlNode: {fileID: 0}
+  children:
+  - 6d98b3c6-0823-431c-affd-06330e57aa4e
+  rect:
+    serializedVersion: 2
+    x: 8022
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-1554646232410195572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 158c1610-d74e-4516-9f96-3cf66840c235
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Thank you for everything.
+  controlNode: {fileID: -8358179474261321645}
+  children:
+  - 64595cf2-2ef2-45bf-8274-e3f47e736ddf
+  rect:
+    serializedVersion: 2
+    x: 10748
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &-1474737901102954653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 1a366ca4-783d-4ae3-85db-1cea5d64d331
+  m_EditorClassIdentifier: 
+  characterIndex: 12
+  text: Sorry
+  controlNode: {fileID: -3483238200561092617}
+  children:
+  - 934649a2-475e-4d96-8698-ccf0410aaee4
+  rect:
+    serializedVersion: 2
+    x: 13498
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-1287232653418658640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 4bc23bf5-d773-44c7-903a-81a88bcbb634-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 6776
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &-1090617318908839632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 4bc23bf5-d773-44c7-903a-81a88bcbb634
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: Grimoire of the Hidden Forest?
+  controlNode: {fileID: -1287232653418658640}
+  children:
+  - c59eebb2-b746-47ea-869c-f9a390d46e83
+  rect:
+    serializedVersion: 2
+    x: 6776
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-1037854885550068875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 256afc30-cc5d-473b-92c8-ff4945ed16ef
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The twins wave frantically as the doctor gives me a small wave." I turn back
+    and start my journey back home.
+  controlNode: {fileID: 0}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 14998
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-980144864657616536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0b92c8f5-55b3-4527-b61b-84c7fbdca2f3
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Thank you very much.
+  controlNode: {fileID: 0}
+  children:
+  - ebf6ec2f-f27e-4f72-9b37-0d2041550a67
+  rect:
+    serializedVersion: 2
+    x: 8498
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &-515479866307278344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: e2049192-8007-4f43-b2e9-8efce858cee4
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: Daisy lets me go and stands in front of me with her brother by her side."
+    My smile slightly drops as I shake my head.
+  controlNode: {fileID: 0}
+  children:
+  - 4d6a65b5-ae9b-4525-8cee-374b16507ce9
+  rect:
+    serializedVersion: 2
+    x: 3028
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &-410788483814652940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 5b7e28b9-a319-4c26-9614-5ee4919bad5f
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: I need more medicine for my grandpa.
+  controlNode: {fileID: 0}
+  children:
+  - 242cd20f-29e4-4717-a538-0bb757dd7d71
+  rect:
+    serializedVersion: 2
+    x: 779
+    y: 256
+    width: 200
+    height: 200
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d245974386522694baaa77f303c49152, type: 3}
+  m_Name: WalkToDoctor
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 42822880987048996}
+  - {fileID: 3304521985223981027}
+  - {fileID: -2996879079928169439}
+  - {fileID: -410788483814652940}
+  - {fileID: 9078028931162599323}
+  - {fileID: -7969823645982666545}
+  - {fileID: -8072203597572887736}
+  - {fileID: 7314483630790502662}
+  - {fileID: 6285575935754116193}
+  - {fileID: 5560999056886800768}
+  - {fileID: 2869474219857359659}
+  - {fileID: -5795352285295548604}
+  - {fileID: -515479866307278344}
+  - {fileID: -5955176918011210267}
+  - {fileID: -5243766108585622245}
+  - {fileID: -4577004079109480572}
+  - {fileID: 7493713738305011359}
+  - {fileID: -4770820251987133067}
+  - {fileID: 4624765075737192310}
+  - {fileID: -3827734053230798643}
+  - {fileID: 3929311096729393127}
+  - {fileID: -7298691147332726171}
+  - {fileID: -2437918681845231891}
+  - {fileID: -8565362284851361720}
+  - {fileID: -3752497138474987075}
+  - {fileID: 4215169540776355096}
+  - {fileID: 7681476608111664435}
+  - {fileID: -1090617318908839632}
+  - {fileID: 8228199998788022844}
+  - {fileID: 3390996204939071934}
+  - {fileID: -7225078586144292764}
+  - {fileID: 3204355334772511048}
+  - {fileID: -1703504942481225790}
+  - {fileID: -4470628808423487321}
+  - {fileID: -980144864657616536}
+  - {fileID: 4430200998600353335}
+  - {fileID: -7461354207816881620}
+  - {fileID: 876774857857009676}
+  - {fileID: 1891727792700540093}
+  - {fileID: 1322007335042519725}
+  - {fileID: 8939234524039486214}
+  - {fileID: 7210212609299277974}
+  - {fileID: -9027730906515477286}
+  - {fileID: -1554646232410195572}
+  - {fileID: 4377066228619580483}
+  - {fileID: 7813980687691261874}
+  - {fileID: 8889321853328013424}
+  - {fileID: -7236050937322948661}
+  - {fileID: 1240397733079258171}
+  - {fileID: 1641570355034668240}
+  - {fileID: 1792104230464285471}
+  - {fileID: -3678540795392163678}
+  - {fileID: -2980039094315870835}
+  - {fileID: -3674601407652583617}
+  - {fileID: -1474737901102954653}
+  - {fileID: -3421972512004939388}
+  - {fileID: -5411363075280808203}
+  - {fileID: 2947615322103901053}
+  - {fileID: -3028743714763702589}
+  - {fileID: -2210290544027163489}
+  - {fileID: -1037854885550068875}
+  background: {fileID: 0}
+  newNodeOffset: {x: 250, y: 0}
+  newControlNodeOffset: {x: 0, y: 200}
+--- !u!114 &42822880987048996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 3fbed8e2-b4aa-454d-a75d-5e87f647fe0d
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The walk was short, and there were benefits to living so close to the doctor's
+    house
+  controlNode: {fileID: 0}
+  children:
+  - 7026a8ed-f460-443e-a9f0-bd3bf523bab2
+  rect:
+    serializedVersion: 2
+    x: 41
+    y: 256
+    width: 200
+    height: 200
+--- !u!114 &77472238749043024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 85d56e91-af7e-4a4c-93ad-4a529e7bf8d2-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 529
+    y: 456
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: c8188c42d5bebc64ba486ebdc109ba6f, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &479205221872478368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: bb598c2c-cf75-4c56-8043-295b7e5d4df7-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 12998
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: c8188c42d5bebc64ba486ebdc109ba6f, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &876774857857009676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 89283ad3-c4ac-43c3-9748-5b15ef356023
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The doctor smiles
+  controlNode: {fileID: 0}
+  children:
+  - 03bd0678-41b3-41d8-acb1-dd17b4c173b3
+  rect:
+    serializedVersion: 2
+    x: 9248
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &1240397733079258171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 3edc18f2-f8ec-408c-90d8-e1816ae495d9
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I felt guilty; I did tell them we could play, but I was so consumed by the
+    book that I forgot.
+  controlNode: {fileID: 0}
+  children:
+  - e2ed53ad-6e94-475a-bcae-cd01294bcec6
+  rect:
+    serializedVersion: 2
+    x: 11999
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &1322007335042519725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 25aa08f1-87e3-417e-92d3-b97bb9025c04
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The doctor says in a lighthearted tone, letting out a chuckle as I smile
+    back." Placing the book inside my bag next to the medicine
+  controlNode: {fileID: 0}
+  children:
+  - 257bbc9e-9dee-4a94-8b9e-c03b3f0fab79
+  rect:
+    serializedVersion: 2
+    x: 9748
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &1641570355034668240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: e2ed53ad-6e94-475a-bcae-cd01294bcec6
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: We can play next time, I promise.
+  controlNode: {fileID: 0}
+  children:
+  - 4f706f22-fbe0-4704-a0d6-90e3c3daef4c
+  rect:
+    serializedVersion: 2
+    x: 12249
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &1792104230464285471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 4f706f22-fbe0-4704-a0d6-90e3c3daef4c
+  m_EditorClassIdentifier: 
+  characterIndex: 7
+  text: But when is the next time?
+  controlNode: {fileID: -5082479636043613032}
+  children:
+  - 6899800d-e234-464e-aaf7-b2f1de611935
+  rect:
+    serializedVersion: 2
+    x: 12499
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &1891727792700540093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 03bd0678-41b3-41d8-acb1-dd17b4c173b3
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: Of course. Did it catch your attention as well? I originally bought the book
+    for myself from a wandering merchant in the village. I brought it home to read
+    it in my free time, but the kids seem to have claimed it as their own.
+  controlNode: {fileID: 0}
+  children:
+  - 25aa08f1-87e3-417e-92d3-b97bb9025c04
+  rect:
+    serializedVersion: 2
+    x: 9498
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &1944065080146697161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 675ee6d8-b96b-4acd-9ed0-26d819618ac8-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 2778
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 2
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &2500244550999415434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: a35c9c2c-f4ea-4cb1-981a-960489b103d6-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 4778
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 2
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &2869474219857359659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9aac663c-410b-4518-8e9f-064db562ebb2
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I hug Daisy back, laughing together as Luke, Daisy\u2019s twin brother,
+    runs in."
+  controlNode: {fileID: 0}
+  children:
+  - 675ee6d8-b96b-4acd-9ed0-26d819618ac8
+  rect:
+    serializedVersion: 2
+    x: 2514
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &2947615322103901053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9f935e68-ef03-4bcd-b3e2-dc552bec7171
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I hope he does," I thought to myself, clutching the strap on my bag tightly.
+    The twins perked up at the thought of us playing until sundown.
+  controlNode: {fileID: 0}
+  children:
+  - 4db105c9-7684-4666-b6e7-25d00a387120
+  rect:
+    serializedVersion: 2
+    x: 14248
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &3204355334772511048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9d023586-d918-4b08-af50-70a043442824
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The suddenness of the doctor's voice caused me to jump. I looked up from
+    my book and saw the doctor standing there with a bottle in hand.
+  controlNode: {fileID: 0}
+  children:
+  - 3c7a9ec9-704f-41cb-bc21-21ea3664446d
+  rect:
+    serializedVersion: 2
+    x: 7772
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &3304521985223981027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 7026a8ed-f460-443e-a9f0-bd3bf523bab2
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I knocked on his door before moving a few steps away from it. It only took
+    a couple of minutes before the door opened.
+  controlNode: {fileID: 0}
+  children:
+  - 85d56e91-af7e-4a4c-93ad-4a529e7bf8d2
+  rect:
+    serializedVersion: 2
+    x: 279
+    y: 256
+    width: 200
+    height: 200
+--- !u!114 &3390996204939071934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6a34167c-3418-47d1-a61f-1567adc9fefb
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The twins crowded around me to see the book. I stop on a page with a picture
+    of a pretty white flower. At the top of the page, in cursive letters, it read
+    \"Glowing Moon Lilly\" is said to cure any illness or sickness. I looked at the
+    next page. It has a picture of a location circled on it. My eyes widen. \"It\u2019s
+    right outside the village..right in the forest.\""
+  controlNode: {fileID: 0}
+  children:
+  - 19c3b9ce-aef1-4a30-808d-a89cf9daf16e
+  rect:
+    serializedVersion: 2
+    x: 7276
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &3929311096729393127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 7934c433-b51f-4461-8554-ec119026e7b5
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The Twins instantly perk up at the mention of playing. Daisy quickly grabs
+    my hand and pulls me further into the house.
+  controlNode: {fileID: 0}
+  children:
+  - 8b8d2d72-1c77-4c49-9b72-3257a6a43234
+  rect:
+    serializedVersion: 2
+    x: 5028
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &4215169540776355096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: e5bef1dd-f50e-4f9d-bbb1-03ad5972236f
+  m_EditorClassIdentifier: 
+  characterIndex: 7
+  text: This is the book!
+  controlNode: {fileID: -7358883038076710856}
+  children:
+  - 9f7919b3-8ab3-4879-87cc-79c4dee1e2db
+  rect:
+    serializedVersion: 2
+    x: 6275
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &4377066228619580483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 64595cf2-2ef2-45bf-8274-e3f47e736ddf
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The doctor smiles and gives me a pat on the head.
+  controlNode: {fileID: 0}
+  children:
+  - 6fc019ef-f012-4747-8ea3-40da4edc56c4
+  rect:
+    serializedVersion: 2
+    x: 10998
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &4430200998600353335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: ebf6ec2f-f27e-4f72-9b37-0d2041550a67
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I grab the book again and as I was about to hand it back to the doctor, I
+    hesitate, staring down at the book. This strange feeling in my gut appears. "What
+    if the flower is real?" I look up at the doctor.
+  controlNode: {fileID: 0}
+  children:
+  - 1ed2ccf8-40a8-4751-8ccb-78c36a8827e5
+  rect:
+    serializedVersion: 2
+    x: 8748
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &4624765075737192310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 1042f0ce-4900-4a0c-b387-260aa82c8ea2
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The pair groan, making me feel bad. I quickly think of something.
+  controlNode: {fileID: -1920453617041971783}
+  children:
+  - a35c9c2c-f4ea-4cb1-981a-960489b103d6
+  rect:
+    serializedVersion: 2
+    x: 4528
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &4728515490048032080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: d7a0b9b6-540b-4e25-9597-aa8bc04d7372-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 4036
+    y: 455
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &5554557009003845487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 8d1e03ab-a58f-48ce-94a2-fba0f19fca59-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 1779
+    y: 456
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &5560999056886800768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: db6447d3-c8c5-46ae-906d-f9b858991028
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "Daisy!  It\u2019s so nice to see you."
+  controlNode: {fileID: 0}
+  children:
+  - 9aac663c-410b-4518-8e9f-064db562ebb2
+  rect:
+    serializedVersion: 2
+    x: 2264
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &6285575935754116193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: b89a83ba-ca0c-4b4c-af8d-ccf4a7391b0f
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: Daisy runs in first and hugs me; the suddenness of it makes me stumble back.
+  controlNode: {fileID: 0}
+  children:
+  - db6447d3-c8c5-46ae-906d-f9b858991028
+  rect:
+    serializedVersion: 2
+    x: 2029
+    y: 256
+    width: 200
+    height: 200
+--- !u!114 &7210212609299277974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: e1d12d69-529d-4572-8658-747d2b4c8820
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: Yes, of course.
+  controlNode: {fileID: 0}
+  children:
+  - 606eeab9-8564-4006-a79f-dd730d52ac6b
+  rect:
+    serializedVersion: 2
+    x: 10248
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &7314483630790502662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8d1e03ab-a58f-48ce-94a2-fba0f19fca59
+  m_EditorClassIdentifier: 
+  characterIndex: 1
+  text: Leilani!
+  controlNode: {fileID: 5554557009003845487}
+  children:
+  - b89a83ba-ca0c-4b4c-af8d-ccf4a7391b0f
+  rect:
+    serializedVersion: 2
+    x: 1779
+    y: 256
+    width: 200
+    height: 200
+--- !u!114 &7392327776076231104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 19c3b9ce-aef1-4a30-808d-a89cf9daf16e-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 7522
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: c8188c42d5bebc64ba486ebdc109ba6f, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &7493713738305011359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d7a0b9b6-540b-4e25-9597-aa8bc04d7372
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: Before I could say anything, the doctor cleared his throat, grabbing our
+    attention.
+  controlNode: {fileID: 4728515490048032080}
+  children:
+  - 9138a6e0-1e05-4e29-8365-448c80ff4d07
+  rect:
+    serializedVersion: 2
+    x: 4036
+    y: 255
+    width: 200
+    height: 200
+--- !u!114 &7681476608111664435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9f7919b3-8ab3-4879-87cc-79c4dee1e2db
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I reach over and grab it, reading the title.
+  controlNode: {fileID: 0}
+  children:
+  - 4bc23bf5-d773-44c7-903a-81a88bcbb634
+  rect:
+    serializedVersion: 2
+    x: 6526
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &7813980687691261874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6fc019ef-f012-4747-8ea3-40da4edc56c4
+  m_EditorClassIdentifier: 
+  characterIndex: 10
+  text: "No need to thank me; you\u2019ve become a part of the family, so if you
+    ever need anything, do let me know"
+  controlNode: {fileID: 0}
+  children:
+  - 8d9d927e-33ed-46c6-b244-9cb42ac67506
+  rect:
+    serializedVersion: 2
+    x: 11249
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &8102382313141446332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 4db105c9-7684-4666-b6e7-25d00a387120-CONTROL
+  m_EditorClassIdentifier: 
+  rect:
+    serializedVersion: 2
+    x: 14498
+    y: 457
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49d89e4062adfbb45a3d4b0d1d521836, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+--- !u!114 &8228199998788022844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c59eebb2-b746-47ea-869c-f9a390d46e83
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "\"I\u2019ve never heard of this book before,\" I thought before I began
+    to flip through the pages."
+  controlNode: {fileID: 0}
+  children:
+  - 6a34167c-3418-47d1-a61f-1567adc9fefb
+  rect:
+    serializedVersion: 2
+    x: 7026
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &8889321853328013424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8d9d927e-33ed-46c6-b244-9cb42ac67506
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The twins whine as the doctor opens the door for me to leave.
+  controlNode: {fileID: 0}
+  children:
+  - c437cd06-83ce-408f-985e-f5447438a4f4
+  rect:
+    serializedVersion: 2
+    x: 11499
+    y: 257
+    width: 200
+    height: 200
+--- !u!114 &8939234524039486214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 257bbc9e-9dee-4a94-8b9e-c03b3f0fab79
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: I should probably head back and give my grandpa his medicine.
+  controlNode: {fileID: 0}
+  children:
+  - e1d12d69-529d-4572-8658-747d2b4c8820
+  rect:
+    serializedVersion: 2
+    x: 9998
+    y: 258
+    width: 200
+    height: 200
+--- !u!114 &9078028931162599323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 242cd20f-29e4-4717-a538-0bb757dd7d71
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I heard the doctor hum in response. He smiles and moves to the side of the
+    door, giving me room to enter
+  controlNode: {fileID: 0}
+  children:
+  - 923e9859-4720-41cc-a413-2be929d6eec7
+  rect:
+    serializedVersion: 2
+    x: 1029
+    y: 256
+    width: 200
+    height: 200
