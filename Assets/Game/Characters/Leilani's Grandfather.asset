@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61834895a4d90054d8b0b33eb7ee220a, type: 3}
   m_Name: Leilani's Grandfather
   m_EditorClassIdentifier: 
+  undiscoveredName: 
   characterName: Leilani's Grandfather
-  sprite: {fileID: 21300000, guid: 395f6b9556f14704790df6035be6ee3a, type: 3}
+  sprite: {fileID: 21300000, guid: ce5312ab2e923904984799f24bc9d621, type: 3}
