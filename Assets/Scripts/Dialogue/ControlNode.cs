@@ -7,9 +7,19 @@ using UnityEngine;
 namespace Nanoreno.Dialogue
 {
     [System.Serializable]
+    public enum Emotion
+    {
+        Happy,
+        Sad,
+        Pensive,
+        Angry
+    }
+
+    [System.Serializable]
     public class CharacterPosition
     {
         public Character character;
+        public Emotion emotion;
         public SpritePosition screenPosition;
         public int customPercentage;
     }
