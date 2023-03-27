@@ -23,6 +23,41 @@ MonoBehaviour:
     y: 281
     width: 200
     height: 200
+--- !u!114 &-6627241823890838377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: b9140ba3-d376-4434-b797-158c14ec7d6e-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 1973024389569920409}
+  rect:
+    serializedVersion: 2
+    x: 524
+    y: 481
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: d9e5bde58da747b4b960f1b6ec67cca1, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-6248229669667063664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,6 +70,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: c7779627-347a-43b2-a631-4eabc0aaba45-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 7648497342689869386}
   rect:
     serializedVersion: 2
     x: 46
@@ -42,9 +79,12 @@ MonoBehaviour:
     width: 200
     height: 300
   characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
-  BGM: {fileID: 0}
+  BGM: {fileID: 8300000, guid: 079f0c18411336641a007458d7b2f97c, type: 3}
   SFX: {fileID: 0}
+  clearCharacters: 1
 --- !u!114 &-6227244996708150437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,6 +144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: cf9775df-2228-4be2-a78f-6e177a5ff2e3-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 8141041807639551686}
   rect:
     serializedVersion: 2
     x: 3483
@@ -119,9 +161,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-4452271852741416679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,36 +215,6 @@ MonoBehaviour:
     y: 281
     width: 200
     height: 200
---- !u!114 &-2825112320136266740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
-  m_Name: d7acd32c-8fc8-4060-a61e-f6b3350b8437-CONTROL
-  m_EditorClassIdentifier: 
-  rect:
-    serializedVersion: 2
-    x: 1512
-    y: 481
-    width: 200
-    height: 300
-  characterPositions:
-  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
-    emotion: 0
-    screenPosition: 1
-    customPercentage: 0
-  - character: {fileID: 11400000, guid: d9e5bde58da747b4b960f1b6ec67cca1, type: 2}
-    emotion: 0
-    screenPosition: 3
-    customPercentage: 0
-  backgroundImage: {fileID: 0}
-  BGM: {fileID: 0}
-  SFX: {fileID: 0}
 --- !u!114 &-2238569611123443077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,7 +253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 5
   text: "I\u2019ll be okay, Leilani. Don\u2019t worry about your old man."
-  controlNode: {fileID: -2825112320136266740}
+  controlNode: {fileID: 1973024389569920409}
   children:
   - 9f9ed73b-dd21-4f05-beb1-5a610b05d55f
   rect:
@@ -261,13 +276,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 4
   text: "I'm going to go get you more medicine. I\u2019ll be back, Grandpa."
-  controlNode: {fileID: 1320555812690942525}
+  controlNode: {fileID: 0}
   children:
   - 84ae55ec-df60-4e92-9c7a-ba932d8d5d21
   rect:
     serializedVersion: 2
-    x: 2262
-    y: 281
+    x: 2270
+    y: 280
     width: 200
     height: 200
 --- !u!114 &-311112559465910614
@@ -284,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 0
   text: "I can\u2019t help but worry when I stare at my grandpa\u2019s face."
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -6627241823890838377}
   children:
   - 0505e3cd-9d8b-4e1b-a182-dd1a712a0dc0
   rect:
@@ -402,7 +417,7 @@ MonoBehaviour:
     y: 281
     width: 200
     height: 200
---- !u!114 &1320555812690942525
+--- !u!114 &1973024389569920409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -412,11 +427,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
-  m_Name: 360d7f7d-f8de-4775-b61e-c608c3bda773-CONTROL
+  m_Name: d7acd32c-8fc8-4060-a61e-f6b3350b8437-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -5570293656887902311}
   rect:
     serializedVersion: 2
-    x: 2262
+    x: 1512
     y: 481
     width: 200
     height: 300
@@ -429,9 +446,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &2628315190604843083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,6 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: c14cd409-9e49-4f61-aa4a-4c9b93653faa-CONTROL
   m_EditorClassIdentifier: 
+  children: []
   rect:
     serializedVersion: 2
     x: 4983
@@ -479,9 +500,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &4530651788067258205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,6 +612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: e9bf9981-ff14-4edb-bb26-e9a4090f8e9c-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -6627241823890838377}
   rect:
     serializedVersion: 2
     x: 274
@@ -603,9 +629,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &7670296446840769686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,6 +694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: cc699d1d-5293-4855-8cb2-4413e86062b9-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 4341367191805405036}
   rect:
     serializedVersion: 2
     x: 4233
@@ -676,9 +707,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 2
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &8587959438709624898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,6 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: c7779627-347a-43b2-a631-4eabc0aaba45-CONTROL
   m_EditorClassIdentifier: 
+  children: []
   rect:
     serializedVersion: 2
     x: 46
@@ -698,9 +733,12 @@ MonoBehaviour:
     width: 200
     height: 300
   characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &8596530986760777394
 MonoBehaviour:
   m_ObjectHideFlags: 0

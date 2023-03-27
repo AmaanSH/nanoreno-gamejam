@@ -36,6 +36,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 606eeab9-8564-4006-a79f-dd730d52ac6b-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -8358179474261321645}
   rect:
     serializedVersion: 2
     x: 10498
@@ -51,9 +53,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-8565362284851361720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,6 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 158c1610-d74e-4516-9f96-3cf66840c235-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -1734063769110578715}
   rect:
     serializedVersion: 2
     x: 10748
@@ -104,9 +111,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-8072203597572887736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: e5bef1dd-f50e-4f9d-bbb1-03ad5972236f-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -1287232653418658640}
   rect:
     serializedVersion: 2
     x: 6275
@@ -205,9 +217,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-7298691147332726171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +304,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 671dc3bc-1f6a-405f-8c45-984ce23f4447-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -7358883038076710856}
   rect:
     serializedVersion: 2
     x: 5526
@@ -304,9 +321,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-6717573370171557898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,6 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 8b8d2d72-1c77-4c49-9b72-3257a6a43234-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -6974878328346192093}
   rect:
     serializedVersion: 2
     x: 5276
@@ -338,9 +360,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-5955176918011210267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,6 +471,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 4f706f22-fbe0-4704-a0d6-90e3c3daef4c-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 479205221872478368}
   rect:
     serializedVersion: 2
     x: 12499
@@ -461,9 +488,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-4770820251987133067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,7 +514,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 4278
-    y: 257
+    y: 255
     width: 200
     height: 200
 --- !u!114 &-4577004079109480572
@@ -554,7 +584,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 4778
-    y: 257
+    y: 255
     width: 200
     height: 200
 --- !u!114 &-3752497138474987075
@@ -594,10 +624,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 9138a6e0-1e05-4e29-8365-448c80ff4d07-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -1920453617041971783}
   rect:
     serializedVersion: 2
     x: 4278
-    y: 457
+    y: 455
     width: 200
     height: 300
   characterPositions:
@@ -609,9 +641,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-3678540795392163678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -670,6 +705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 1a366ca4-783d-4ae3-85db-1cea5d64d331-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 8102382313141446332}
   rect:
     serializedVersion: 2
     x: 13498
@@ -689,9 +726,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-3421972512004939388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -844,10 +884,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 1042f0ce-4900-4a0c-b387-260aa82c8ea2-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 2500244550999415434}
   rect:
     serializedVersion: 2
-    x: 4528
-    y: 457
+    x: 4526
+    y: 455
     width: 200
     height: 300
   characterPositions:
@@ -859,9 +901,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-1734063769110578715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,6 +919,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: c437cd06-83ce-408f-985e-f5447438a4f4-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -5082479636043613032}
   rect:
     serializedVersion: 2
     x: 11749
@@ -889,9 +936,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-1703504942481225790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,6 +1023,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 4bc23bf5-d773-44c7-903a-81a88bcbb634-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 7392327776076231104}
   rect:
     serializedVersion: 2
     x: 6776
@@ -988,9 +1040,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &-1090617318908839632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1199,7 +1254,7 @@ MonoBehaviour:
   characterIndex: 0
   text: The walk was short, and there were benefits to living so close to the doctor's
     house
-  controlNode: {fileID: 0}
+  controlNode: {fileID: 4273466107107170610}
   children:
   - 7026a8ed-f460-443e-a9f0-bd3bf523bab2
   rect:
@@ -1220,6 +1275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 85d56e91-af7e-4a4c-93ad-4a529e7bf8d2-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 1944065080146697161}
   rect:
     serializedVersion: 2
     x: 529
@@ -1235,9 +1292,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &479205221872478368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1250,6 +1310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: bb598c2c-cf75-4c56-8043-295b7e5d4df7-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -3483238200561092617}
   rect:
     serializedVersion: 2
     x: 12998
@@ -1265,9 +1327,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &876774857857009676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,6 +1487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 675ee6d8-b96b-4acd-9ed0-26d819618ac8-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: 4728515490048032080}
   rect:
     serializedVersion: 2
     x: 2778
@@ -1441,9 +1508,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &2500244550999415434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1456,10 +1526,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: a35c9c2c-f4ea-4cb1-981a-960489b103d6-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -6717573370171557898}
   rect:
     serializedVersion: 2
     x: 4778
-    y: 457
+    y: 455
     width: 200
     height: 300
   characterPositions:
@@ -1475,9 +1547,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &2869474219857359659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1648,6 +1723,33 @@ MonoBehaviour:
     y: 257
     width: 200
     height: 200
+--- !u!114 &4273466107107170610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 3fbed8e2-b4aa-454d-a75d-5e87f647fe0d-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 77472238749043024}
+  rect:
+    serializedVersion: 2
+    x: 41
+    y: 456
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 8300000, guid: 079f0c18411336641a007458d7b2f97c, type: 3}
+  SFX: {fileID: 0}
+  clearCharacters: 1
 --- !u!114 &4377066228619580483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1715,8 +1817,8 @@ MonoBehaviour:
   - a35c9c2c-f4ea-4cb1-981a-960489b103d6
   rect:
     serializedVersion: 2
-    x: 4528
-    y: 257
+    x: 4526
+    y: 255
     width: 200
     height: 200
 --- !u!114 &4728515490048032080
@@ -1731,6 +1833,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: d7a0b9b6-540b-4e25-9597-aa8bc04d7372-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -3752339500604728686}
   rect:
     serializedVersion: 2
     x: 4036
@@ -1750,39 +1854,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
---- !u!114 &5554557009003845487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
-  m_Name: 8d1e03ab-a58f-48ce-94a2-fba0f19fca59-CONTROL
-  m_EditorClassIdentifier: 
-  rect:
-    serializedVersion: 2
-    x: 1779
-    y: 456
-    width: 200
-    height: 300
-  characterPositions:
-  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
-    emotion: 0
-    screenPosition: 1
-    customPercentage: 0
-  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
-    emotion: 0
-    screenPosition: 3
-    customPercentage: 0
-  backgroundImage: {fileID: 0}
-  BGM: {fileID: 0}
-  SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &5560999056886800768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1866,7 +1943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 1
   text: Leilani!
-  controlNode: {fileID: 5554557009003845487}
+  controlNode: {fileID: 0}
   children:
   - b89a83ba-ca0c-4b4c-af8d-ccf4a7391b0f
   rect:
@@ -1887,6 +1964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 19c3b9ce-aef1-4a30-808d-a89cf9daf16e-CONTROL
   m_EditorClassIdentifier: 
+  children:
+  - {fileID: -8988021810621584226}
   rect:
     serializedVersion: 2
     x: 7522
@@ -1902,9 +1981,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &7493713738305011359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1988,6 +2070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
   m_Name: 4db105c9-7684-4666-b6e7-25d00a387120-CONTROL
   m_EditorClassIdentifier: 
+  children: []
   rect:
     serializedVersion: 2
     x: 14498
@@ -2007,9 +2090,12 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
+  clearCharacters: 0
 --- !u!114 &8228199998788022844
 MonoBehaviour:
   m_ObjectHideFlags: 0
