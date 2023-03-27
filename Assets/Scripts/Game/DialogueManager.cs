@@ -127,6 +127,11 @@ namespace Nanoreno.Game
 
                 SaveState.lastControlNodeId = controlNode.name;
 
+                if (controlNode.clearCharacters)
+                {
+                    characterPanel.ClearAllSlots();
+                }
+
                 foreach (CharacterPosition characterPosition in controlNode.GetCharacterPositions())
                 {
                     characterPanel.PlaceCharacterInSlot(characterPosition.screenPosition, characterPosition.character);

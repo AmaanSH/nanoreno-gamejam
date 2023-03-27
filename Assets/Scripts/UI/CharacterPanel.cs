@@ -74,6 +74,14 @@ namespace Nanoreno.UI
             return characterHolders.Find(x => x.position == position);
         }
 
+        public void ClearAllSlots()
+        {
+            foreach(CharacterHolder holder in characterHolders)
+            {
+                RemoveHolder(holder);
+            }
+        }
+
         public void PlaceCharacterInSlot(SpritePosition position, Character character, int percentage = 0)
         {
             CharacterHolder currentHolder = GetHolderWithCharacter(character.GetName());

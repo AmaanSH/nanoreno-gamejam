@@ -42,7 +42,11 @@ namespace Nanoreno.Game
             dialogeManager.SetChapter(currentChapter);
 
             DialogueNode node = dialogeManager.FindNodeWithUniqueId(SaveState.textUniqueId);
-            dialogeManager.SetNode(node);
+
+            if (node != null) 
+            {
+                dialogeManager.SetNode(node);
+            }
 
             if (!string.IsNullOrEmpty(SaveState.lastControlNodeId))
             {

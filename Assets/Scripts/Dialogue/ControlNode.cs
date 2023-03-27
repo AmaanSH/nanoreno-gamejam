@@ -24,17 +24,37 @@ namespace Nanoreno.Dialogue
         public int customPercentage;
     }
 
+    [System.Serializable]
+    public class LayerAudio
+    {
+        //public int layer = 0;
+        public AudioClip audioClip;
+    }
+
+    [System.Serializable]
+    public enum ScreenEffect
+    {
+        None,
+        Shake
+    }
+
     public class ControlNode : ScriptableObject
     {
+        [SerializeField]
+        private List<ControlNode> children = new List<ControlNode>();
+
         [SerializeField]
         Rect rect = new Rect(0, 0, 200, 300);
 
         public List<CharacterPosition> characterPositions = new List<CharacterPosition>();
+        public List<LayerAudio> layeredAudio = new List<LayerAudio>();
 
+        public ScreenEffect screenEffect;
         public Sprite backgroundImage;
 
         public AudioClip BGM;
         public AudioClip SFX;
+        public bool clearCharacters = false;
 
         public IEnumerable<CharacterPosition> GetCharacterPositions()
         {
@@ -51,6 +71,25 @@ namespace Nanoreno.Dialogue
         {
             Undo.RecordObject(this, "Move Control Node");
             rect.position = newPosition;
+            EditorUtility.SetDirty(this);
+        }
+
+        public List<ControlNode> GetChildren()
+        {
+            return children;
+        }
+
+        public void AddChild(ControlNode child)
+        {
+            Undo.RecordObject(this, "Add Control Node Link");
+            children.Add(child);
+            EditorUtility.SetDirty(this);
+        }
+
+        public void RemoveChild(ControlNode child)
+        {
+            Undo.RecordObject(this, "Remove Control Node Link");
+            children.Remove(child);
             EditorUtility.SetDirty(this);
         }
 
