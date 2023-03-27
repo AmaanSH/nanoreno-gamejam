@@ -1,0 +1,2894 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9131559689562652005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 942fed10-e8df-4887-93d5-96691e5cd91e
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: How do you know this flower still exists? For all you know, it could be made
+    up.
+  controlNode: {fileID: 0}
+  children:
+  - baab3b9b-2e05-4563-b561-04925e3f76a8
+  rect:
+    serializedVersion: 2
+    x: 21549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-9061577957340510222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8742864f-4fe8-4b47-bd54-37fdc24b7e48
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: It would stop and turn its head to stare down at me; once I was close enough,
+    it would fly off to a branch ahead and wait for me to get close again.
+  controlNode: {fileID: 0}
+  children:
+  - 8e3ccd6b-d16d-4843-9c0b-a34fe16b3d5c
+  rect:
+    serializedVersion: 2
+    x: 9049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-9044263390487978106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 296dd3fc-1e3a-4e67-a094-f64456107a58
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: A pair of paws poke out until they move, the body of a wolf slowly coming
+    out of the bushes. I gasp.
+  controlNode: {fileID: 0}
+  children:
+  - c7c55cf4-42d2-4b1f-a365-54798c125442
+  rect:
+    serializedVersion: 2
+    x: 2549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8985817013754711546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: db8d6a4c-fff4-4ed9-8bda-9d0d237c879d
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: He ignores me and stares up at the owl. It began to hoot, almost as if it
+    were trying to talk; the man simply hummed in response, almost as if he could
+    understand what the owl was saying.
+  controlNode: {fileID: 0}
+  children:
+  - d976b805-500e-4dee-8680-9a6a5723b9f6
+  rect:
+    serializedVersion: 2
+    x: 15805
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8981107182269087603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: ad6e23c6-e05c-4d66-a7f9-2886a845579e
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man was unresponsive. I tried again, this time louder.
+  controlNode: {fileID: 0}
+  children:
+  - 7135da3a-9614-4c39-926c-4320a2c60f1d
+  rect:
+    serializedVersion: 2
+    x: 10805
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8964409997801831823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 809108cc-ce7c-4294-9430-8608461d268a
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man looks at me. I raise my hand to point at the owl resting above him.
+    He looks up. The owl stares right back down.
+  controlNode: {fileID: 0}
+  children:
+  - 66f80224-05fb-488b-98f4-7b8f7702f23d
+  rect:
+    serializedVersion: 2
+    x: 13555
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8742912042326745610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c5a86380-4b52-46c9-a46f-40b0bc1371ca
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The wolf must have left because I didn\u2019t hear anything anymore, just
+    my panting as I tried to catch my breath."
+  controlNode: {fileID: 0}
+  children:
+  - adc4c729-b930-48c2-b7f9-3cfcbeba2843
+  rect:
+    serializedVersion: 2
+    x: 5299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8631824351822557718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: be714de8-4027-4d7f-8537-5a2796ef1e2e
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: It felt like my heart dropped.
+  controlNode: {fileID: 0}
+  children:
+  - 25a2f4ba-dba6-422c-9d70-c7cf2c8cafbb
+  rect:
+    serializedVersion: 2
+    x: 3049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8469561190879544400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 26bab56e-dd52-462a-9c63-19523ac39e0c
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: "I\u2019ll help you look for this flower; if we can\u2019t find it by dawn,
+    I will be taking you home. Is that a deal?"
+  controlNode: {fileID: 0}
+  children:
+  - bfc6ff74-7113-45fe-b6fe-54ccaab46a9a
+  rect:
+    serializedVersion: 2
+    x: 22549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8420538185112552780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8a404b11-4422-47f7-82e3-64dad998c5e0
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The man simply shrugs, throwing the scabbard\u2019s strap over his shoulder."
+  controlNode: {fileID: 0}
+  children:
+  - 9aa2df10-b636-4472-8878-431e0c1c66d5
+  rect:
+    serializedVersion: 2
+    x: 15055
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8156383487781763430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0f74a039-d409-4fd9-a8d1-469c664c8b7e
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I pulled my map from my bag and opened it, showing the man the location marked.
+  controlNode: {fileID: 0}
+  children:
+  - 2b786e5b-8ff5-457a-9f76-e50c636b4fb6
+  rect:
+    serializedVersion: 2
+    x: 20063
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-8147770309114981585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: bfc6ff74-7113-45fe-b6fe-54ccaab46a9a
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I felt a burst of happiness as I quickly nodded my head. The man looks at
+    the owl before walking straight ahead into the rest of the forest.
+  controlNode: {fileID: 0}
+  children:
+  - 28fa43f1-413a-417b-8738-6e4426adfc6a
+  rect:
+    serializedVersion: 2
+    x: 22799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-7975786877085677738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 4c583a99-101a-4d6e-b0f2-625974e2fb34
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I quickly rush to catch up with the man, leaving the owl behind.
+  controlNode: {fileID: 0}
+  children:
+  - 93f1590b-2dca-4b7b-a10e-e2678213184f
+  rect:
+    serializedVersion: 2
+    x: 23299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-7251739858185926560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 611762e2-5c80-4d2b-a051-574651f9eac4
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I shake my head. The man raises his eyebrows, almost surprised. I felt embarrassed.
+  controlNode: {fileID: 0}
+  children:
+  - 65e71182-f3aa-4d69-bbec-9457e3fead1f
+  rect:
+    serializedVersion: 2
+    x: 16805
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-7119211331636819285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 896a5468-fd75-483a-8766-d2cb9ff53833-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: -4525877891770721539}
+  rect:
+    serializedVersion: 2
+    x: 1049
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio:
+  - audioClip: {fileID: 8300000, guid: 27114d5446f441d4da7cb15ebc6e347c, type: 3}
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &-7073565600862223685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d7dd0c23-3cd3-42eb-877d-6692e2fbc1dd
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I looked around; the light of my village was nowhere in sight.
+  controlNode: {fileID: 0}
+  children:
+  - 1da35341-6939-425b-9743-3bce9863b212
+  rect:
+    serializedVersion: 2
+    x: 5799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-7057834499698154095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: addb4b38-c008-4c6b-963a-2e51cf434d70
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I lay at the bottom in pain and fear. too scared to move.
+  controlNode: {fileID: 6745783070515295822}
+  children:
+  - c5a86380-4b52-46c9-a46f-40b0bc1371ca
+  rect:
+    serializedVersion: 2
+    x: 5049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-6945449553786002075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 41deac04-ea96-44fb-afde-c65f2f22d817
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I cut my sentences short.
+  controlNode: {fileID: 947790073298579235}
+  children:
+  - 345b3f83-6bef-4017-a98b-a04e0a5e9172
+  rect:
+    serializedVersion: 2
+    x: 1549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-6860883217124192507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 35192cc5-f32f-4fc5-9426-df5d8fba428d
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The owl simply answered with a hoot before turning around and flying to a
+    branch ahead.
+  controlNode: {fileID: 0}
+  children:
+  - 81634211-0882-444c-a6f5-39313fdd01d1
+  rect:
+    serializedVersion: 2
+    x: 8299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-6823420703348020024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8e3ccd6b-d16d-4843-9c0b-a34fe16b3d5c
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I don\u2019t know how long I was following the owl, but it finally reached
+    its destination."
+  controlNode: {fileID: 0}
+  children:
+  - d62c6a05-ce78-4506-b640-47a7d68ff776
+  rect:
+    serializedVersion: 2
+    x: 9299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-6678010771521669470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0671bc5c-98fc-4262-bb1d-dab0fe0dc919
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: If you think running away from the only help you have will do you any good,
+    then by all means run. But if you want a way out, then you have to stay.
+  controlNode: {fileID: 0}
+  children:
+  - 16c629d7-d4cf-4d24-afe0-e3e5b2145fc0
+  rect:
+    serializedVersion: 2
+    x: 17805
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-6494840781721928630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: e264aa44-e6a9-4ac3-b614-d16ca41ca269
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "I should still be at the entrance of the forest; once I get deeper, I\u2019ll
+    try to find a place to settle down and check the map again."
+  controlNode: {fileID: 0}
+  children:
+  - 896a5468-fd75-483a-8766-d2cb9ff53833
+  rect:
+    serializedVersion: 2
+    x: 799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-6172031846945821627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c7c55cf4-42d2-4b1f-a365-54798c125442
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "Grandpa told me the villagers spotted some in the forest, but I didn\u2019t
+    think I would come across any of them right away"
+  controlNode: {fileID: 0}
+  children:
+  - be714de8-4027-4d7f-8537-5a2796ef1e2e
+  rect:
+    serializedVersion: 2
+    x: 2799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-6079556949780140374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: dd19543f-4bc8-4452-ac94-1e63722e2cec
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I watch as the man starts to get up. I try to move further, but the tree
+    prevents me from doing so, so I begin to move to the side. The man notices my
+    wariness.
+  controlNode: {fileID: 0}
+  children:
+  - 5eeece58-f46b-40e4-9768-43bdeecceea4
+  rect:
+    serializedVersion: 2
+    x: 14055
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-5510643515691675454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 1da35341-6939-425b-9743-3bce9863b212
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I let out a shaky breath as my body began to tremble.
+  controlNode: {fileID: -4063809202825011608}
+  children:
+  - eb985e40-adfd-4337-9292-659aefffd374
+  rect:
+    serializedVersion: 2
+    x: 6049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-5450225473119980501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a42f0cf3-4bc6-44b6-83c0-d04d9aff84a5
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The man stares at me, almost as if he\u2019s deep in thought. I shifted
+    around, uncomfortable by his gaze. It wasn\u2019t long before he sighed. crossing
+    his arms."
+  controlNode: {fileID: 0}
+  children:
+  - 26bab56e-dd52-462a-9c63-19523ac39e0c
+  rect:
+    serializedVersion: 2
+    x: 22299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-5441038322373266210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c3d4325f-d2c3-43f7-b135-9cfbe6aa9171
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "It doesn\u2019t matter; I have to at least try. It\u2019s the only hope
+    I have for curing my grandpa of his illness."
+  controlNode: {fileID: 0}
+  children:
+  - a42f0cf3-4bc6-44b6-83c0-d04d9aff84a5
+  rect:
+    serializedVersion: 2
+    x: 22049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-5189626089343012902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 68040c6b-42dd-4117-ad57-737830974712
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Why do you have a sword?
+  controlNode: {fileID: 0}
+  children:
+  - 8a404b11-4422-47f7-82e3-64dad998c5e0
+  rect:
+    serializedVersion: 2
+    x: 14805
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-4941032962697195185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: aba3bc5a-e55b-4e90-ae83-b947088bef71
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man leans in, getting a closer look; the moon is doing a poor job at
+    illuminating the page.
+  controlNode: {fileID: 0}
+  children:
+  - 6f259606-dcad-41c3-b89a-fc48bcbb0896
+  rect:
+    serializedVersion: 2
+    x: 18563
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-4760840168628131049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 16c629d7-d4cf-4d24-afe0-e3e5b2145fc0
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I jump into my spot, the man startling me. I stared at him and then at the
+    ground. He\u2019s right.  If I want to see my grandpa, then I have no choice
+    but to stay with this strange man. I suddenly remembered something. I pull out
+    my book, opening it up to the page with the flower. I slowly walk over, lifting
+    the book up to him."
+  controlNode: {fileID: 0}
+  children:
+  - 107dd798-20ce-4022-afb3-1b4d97d65f15
+  rect:
+    serializedVersion: 2
+    x: 18055
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-4525877891770721539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 9c1869ee-c4d9-484a-bdf7-76e5d239cc47-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 947790073298579235}
+  rect:
+    serializedVersion: 2
+    x: 1299
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 2
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &-4514122870425414337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: f23cd36b-5956-45b7-a862-64bf8f3ddf10-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 5641793489136379692}
+  rect:
+    serializedVersion: 2
+    x: 6799
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio:
+  - audioClip: {fileID: 8300000, guid: 0e58598b9a83dca458b093eea735b21f, type: 3}
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &-4063809202825011608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 1da35341-6939-425b-9743-3bce9863b212-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 5158656540534718608}
+  rect:
+    serializedVersion: 2
+    x: 6049
+    y: 379
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 1
+--- !u!114 &-3859279369878114846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 65e71182-f3aa-4d69-bbec-9457e3fead1f
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "Stop joking, you can\u2019t understand it."
+  controlNode: {fileID: 0}
+  children:
+  - ec581660-3e07-4632-b1f7-bab6ec2320c5
+  rect:
+    serializedVersion: 2
+    x: 17055
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-3405169885136273088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 93f1590b-2dca-4b7b-a10e-e2678213184f
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: "We\u2019re going to go look for the flower, where else?"
+  controlNode: {fileID: 0}
+  children:
+  - 81f346e1-317c-47db-af75-b8f42d8c9193
+  rect:
+    serializedVersion: 2
+    x: 23549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-3350574786530752055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 345b3f83-6bef-4017-a98b-a04e0a5e9172
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The sound of rustling stopped me in my tracks.
+  controlNode: {fileID: 0}
+  children:
+  - 0c1f8ad4-2d45-4f41-8cff-21bef4915342
+  rect:
+    serializedVersion: 2
+    x: 1799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-3344215355083014575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 2533b345-ed5d-47a8-8889-6978b5273258
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The owl hoots, grabbing our attention.
+  controlNode: {fileID: 0}
+  children:
+  - c91a55f0-741c-4890-b0a9-9e14630690b2
+  rect:
+    serializedVersion: 2
+    x: 20563
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-3022009577579252463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 2e2c8901-1cca-4574-9e0d-7dd5be69451f
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man turns to me, giving me a weird look as if I had said something foolish.
+  controlNode: {fileID: 0}
+  children:
+  - 9f42f149-1583-45b5-aee2-98e89c65f228
+  rect:
+    serializedVersion: 2
+    x: 16305
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-2902061273765725813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: dcd9dbfa-f963-490b-8474-065d60c52709
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man raised his head, staring right at me. I thrashed around, trying to
+    pull my wrist from his grasp.
+  controlNode: {fileID: 0}
+  children:
+  - cda8b356-59aa-43ed-9665-39f918f6158f
+  rect:
+    serializedVersion: 2
+    x: 11805
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-2433034800479266941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d4b7ac91-cf88-4d89-9ecd-20daa186dfd3
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I started running
+  controlNode: {fileID: 515220497280837331}
+  children:
+  - 6fde1a08-c13e-4f5f-9757-23ace6f61816
+  rect:
+    serializedVersion: 2
+    x: 4049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-2428693047813587889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c91a55f0-741c-4890-b0a9-9e14630690b2
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: He says I should take you home now.
+  controlNode: {fileID: 0}
+  children:
+  - 00f4d21e-e418-4cdb-addb-ce13e8aaeb08
+  rect:
+    serializedVersion: 2
+    x: 20813
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-2312909435184366894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: cda8b356-59aa-43ed-9665-39f918f6158f
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Let me go!
+  controlNode: {fileID: 0}
+  children:
+  - 9b59eac2-863e-4a05-9a75-994605985c30
+  rect:
+    serializedVersion: 2
+    x: 12055
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-2268845126520581275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: caa9b55c-e7d0-46a4-b6dc-c21c64d6bce1-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 4224477648010766675}
+  rect:
+    serializedVersion: 2
+    x: 8799
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 0382a909b3679a64693d0522c79e943b, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &-1777024689394198883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8dabd5ce-5601-4f5b-97b2-d76ea985a506
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "He continues walking. I turn my head to stare back at the owl, watching
+    us leave. I gave it a small wave as I turned my head. Even as we got further,
+    it felt like I could still feel the owl\u2019s eyes on me, watching me from afar."
+  controlNode: {fileID: 2883599860844789552}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 24299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-1762646466811669786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 10ca4865-025e-4da9-ba7f-5aad009f8298
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I heard the man hum as he leaned back against the tree. Silence filled the
+    room. The owl lets out a hoot, reminding me of its presence.
+  controlNode: {fileID: 0}
+  children:
+  - ef31fe5f-202b-41d9-8cc9-0596d415aaec
+  rect:
+    serializedVersion: 2
+    x: 13055
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-1641123271541704125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: baab3b9b-2e05-4563-b561-04925e3f76a8
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I clench the strap of my bag; the man\u2019s words feel like a ton of bricks.
+    He\u2019s right, there is a chance this flower could either be fake or no longer
+    exist.....But I have to try. I felt determination swell up in my chest as I took
+    a deep breath."
+  controlNode: {fileID: 0}
+  children:
+  - c3d4325f-d2c3-43f7-b135-9cfbe6aa9171
+  rect:
+    serializedVersion: 2
+    x: 21799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-1402907343800045775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 7135da3a-9614-4c39-926c-4320a2c60f1d
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: Excuse me, sir!
+  controlNode: {fileID: 0}
+  children:
+  - 4ff9a8f6-e507-4ca2-8fdf-546d08b40c7e
+  rect:
+    serializedVersion: 2
+    x: 11055
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-1322390613718599483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: b3592d2b-8a56-4a65-9b31-2d2818bcdd57
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: A man slouched on the floor against the tree, his head hanging low. I look
+    back at the owl.
+  controlNode: {fileID: 0}
+  children:
+  - f7993318-12df-47c7-b101-b315247204d0
+  rect:
+    serializedVersion: 2
+    x: 9799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-1308518118916127466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d5800cb7-a2c9-4e6e-8dbe-b0ac38127502
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I sniff as I get closer, finding comfort in the owl.
+  controlNode: {fileID: 0}
+  children:
+  - 7d8637fb-823e-4435-906e-25cb335e54c6
+  rect:
+    serializedVersion: 2
+    x: 7799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-1174450004091803042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 01a3f58d-581e-4009-b5b5-5b19bc1ed6ee
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I hold my breath.
+  controlNode: {fileID: 0}
+  children:
+  - 296dd3fc-1e3a-4e67-a094-f64456107a58
+  rect:
+    serializedVersion: 2
+    x: 2299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-676503342837297426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 81634211-0882-444c-a6f5-39313fdd01d1
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Wait!
+  controlNode: {fileID: 0}
+  children:
+  - caa9b55c-e7d0-46a4-b6dc-c21c64d6bce1
+  rect:
+    serializedVersion: 2
+    x: 8549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-574699631630617603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 4143222c-a5f4-4db0-a7c7-339482939142
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: It begins to follow me, slowly moving closer.
+  controlNode: {fileID: 0}
+  children:
+  - 644d9976-566c-4a8e-b6b5-cb495d835a97
+  rect:
+    serializedVersion: 2
+    x: 3549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-510518636260425525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: caa9b55c-e7d0-46a4-b6dc-c21c64d6bce1
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: My shout echoed throughout the forest as I chased after the owl. It was almost
+    as if the owl wanted me to follow it.
+  controlNode: {fileID: -2268845126520581275}
+  children:
+  - 8742864f-4fe8-4b47-bd54-37fdc24b7e48
+  rect:
+    serializedVersion: 2
+    x: 8799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-477768216460404124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 66f80224-05fb-488b-98f4-7b8f7702f23d
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: I see now.
+  controlNode: {fileID: 0}
+  children:
+  - dd19543f-4bc8-4452-ac94-1e63722e2cec
+  rect:
+    serializedVersion: 2
+    x: 13805
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-408153148987633175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6fde1a08-c13e-4f5f-9757-23ace6f61816
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I could hear the wolf following behind.
+  controlNode: {fileID: 0}
+  children:
+  - 92a4e2a7-4c49-49d0-add2-f7bc3790c98f
+  rect:
+    serializedVersion: 2
+    x: 4299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-200192310369794199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: f7993318-12df-47c7-b101-b315247204d0
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Is this where you wanted to take me...?
+  controlNode: {fileID: 4224477648010766675}
+  children:
+  - 59149a4c-04e4-4d22-a523-3eaa65959813
+  rect:
+    serializedVersion: 2
+    x: 10031
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &-126266386728583544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 71924c07-01bf-48fa-97b7-f74e7a1513e6
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I held on to the strap of my bag tightly, my heart beating fast as I walked
+    in the dark. I turned my head. As the light of the village fades, I face ahead,
+    continuing into the forest.
+  controlNode: {fileID: 7334046083052323115}
+  children:
+  - de1e929a-237f-4423-bf52-9ae8c8489c6b
+  rect:
+    serializedVersion: 2
+    x: 49
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d245974386522694baaa77f303c49152, type: 3}
+  m_Name: ForestWalk
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -126266386728583544}
+  - {fileID: 5790952528189186029}
+  - {fileID: 1889728729544439378}
+  - {fileID: -6494840781721928630}
+  - {fileID: 3489362172726375649}
+  - {fileID: 3302378855617723456}
+  - {fileID: -6945449553786002075}
+  - {fileID: -3350574786530752055}
+  - {fileID: 4167836257377977755}
+  - {fileID: -1174450004091803042}
+  - {fileID: -9044263390487978106}
+  - {fileID: -6172031846945821627}
+  - {fileID: -8631824351822557718}
+  - {fileID: 8420280361466931950}
+  - {fileID: -574699631630617603}
+  - {fileID: 8198030190437104772}
+  - {fileID: -2433034800479266941}
+  - {fileID: -408153148987633175}
+  - {fileID: 7272388577599611337}
+  - {fileID: 305414173080515107}
+  - {fileID: -7057834499698154095}
+  - {fileID: -8742912042326745610}
+  - {fileID: 7070703562173813686}
+  - {fileID: -7073565600862223685}
+  - {fileID: -5510643515691675454}
+  - {fileID: 391606246144678104}
+  - {fileID: 4519740369850316329}
+  - {fileID: 2282936217384799314}
+  - {fileID: 4093958963599429734}
+  - {fileID: 1162074200880879501}
+  - {fileID: 7597962031839638340}
+  - {fileID: -1308518118916127466}
+  - {fileID: 318369678807342682}
+  - {fileID: -6860883217124192507}
+  - {fileID: -676503342837297426}
+  - {fileID: -510518636260425525}
+  - {fileID: -9061577957340510222}
+  - {fileID: -6823420703348020024}
+  - {fileID: 1965531436024945099}
+  - {fileID: -1322390613718599483}
+  - {fileID: -200192310369794199}
+  - {fileID: 2964061289833387687}
+  - {fileID: 8832564606987207354}
+  - {fileID: -8981107182269087603}
+  - {fileID: -1402907343800045775}
+  - {fileID: 2861158564798643723}
+  - {fileID: 7972843722110636819}
+  - {fileID: -2902061273765725813}
+  - {fileID: -2312909435184366894}
+  - {fileID: 502957680466622973}
+  - {fileID: 1882724097048152163}
+  - {fileID: 4320410727863580771}
+  - {fileID: -1762646466811669786}
+  - {fileID: 2256499605803797243}
+  - {fileID: -8964409997801831823}
+  - {fileID: -477768216460404124}
+  - {fileID: -6079556949780140374}
+  - {fileID: 8169241676625530738}
+  - {fileID: 2019487751583009734}
+  - {fileID: -5189626089343012902}
+  - {fileID: -8420538185112552780}
+  - {fileID: 4504443102041346872}
+  - {fileID: 712922744502130486}
+  - {fileID: -8985817013754711546}
+  - {fileID: 5339805415357405797}
+  - {fileID: -3022009577579252463}
+  - {fileID: 1772477053457210984}
+  - {fileID: -7251739858185926560}
+  - {fileID: -3859279369878114846}
+  - {fileID: 4690895305071355311}
+  - {fileID: 3664396898089472540}
+  - {fileID: -6678010771521669470}
+  - {fileID: -4760840168628131049}
+  - {fileID: 8582697359500121977}
+  - {fileID: -4941032962697195185}
+  - {fileID: 5681631819133801307}
+  - {fileID: 3141442257664933844}
+  - {fileID: 5294772982865456599}
+  - {fileID: 6984468871515812103}
+  - {fileID: 8480307216135753846}
+  - {fileID: -8156383487781763430}
+  - {fileID: 6024264027906451928}
+  - {fileID: -3344215355083014575}
+  - {fileID: -2428693047813587889}
+  - {fileID: 1363052113979151948}
+  - {fileID: 8666447165009299977}
+  - {fileID: -9131559689562652005}
+  - {fileID: -1641123271541704125}
+  - {fileID: -5441038322373266210}
+  - {fileID: -5450225473119980501}
+  - {fileID: -8469561190879544400}
+  - {fileID: -8147770309114981585}
+  - {fileID: 6834793688233456188}
+  - {fileID: -7975786877085677738}
+  - {fileID: -3405169885136273088}
+  - {fileID: 6408428733568585700}
+  - {fileID: 6875810965759329398}
+  - {fileID: -1777024689394198883}
+  background: {fileID: 0}
+  newNodeOffset: {x: 250, y: 0}
+  newControlNodeOffset: {x: 0, y: 200}
+--- !u!114 &305414173080515107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 767575e0-6476-499a-87cd-b74b5b99c3bb
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: 'It was getting hard to run, and the roots of the trees started poking out
+    more, making me tumble.  It was only a matter of time before I tripped on one,
+    sending me flying into the air and skidding down a hill. '
+  controlNode: {fileID: 0}
+  children:
+  - addb4b38-c008-4c6b-963a-2e51cf434d70
+  rect:
+    serializedVersion: 2
+    x: 4799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &318369678807342682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 7d8637fb-823e-4435-906e-25cb335e54c6
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: What are you doing here?
+  controlNode: {fileID: 5641793489136379692}
+  children:
+  - 35192cc5-f32f-4fc5-9426-df5d8fba428d
+  rect:
+    serializedVersion: 2
+    x: 8049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &391606246144678104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: eb985e40-adfd-4337-9292-659aefffd374
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "Grandpa\u2026"
+  controlNode: {fileID: 5158656540534718608}
+  children:
+  - 28ce7882-33c8-43f2-8f30-dfd46e8d71e8
+  rect:
+    serializedVersion: 2
+    x: 6299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &502957680466622973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9b59eac2-863e-4a05-9a75-994605985c30
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I screamed out of fear, scared of what the man could do. He drops my wrist,
+    the momentum causing me to tumble on my back. I hit the floor with a small "Oof."
+    I scrambled back to my feet and backed away until my back hit another tree.
+  controlNode: {fileID: 0}
+  children:
+  - cc3e031b-9af1-4b90-8c50-75a9570bee15
+  rect:
+    serializedVersion: 2
+    x: 12305
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &515220497280837331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: d4b7ac91-cf88-4d89-9ecd-20daa186dfd3-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 6745783070515295822}
+  rect:
+    serializedVersion: 2
+    x: 4049
+    y: 379
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 1
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &712922744502130486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 39a229f5-4c24-4366-8726-372bda6389e1
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "You\u2026.think?"
+  controlNode: {fileID: 0}
+  children:
+  - db8d6a4c-fff4-4ed9-8bda-9d0d237c879d
+  rect:
+    serializedVersion: 2
+    x: 15555
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &947790073298579235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 41deac04-ea96-44fb-afde-c65f2f22d817-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 515220497280837331}
+  rect:
+    serializedVersion: 2
+    x: 1549
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &1162074200880879501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a6824e2c-19d1-4b1f-8627-2f5e835c27ca
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I look up; an owl is resting on a tree branch in front of me, its wide eyes
+    staring back.
+  controlNode: {fileID: 0}
+  children:
+  - a537b10f-760c-457e-944c-042c2e6812d3
+  rect:
+    serializedVersion: 2
+    x: 7299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &1363052113979151948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 00f4d21e-e418-4cdb-addb-ce13e8aaeb08
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I close the map along with the book, placing them both in my bag.
+  controlNode: {fileID: 0}
+  children:
+  - 0f69554a-9868-483e-9244-57b0bcaed45f
+  rect:
+    serializedVersion: 2
+    x: 21063
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &1772477053457210984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9f42f149-1583-45b5-aee2-98e89c65f228
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "You can\u2019t?"
+  controlNode: {fileID: 0}
+  children:
+  - 611762e2-5c80-4d2b-a051-574651f9eac4
+  rect:
+    serializedVersion: 2
+    x: 16555
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &1882724097048152163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: cc3e031b-9af1-4b90-8c50-75a9570bee15
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: What are you doing here?
+  controlNode: {fileID: 0}
+  children:
+  - 7bbaf0a5-f823-48d2-873f-de7e022fc71a
+  rect:
+    serializedVersion: 2
+    x: 12555
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &1889728729544439378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 87dd944e-c797-4c21-9528-5f25a4fa4463
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The forest was so quiet. All I could hear were the sounds of the leaves crunching
+    as I took a step. The only light I had was the moon; it was bright enough to
+    see ahead but not enough to make me feel safe. I continued on, stepping over
+    rocks and roots.
+  controlNode: {fileID: 0}
+  children:
+  - e264aa44-e6a9-4ac3-b614-d16ca41ca269
+  rect:
+    serializedVersion: 2
+    x: 549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &1965531436024945099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d62c6a05-ce78-4506-b640-47a7d68ff776
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: It stayed still, staring down at me before turning its head to face the other
+    side. I hesitantly walked over to the other side before stumbling back at what
+    I found.
+  controlNode: {fileID: 0}
+  children:
+  - b3592d2b-8a56-4a65-9b31-2d2818bcdd57
+  rect:
+    serializedVersion: 2
+    x: 9549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &2019487751583009734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 15e8dc26-4c48-4d37-ad5e-ed37fef293e4
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I notice a scabbard leaning against the tree next to where the man was once
+    resting; he picks it up.
+  controlNode: {fileID: 0}
+  children:
+  - 68040c6b-42dd-4117-ad57-737830974712
+  rect:
+    serializedVersion: 2
+    x: 14555
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &2256499605803797243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: ef31fe5f-202b-41d9-8cc9-0596d415aaec
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: The owl... It led me to you.
+  controlNode: {fileID: 0}
+  children:
+  - 809108cc-ce7c-4294-9430-8608461d268a
+  rect:
+    serializedVersion: 2
+    x: 13305
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &2282936217384799314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: f23cd36b-5956-45b7-a862-64bf8f3ddf10
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I knew it was foolish of me to wander into the forest alone, but I didn\u2019t
+    want to pass up this opportunity or bother anyone else about my issues; the village
+    is already doing so much to help my grandpa and me. This is the least I could
+    do."
+  controlNode: {fileID: -4514122870425414337}
+  children:
+  - f66197f2-e479-4b13-aa6d-9d080854abab
+  rect:
+    serializedVersion: 2
+    x: 6799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &2861158564798643723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 4ff9a8f6-e507-4ca2-8fdf-546d08b40c7e
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "\u2018Is he\u2026dead?\u2019  I looked around for a stick or anything long
+    enough to poke him, but with nothing available, I hesitantly reached out, my
+    hand stretched out to touch his shoulder. Before I made contact, the man grabbed
+    my wrist. I let out a bloodcurdling scream"
+  controlNode: {fileID: 0}
+  children:
+  - a78c4138-c768-4241-897b-c4f5f37459d5
+  rect:
+    serializedVersion: 2
+    x: 11305
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &2883599860844789552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 8dabd5ce-5601-4f5b-97b2-d76ea985a506-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 24299
+    y: 379
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &2964061289833387687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 59149a4c-04e4-4d22-a523-3eaa65959813
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The owl simply let out a hoot, staring at me. I lowered my gaze at the man
+    on the floor.
+  controlNode: {fileID: 0}
+  children:
+  - b07e48b7-dd42-440b-928a-bce6db9c0270
+  rect:
+    serializedVersion: 2
+    x: 10281
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &3141442257664933844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: ebc24df8-6665-4200-9aa6-79bbb2b7261e
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: My grandpa is sick, and I want to try and find this flower to help him get
+    better.
+  controlNode: {fileID: 0}
+  children:
+  - cb6c35ee-bd8f-4f8e-acb6-24672ba04a23
+  rect:
+    serializedVersion: 2
+    x: 19063
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &3302378855617723456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9c1869ee-c4d9-484a-bdf7-76e5d239cc47
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "I hope I'm not gone for too long; I don\u2019t want grandpa to w-"
+  controlNode: {fileID: -4525877891770721539}
+  children:
+  - 41deac04-ea96-44fb-afde-c65f2f22d817
+  rect:
+    serializedVersion: 2
+    x: 1299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &3489362172726375649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 896a5468-fd75-483a-8766-d2cb9ff53833
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I look up at the sky; it's still very dark out; I can tell it's early in
+    the night.
+  controlNode: {fileID: -7119211331636819285}
+  children:
+  - 9c1869ee-c4d9-484a-bdf7-76e5d239cc47
+  rect:
+    serializedVersion: 2
+    x: 1049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &3664396898089472540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 92777b10-2d69-43ad-820d-733d2c3ff5e3
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The man looks back up at the owl before staring at me. I wanted to believe
+    the man was pulling some joke, but the owl wasn\u2019t normal, what am I saying?
+    This man isn\u2019t normal either. Feeling uneasy, I move again against the tree,
+    trying to find an opening to run.He notices my movements."
+  controlNode: {fileID: 0}
+  children:
+  - 0671bc5c-98fc-4262-bb1d-dab0fe0dc919
+  rect:
+    serializedVersion: 2
+    x: 17555
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &4093958963599429734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: f66197f2-e479-4b13-aa6d-9d080854abab
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The silence didn\u2019t last long; a small hoot snapped me out of my trance."
+  controlNode: {fileID: 0}
+  children:
+  - a6824e2c-19d1-4b1f-8627-2f5e835c27ca
+  rect:
+    serializedVersion: 2
+    x: 7049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &4167836257377977755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0c1f8ad4-2d45-4f41-8cff-21bef4915342
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I slowly move my head towards the sound, staring at some moving bushes.
+  controlNode: {fileID: 0}
+  children:
+  - 01a3f58d-581e-4009-b5b5-5b19bc1ed6ee
+  rect:
+    serializedVersion: 2
+    x: 2049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &4224477648010766675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: f7993318-12df-47c7-b101-b315247204d0-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 4928398140278419489}
+  rect:
+    serializedVersion: 2
+    x: 10031
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 0382a909b3679a64693d0522c79e943b, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &4320410727863580771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 7bbaf0a5-f823-48d2-873f-de7e022fc71a
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: I could ask you the same thing! You were just there, not moving, so I thought
+    you were dead or something!
+  controlNode: {fileID: 0}
+  children:
+  - 10ca4865-025e-4da9-ba7f-5aad009f8298
+  rect:
+    serializedVersion: 2
+    x: 12805
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &4472967290641508346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: de1e929a-237f-4423-bf52-9ae8c8489c6b-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: -7119211331636819285}
+  rect:
+    serializedVersion: 2
+    x: 299
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 2
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &4504443102041346872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9aa2df10-b636-4472-8878-431e0c1c66d5
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: For protection, I think
+  controlNode: {fileID: 0}
+  children:
+  - 39a229f5-4c24-4366-8726-372bda6389e1
+  rect:
+    serializedVersion: 2
+    x: 15305
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &4519740369850316329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 28ce7882-33c8-43f2-8f30-dfd46e8d71e8
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I whispered to myself, trying to calm my nerves, hugging the cloak tightly
+    around myself, small tears running down my face.
+  controlNode: {fileID: 0}
+  children:
+  - f23cd36b-5956-45b7-a862-64bf8f3ddf10
+  rect:
+    serializedVersion: 2
+    x: 6549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &4690895305071355311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: ec581660-3e07-4632-b1f7-bab6ec2320c5
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: "Sure, I can. The owl just said you were lost and wanted me to guide you
+    back home. Isn\u2019t that right, Owl?"
+  controlNode: {fileID: 0}
+  children:
+  - 92777b10-2d69-43ad-820d-733d2c3ff5e3
+  rect:
+    serializedVersion: 2
+    x: 17305
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &4928398140278419489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: b07e48b7-dd42-440b-928a-bce6db9c0270-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 10555
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 306c9c3d1b9f9f24bbb3fec34d542d99, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &5158656540534718608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: eb985e40-adfd-4337-9292-659aefffd374-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: -4514122870425414337}
+  rect:
+    serializedVersion: 2
+    x: 6299
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 2
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &5294772982865456599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: cb6c35ee-bd8f-4f8e-acb6-24672ba04a23
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: I see
+  controlNode: {fileID: 0}
+  children:
+  - 0f96904b-4410-4c68-bc16-a9a4c1e0c347
+  rect:
+    serializedVersion: 2
+    x: 19313
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &5339805415357405797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d976b805-500e-4dee-8680-9a6a5723b9f6
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: You can understand the owl?
+  controlNode: {fileID: 0}
+  children:
+  - 2e2c8901-1cca-4574-9e0d-7dd5be69451f
+  rect:
+    serializedVersion: 2
+    x: 16055
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &5641793489136379692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 7d8637fb-823e-4435-906e-25cb335e54c6-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: -2268845126520581275}
+  rect:
+    serializedVersion: 2
+    x: 8049
+    y: 379
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 0382a909b3679a64693d0522c79e943b, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &5681631819133801307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6f259606-dcad-41c3-b89a-fc48bcbb0896
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: "I can\u2019t say I have, then again I\u2019ve been here sleeping for who
+    knows how long. Why are you looking for it?"
+  controlNode: {fileID: 0}
+  children:
+  - ebc24df8-6665-4200-9aa6-79bbb2b7261e
+  rect:
+    serializedVersion: 2
+    x: 18813
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &5790952528189186029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: de1e929a-237f-4423-bf52-9ae8c8489c6b
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: I should have brought a lantern.
+  controlNode: {fileID: 4472967290641508346}
+  children:
+  - 87dd944e-c797-4c21-9528-5f25a4fa4463
+  rect:
+    serializedVersion: 2
+    x: 299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &6024264027906451928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 2b786e5b-8ff5-457a-9f76-e50c636b4fb6
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Both locations lead here, in this forest, but I'm not sure where.
+  controlNode: {fileID: 0}
+  children:
+  - 2533b345-ed5d-47a8-8889-6978b5273258
+  rect:
+    serializedVersion: 2
+    x: 20313
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &6408428733568585700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 81f346e1-317c-47db-af75-b8f42d8c9193
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Do you know where it is?
+  controlNode: {fileID: 0}
+  children:
+  - eabe7634-55e3-4231-8216-329f94c96389
+  rect:
+    serializedVersion: 2
+    x: 23799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &6745783070515295822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: addb4b38-c008-4c6b-963a-2e51cf434d70-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 5049
+    y: 379
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+--- !u!114 &6834793688233456188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 28fa43f1-413a-417b-8738-6e4426adfc6a
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Wait! Where are you going?
+  controlNode: {fileID: 0}
+  children:
+  - 4c583a99-101a-4d6e-b0f2-625974e2fb34
+  rect:
+    serializedVersion: 2
+    x: 23049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &6875810965759329398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: eabe7634-55e3-4231-8216-329f94c96389
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: No
+  controlNode: {fileID: 0}
+  children:
+  - 8dabd5ce-5601-4f5b-97b2-d76ea985a506
+  rect:
+    serializedVersion: 2
+    x: 24049
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &6984468871515812103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0f96904b-4410-4c68-bc16-a9a4c1e0c347
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man continues to stare at the flower before moving back, readjusting
+    his scabbard.
+  controlNode: {fileID: 0}
+  children:
+  - c05a6257-6595-4a92-aef1-e44ec960de6d
+  rect:
+    serializedVersion: 2
+    x: 19563
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &7070703562173813686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: adc4c729-b930-48c2-b7f9-3cfcbeba2843
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I slowly got up, using the tree in front of me as a support.
+  controlNode: {fileID: 0}
+  children:
+  - d7dd0c23-3cd3-42eb-877d-6692e2fbc1dd
+  rect:
+    serializedVersion: 2
+    x: 5549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &7272388577599611337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 92a4e2a7-4c49-49d0-add2-f7bc3790c98f
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: My eyes were watering as I forced my legs to run as fast as they could.
+  controlNode: {fileID: 0}
+  children:
+  - 767575e0-6476-499a-87cd-b74b5b99c3bb
+  rect:
+    serializedVersion: 2
+    x: 4549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &7334046083052323115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 71924c07-01bf-48fa-97b7-f74e7a1513e6-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 4472967290641508346}
+  rect:
+    serializedVersion: 2
+    x: 49
+    y: 379
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio:
+  - audioClip: {fileID: 8300000, guid: 0e58598b9a83dca458b093eea735b21f, type: 3}
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 1
+--- !u!114 &7597962031839638340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a537b10f-760c-457e-944c-042c2e6812d3
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: It tilts its head. "Hoo," it said once again.
+  controlNode: {fileID: 0}
+  children:
+  - d5800cb7-a2c9-4e6e-8dbe-b0ac38127502
+  rect:
+    serializedVersion: 2
+    x: 7549
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &7972843722110636819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a78c4138-c768-4241-897b-c4f5f37459d5
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: "What do you think you\u2019re doing?"
+  controlNode: {fileID: 0}
+  children:
+  - dcd9dbfa-f963-490b-8474-065d60c52709
+  rect:
+    serializedVersion: 2
+    x: 11555
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &8169241676625530738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 5eeece58-f46b-40e4-9768-43bdeecceea4
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: "I\u2019m not going to hurt you, child."
+  controlNode: {fileID: 0}
+  children:
+  - 15e8dc26-4c48-4d37-ad5e-ed37fef293e4
+  rect:
+    serializedVersion: 2
+    x: 14305
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &8198030190437104772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 644d9976-566c-4a8e-b6b5-cb495d835a97
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I tried to keep my composure, but I snapped. The fear was too much to handle.
+  controlNode: {fileID: 0}
+  children:
+  - d4b7ac91-cf88-4d89-9ecd-20daa186dfd3
+  rect:
+    serializedVersion: 2
+    x: 3799
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &8420280361466931950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 25a2f4ba-dba6-422c-9d70-c7cf2c8cafbb
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I back away as I stare into the eyes of the animal.
+  controlNode: {fileID: 0}
+  children:
+  - 4143222c-a5f4-4db0-a7c7-339482939142
+  rect:
+    serializedVersion: 2
+    x: 3299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &8480307216135753846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c05a6257-6595-4a92-aef1-e44ec960de6d
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: "Are you even sure that the flower is real? From what I read it didn\u2019t
+    sound very real to me"
+  controlNode: {fileID: 0}
+  children:
+  - 0f74a039-d409-4fd9-a8d1-469c664c8b7e
+  rect:
+    serializedVersion: 2
+    x: 19813
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &8582697359500121977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 107dd798-20ce-4022-afb3-1b4d97d65f15
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "I\u2019m here because I\u2019m looking for this flower. Have you seen it?"
+  controlNode: {fileID: 0}
+  children:
+  - aba3bc5a-e55b-4e90-ae83-b947088bef71
+  rect:
+    serializedVersion: 2
+    x: 18305
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &8666447165009299977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0f69554a-9868-483e-9244-57b0bcaed45f
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "No, I won\u2019t go home until I find the flower."
+  controlNode: {fileID: 0}
+  children:
+  - 942fed10-e8df-4887-93d5-96691e5cd91e
+  rect:
+    serializedVersion: 2
+    x: 21299
+    y: 179
+    width: 200
+    height: 200
+--- !u!114 &8832564606987207354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: b07e48b7-dd42-440b-928a-bce6db9c0270
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Sir?
+  controlNode: {fileID: 4928398140278419489}
+  children:
+  - ad6e23c6-e05c-4d66-a7f9-2886a845579e
+  rect:
+    serializedVersion: 2
+    x: 10555
+    y: 179
+    width: 200
+    height: 200
