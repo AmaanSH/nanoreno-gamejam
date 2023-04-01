@@ -1,0 +1,812 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8098193437431823995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0505e3cd-9d8b-4e1b-a182-dd1a712a0dc0
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "He\u2019s so pale and is weaker than before."
+  controlNode: {fileID: 0}
+  children:
+  - 6215cfb2-f5a4-4fda-b5b0-3e7d449eaf60
+  rect:
+    serializedVersion: 2
+    x: 774
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &-6627241823890838377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: b9140ba3-d376-4434-b797-158c14ec7d6e-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 1973024389569920409}
+  rect:
+    serializedVersion: 2
+    x: 524
+    y: 481
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: d9e5bde58da747b4b960f1b6ec67cca1, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &-6248229669667063664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: c7779627-347a-43b2-a631-4eabc0aaba45-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 7648497342689869386}
+  rect:
+    serializedVersion: 2
+    x: 46
+    y: 482
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 8300000, guid: c5c9666caf791544a94f6b74d9192096, type: 3}
+  SFX: {fileID: 0}
+  clearCharacters: 1
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &-6227244996708150437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8f8f10c3-6008-46a9-8442-506749cf9a5e
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I made my way to my room to get my bag.
+  controlNode: {fileID: 0}
+  children:
+  - dc8d777c-2844-42b6-87cb-f5ba17e1751f
+  rect:
+    serializedVersion: 2
+    x: 3733
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &-5887782175219431502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 9f9ed73b-dd21-4f05-beb1-5a610b05d55f
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I want to believe him, but the disease spreading has not been nice to others,
+    especially the village.
+  controlNode: {fileID: 0}
+  children:
+  - 5f3bd706-5537-4721-bcae-5a2bf86e8f29
+  rect:
+    serializedVersion: 2
+    x: 1762
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &-5570293656887902311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: cf9775df-2228-4be2-a78f-6e177a5ff2e3-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 8141041807639551686}
+  rect:
+    serializedVersion: 2
+    x: 3483
+    y: 482
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: d9e5bde58da747b4b960f1b6ec67cca1, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &-4452271852741416679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 3aafef01-4891-4202-9d3a-a43f42a68187
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I quickly rub my watering eyes
+  controlNode: {fileID: 0}
+  children:
+  - 6d107887-e532-461d-94ef-8756736050a7
+  rect:
+    serializedVersion: 2
+    x: 4483
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &-2959762428110392725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: dc8d777c-2844-42b6-87cb-f5ba17e1751f
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The smile on my face slowly drops when I remember grandpa giving me this
+    messenger bag two years ago on my birthday. The villagers all helped gather the
+    money and planned the party.
+  controlNode: {fileID: 0}
+  children:
+  - cc699d1d-5293-4855-8cb2-4413e86062b9
+  rect:
+    serializedVersion: 2
+    x: 3983
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &-2238569611123443077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 5f3bd706-5537-4721-bcae-5a2bf86e8f29
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "There haven\u2019t been a lot of sick people, but the ones who got sick
+    didn\u2019t make it."
+  controlNode: {fileID: 0}
+  children:
+  - 360d7f7d-f8de-4775-b61e-c608c3bda773
+  rect:
+    serializedVersion: 2
+    x: 2012
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &-1450074046518580142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d7acd32c-8fc8-4060-a61e-f6b3350b8437
+  m_EditorClassIdentifier: 
+  characterIndex: 5
+  text: "I\u2019ll be okay, Leilani. Don\u2019t worry about your old man."
+  controlNode: {fileID: 1973024389569920409}
+  children:
+  - 9f9ed73b-dd21-4f05-beb1-5a610b05d55f
+  rect:
+    serializedVersion: 2
+    x: 1512
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &-558832749226454677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 360d7f7d-f8de-4775-b61e-c608c3bda773
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "I'm going to go get you more medicine. I\u2019ll be back, Grandpa."
+  controlNode: {fileID: 0}
+  children:
+  - 84ae55ec-df60-4e92-9c7a-ba932d8d5d21
+  rect:
+    serializedVersion: 2
+    x: 2270
+    y: 280
+    width: 200
+    height: 200
+--- !u!114 &-311112559465910614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: b9140ba3-d376-4434-b797-158c14ec7d6e
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I can\u2019t help but worry when I stare at my grandpa\u2019s face."
+  controlNode: {fileID: -6627241823890838377}
+  children:
+  - 0505e3cd-9d8b-4e1b-a182-dd1a712a0dc0
+  rect:
+    serializedVersion: 2
+    x: 524
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d245974386522694baaa77f303c49152, type: 3}
+  m_Name: StartingScene
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 7018595464872139332}
+  - {fileID: 14811429480653610}
+  - {fileID: -311112559465910614}
+  - {fileID: -8098193437431823995}
+  - {fileID: 8596530986760777394}
+  - {fileID: 2628315190604843083}
+  - {fileID: -1450074046518580142}
+  - {fileID: -5887782175219431502}
+  - {fileID: -2238569611123443077}
+  - {fileID: -558832749226454677}
+  - {fileID: 276870752921744285}
+  - {fileID: 7670296446840769686}
+  - {fileID: 4530651788067258205}
+  - {fileID: 7864384871638605970}
+  - {fileID: 6175447648201514592}
+  - {fileID: -6227244996708150437}
+  - {fileID: -2959762428110392725}
+  - {fileID: 8885398542961609822}
+  - {fileID: -4452271852741416679}
+  - {fileID: 4930570959055152606}
+  - {fileID: 664344860556871717}
+  background: {fileID: 0}
+  newNodeOffset: {x: 250, y: 0}
+  newControlNodeOffset: {x: 0, y: 200}
+--- !u!114 &14811429480653610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: e9bf9981-ff14-4edb-bb26-e9a4090f8e9c
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Are you going to be okay, grandpa?
+  controlNode: {fileID: 7648497342689869386}
+  children:
+  - b9140ba3-d376-4434-b797-158c14ec7d6e
+  rect:
+    serializedVersion: 2
+    x: 274
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &276870752921744285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 84ae55ec-df60-4e92-9c7a-ba932d8d5d21
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I stood from my chair and made my way to his door. I could feel my grandfather
+    watching me leave. Before I open the door, I turn back to stare at him one last
+    time.
+  controlNode: {fileID: 0}
+  children:
+  - e48231da-9350-48b6-9327-d5c85d8511e5
+  rect:
+    serializedVersion: 2
+    x: 2512
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &664344860556871717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c14cd409-9e49-4f61-aa4a-4c9b93653faa
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I quickly threw the strap over my head and made my way to the living room.
+    Pictures of me and Grandpa are scattered around the house. I quickly put on my
+    shoes and opened the front door to leave for the village
+  controlNode: {fileID: 4341367191805405036}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 4983
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &1973024389569920409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: d7acd32c-8fc8-4060-a61e-f6b3350b8437-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: -5570293656887902311}
+  rect:
+    serializedVersion: 2
+    x: 1512
+    y: 481
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: d9e5bde58da747b4b960f1b6ec67cca1, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &2628315190604843083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0f990ac1-3ead-4823-b182-efbcda93baf0
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: It's almost as if my grandpa could read my mind and sense my doubts; he reaches
+    over and ruffles my hair.
+  controlNode: {fileID: 0}
+  children:
+  - d7acd32c-8fc8-4060-a61e-f6b3350b8437
+  rect:
+    serializedVersion: 2
+    x: 1262
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &4341367191805405036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: c14cd409-9e49-4f61-aa4a-4c9b93653faa-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 4983
+    y: 481
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 1
+  stopAllLayers: 0
+--- !u!114 &4530651788067258205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d515b48a-49b4-4e17-b166-bc2bc1df3391
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "Grandpa makes a stern face. I know he\u2019s trying to be serious but I
+    can\u2019t help but smile; even while he\u2019s sick he still worries about me."
+  controlNode: {fileID: 0}
+  children:
+  - 2206f813-a0c9-4a30-aab1-d86808d98dc5
+  rect:
+    serializedVersion: 2
+    x: 3012
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &4930570959055152606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6d107887-e532-461d-94ef-8756736050a7
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: This is not the time to get nostalgic. I have to go collect his medicine.
+  controlNode: {fileID: 0}
+  children:
+  - c14cd409-9e49-4f61-aa4a-4c9b93653faa
+  rect:
+    serializedVersion: 2
+    x: 4733
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &6175447648201514592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: cf9775df-2228-4be2-a78f-6e177a5ff2e3
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: He smiles back as I finally walked out of his room into our hallway
+  controlNode: {fileID: -5570293656887902311}
+  children:
+  - 8f8f10c3-6008-46a9-8442-506749cf9a5e
+  rect:
+    serializedVersion: 2
+    x: 3483
+    y: 282
+    width: 200
+    height: 200
+--- !u!114 &7018595464872139332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c7779627-347a-43b2-a631-4eabc0aaba45
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: Sickness spread like wildfire in villages across the land. From young to
+    old, healthy or weak, the village of Woodhaerst was no exception.
+  controlNode: {fileID: -6248229669667063664}
+  children:
+  - e9bf9981-ff14-4edb-bb26-e9a4090f8e9c
+  rect:
+    serializedVersion: 2
+    x: 48
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &7648497342689869386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: e9bf9981-ff14-4edb-bb26-e9a4090f8e9c-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: -6627241823890838377}
+  rect:
+    serializedVersion: 2
+    x: 274
+    y: 481
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: d9e5bde58da747b4b960f1b6ec67cca1, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &7670296446840769686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: e48231da-9350-48b6-9327-d5c85d8511e5
+  m_EditorClassIdentifier: 
+  characterIndex: 5
+  text: "Be careful, Lei, don\u2019t stray away from the village; it\u2019s dangerous
+    out in the forest and more so during the night."
+  controlNode: {fileID: 0}
+  children:
+  - d515b48a-49b4-4e17-b166-bc2bc1df3391
+  rect:
+    serializedVersion: 2
+    x: 2762
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &7864384871638605970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 2206f813-a0c9-4a30-aab1-d86808d98dc5
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "I won't, grandpa don\u2019t worry, just get some rest."
+  controlNode: {fileID: 0}
+  children:
+  - cf9775df-2228-4be2-a78f-6e177a5ff2e3
+  rect:
+    serializedVersion: 2
+    x: 3262
+    y: 281
+    width: 200
+    height: 200
+--- !u!114 &8141041807639551686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: cc699d1d-5293-4855-8cb2-4413e86062b9-CONTROL
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 4341367191805405036}
+  rect:
+    serializedVersion: 2
+    x: 4233
+    y: 481
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 2
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &8587959438709624898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: c7779627-347a-43b2-a631-4eabc0aaba45-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 46
+    y: 331
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &8596530986760777394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6215cfb2-f5a4-4fda-b5b0-3e7d449eaf60
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I gently placed the damp towel on his burning forehead. His eyes open to
+    look at me as I move back to the chair next to his bed.
+  controlNode: {fileID: 0}
+  children:
+  - 0f990ac1-3ead-4823-b182-efbcda93baf0
+  rect:
+    serializedVersion: 2
+    x: 1016
+    y: 280
+    width: 200
+    height: 200
+--- !u!114 &8885398542961609822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: cc699d1d-5293-4855-8cb2-4413e86062b9
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "Grandpa\u2026"
+  controlNode: {fileID: 8141041807639551686}
+  children:
+  - 3aafef01-4891-4202-9d3a-a43f42a68187
+  rect:
+    serializedVersion: 2
+    x: 4233
+    y: 281
+    width: 200
+    height: 200

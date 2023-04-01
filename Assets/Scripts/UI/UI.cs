@@ -5,19 +5,19 @@ using UnityEngine.UIElements;
 
 namespace Nanoreno.UI
 {
-    public class UI
+    public class UIHolder
     {
         public VisualElement Element { get; private set; }
 
         private bool hideOnClose = false;
         private VisualElement holder;
 
-        public UI(string id)
+        public UIHolder(string id)
         {
             Element = UIManager.GetElement(id);
         }
 
-        public UI(VisualElement element)
+        public UIHolder(VisualElement element)
         {
             Element = element;
         }

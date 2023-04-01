@@ -1,16 +1,14 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Nanoreno.Game
 {
+    // due to time constraints I can only save the chapter index
     public static class SaveState
     {
-        public static int chapterIndex;
-        public static string textUniqueId;
-        public static string lastControlNodeId;
+        public static int chapterIndex = -1;
+        public static int chapterDialogueIndex = -1;
+        public static string chapterDialogueName;
     }
 
     public class SaveManager : MonoBehaviour
@@ -31,19 +29,18 @@ namespace Nanoreno.Game
         public void SaveProgress(int slot)
         {
             PlayerPrefs.SetInt($"save-{slot}-chapter", SaveState.chapterIndex);
-            PlayerPrefs.SetString($"save-{slot}-textUniqueId", SaveState.textUniqueId);
-            PlayerPrefs.SetString($"save-{slot}-lastControlNodeId", SaveState.lastControlNodeId);
+            PlayerPrefs.SetInt($"save-{slot}-chapterDialogueIndex", SaveState.chapterDialogueIndex);
+            PlayerPrefs.SetString($"save-{slot}-chapterDialogueName", SaveState.chapterDialogueName);
         }
 
         public void LoadProgress(int slot)
         {
             int chapterIndex = PlayerPrefs.GetInt($"save-{slot}-chapter");
-            string textUniqueId = PlayerPrefs.GetString($"save-{slot}-textUniqueId");
-            string lastControlNodeId = PlayerPrefs.GetString($"save-{slot}-lastControlNodeId");
+            int chapterDialogueIndex = PlayerPrefs.GetInt($"save-{slot}-chapterDialogueIndex");
 
             SaveState.chapterIndex = chapterIndex;
-            SaveState.textUniqueId = textUniqueId;
-            SaveState.lastControlNodeId = lastControlNodeId;
+            SaveState.chapterDialogueIndex = chapterDialogueIndex;
+            SaveState.chapterDialogueName = PlayerPrefs.GetString($"save-{slot}-chapterDialogueName", "");
 
             if (gameManager != null)
             {

@@ -17,7 +17,7 @@ namespace Nanoreno.UI
         private bool skipped = false;
         private float typingSpeed = 0.02f;
 
-        private UI uiPanel;
+        private UIHolder uiPanel;
 
         private TextElement textElement;
         private TextElement characterNameElement;
@@ -31,10 +31,11 @@ namespace Nanoreno.UI
 
         private void Start()
         {
-            uiPanel = new UI("narrativePanel");
+            uiPanel = new UIHolder("narrativePanel");
 
-            choicePanel = uiPanel.GetElement("choicePanel");
-            choiceButtonHolder = uiPanel.GetElement("choiceButtonHolder");
+            UIHolder choicePanelUI = new UIHolder("choicePanel");
+            choicePanel = choicePanelUI.Element;
+            choiceButtonHolder = choicePanelUI.GetElement("choiceButtonHolder");
 
             textElement = uiPanel.GetElement("characterText") as TextElement;
             characterNameElement = uiPanel.GetElement("characterName") as TextElement;

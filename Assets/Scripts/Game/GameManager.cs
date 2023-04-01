@@ -1,9 +1,9 @@
 using Nanoreno.Dialogue;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.WSA;
 
 namespace Nanoreno.Game
 {
@@ -23,7 +23,7 @@ namespace Nanoreno.Game
         {
             dialogeManager.OnChapterEnd += OnChapterEnded;
             
-            if (!string.IsNullOrEmpty(SaveState.textUniqueId))
+            if (SaveState.chapterIndex != -1)
             {
                 LoadSave();
             }
@@ -41,12 +41,13 @@ namespace Nanoreno.Game
             currentChapter = chapters[SaveState.chapterIndex];
             dialogeManager.SetChapter(currentChapter);
 
-            DialogueNode node = dialogeManager.FindNodeWithUniqueId(SaveState.textUniqueId);
-            dialogeManager.SetNode(node);
-
-            if (!string.IsNullOrEmpty(SaveState.lastControlNodeId))
+            if (SaveState.chapterDialogueIndex > 0)
             {
-                dialogeManager.SetupControlNodeWithId(SaveState.lastControlNodeId);
+                dialogeManager.SetIndex(SaveState.chapterDialogueIndex);
+            }
+            else
+            {
+                dialogeManager.SetNode();
             }
 
             dialogeManager.TypeText();
@@ -73,6 +74,8 @@ namespace Nanoreno.Game
             }
             else
             {
+                SceneManager.LoadScene(0);
+
                 Debug.Log("No More Chapters");
             }
         }

@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Linq;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.Callbacks;
@@ -36,8 +37,11 @@ namespace Nanoreno.Dialogue.Editor
         DialogueNode deletingNode = null;
         [NonSerialized]
         DialogueNode draggingNode = null;
+
         [NonSerialized]
         DialogueNode linkingParentNode = null;
+        [NonSerialized]
+        ControlNode linkingControlParentNode = null;
 
         Vector2 scrollPosition;
 
@@ -129,6 +133,8 @@ namespace Nanoreno.Dialogue.Editor
                     if (node.GetControlNode() != null)
                     {
                         DrawControlNode(node.GetControlNode());
+
+                        DrawControlNodeConnections(node.GetControlNode());
                     }
                 }
 
@@ -272,6 +278,20 @@ namespace Nanoreno.Dialogue.Editor
             GUIStyle style = controlNodeStyle;
             GUILayout.BeginArea(controlNode.GetRect(), style);
 
+            DrawLinkButtonControlNode(controlNode);
+
+            controlNode.screenEffect = (ScreenEffect)EditorGUILayout.EnumPopup(controlNode.screenEffect);
+            controlNode.transition = (Transition)EditorGUILayout.EnumPopup(controlNode.transition);
+
+            if (controlNode.layeredAudio.Count > 0)
+            {
+                EditorGUILayout.LabelField("HAS LAYER AUDIO!");
+            }
+
+            controlNode.clearCharacters = EditorGUILayout.Toggle("Hide Characters", controlNode.clearCharacters);
+            controlNode.stopBGM = EditorGUILayout.Toggle("Stop BGM", controlNode.stopBGM);
+            controlNode.stopAllLayers = EditorGUILayout.Toggle("Stop All Layers", controlNode.stopAllLayers);
+
             EditorGUILayout.LabelField("Background");
             controlNode.backgroundImage = (Sprite)EditorGUILayout.ObjectField(controlNode.backgroundImage, typeof(Sprite), true);
 
@@ -282,7 +302,7 @@ namespace Nanoreno.Dialogue.Editor
             controlNode.SFX = (AudioClip)EditorGUILayout.ObjectField(controlNode.SFX, typeof(AudioClip), true);
 
             EditorGUILayout.LabelField("Character Pos");
-            ReorderableList list = new ReorderableList(controlNode.characterPositions, typeof(CharacterPosition), true, false, true, true);
+            ReorderableList list = new ReorderableList(controlNode.characterPositions, typeof(CharacterPosition), false, false, true, true);
 
             list.drawElementCallback = (Rect rect, int index, bool isActive, bool isFocused) =>
             {
@@ -352,6 +372,60 @@ namespace Nanoreno.Dialogue.Editor
                     startPosition + controlPointOffset, endPosition - controlPointOffset, 
                     Color.white, null, 4f
                 );
+            }
+        }
+
+        private void DrawControlNodeConnections(ControlNode node)
+        {
+            Vector3 startPosition = new Vector2(node.GetRect().xMax, node.GetRect().center.y);
+
+            foreach (ControlNode childNode in node.GetChildren())
+            {
+                Vector3 endPosition = new Vector2(childNode.GetRect().xMin, childNode.GetRect().center.y);
+
+                Vector3 controlPointOffset = endPosition - startPosition;
+                controlPointOffset.y = 0;
+                controlPointOffset.x *= 0.8f;
+
+                Handles.DrawBezier(
+                    startPosition, endPosition,
+                    startPosition + controlPointOffset, endPosition - controlPointOffset,
+                    Color.red, null, 4f
+                );
+            }
+        }
+
+        private void DrawLinkButtonControlNode(ControlNode node)
+        {
+            if (linkingControlParentNode == null)
+            {
+                if (GUILayout.Button("link"))
+                {
+                    linkingControlParentNode = node;
+                }
+            }
+            else if (linkingControlParentNode == node)
+            {
+                if (GUILayout.Button("cancel"))
+                {
+                    linkingControlParentNode = null;
+                }
+            }
+            else if (linkingControlParentNode.GetChildren().Contains(node))
+            {
+                if (GUILayout.Button("unlink"))
+                {
+                    linkingControlParentNode.RemoveChild(node);
+                    linkingControlParentNode = null;
+                }
+            }
+            else
+            {
+                if (GUILayout.Button("child"))
+                {
+                    linkingControlParentNode.AddChild(node);
+                    linkingControlParentNode = null;
+                }
             }
         }
 
