@@ -1,10 +1,8 @@
 using Nanoreno.Characters;
 using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Linq;
 using UnityEngine;
 using UnityEngine.UIElements;
-using UnityEngine.WSA;
 
 namespace Nanoreno.UI
 {

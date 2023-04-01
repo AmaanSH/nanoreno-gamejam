@@ -1,5 +1,4 @@
 using Nanoreno.Dialogue;
-using Nanoreno.Game;
 using System;
 using System.Collections;
 using System.Collections.Generic;

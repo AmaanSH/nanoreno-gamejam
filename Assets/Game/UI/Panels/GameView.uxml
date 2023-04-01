@@ -31,7 +31,7 @@
             <ui:Button text="Load" display-tooltip-when-elided="true" name="loadButton" class="optionButton" />
             <ui:Button text="Q.Load" display-tooltip-when-elided="true" name="quickLoad" class="optionButton" style="visibility: visible; display: none;" />
             <ui:Button text="Auto" display-tooltip-when-elided="true" name="autoButton" class="optionButton" />
-            <ui:Button text="Skip" display-tooltip-when-elided="true" name="skipButton" class="optionButton" />
+            <ui:Button text="Skip" display-tooltip-when-elided="true" name="skipButton" class="optionButton" style="display: none;" />
             <ui:Button text="Config" display-tooltip-when-elided="true" name="configButton" class="optionButton" />
             <ui:Button text="Log" display-tooltip-when-elided="true" name="logButton" class="optionButton" />
         </ui:VisualElement>
