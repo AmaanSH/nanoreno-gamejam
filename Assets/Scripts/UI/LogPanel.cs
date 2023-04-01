@@ -10,7 +10,7 @@ namespace Nanoreno.UI
     {
         public VisualTreeAsset logEntryAsset;
 
-        private UI uiPanel;
+        private UIHolder uiPanel;
         private Button logButton;
         private ListView entryListView;
 
@@ -18,7 +18,7 @@ namespace Nanoreno.UI
 
         private void Start()
         {
-            uiPanel = new UI("logPanel");
+            uiPanel = new UIHolder("logPanel");
 
             SetupEntryListView();
 

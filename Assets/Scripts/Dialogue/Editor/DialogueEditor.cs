@@ -281,8 +281,16 @@ namespace Nanoreno.Dialogue.Editor
             DrawLinkButtonControlNode(controlNode);
 
             controlNode.screenEffect = (ScreenEffect)EditorGUILayout.EnumPopup(controlNode.screenEffect);
+            controlNode.transition = (Transition)EditorGUILayout.EnumPopup(controlNode.transition);
+
+            if (controlNode.layeredAudio.Count > 0)
+            {
+                EditorGUILayout.LabelField("HAS LAYER AUDIO!");
+            }
 
             controlNode.clearCharacters = EditorGUILayout.Toggle("Hide Characters", controlNode.clearCharacters);
+            controlNode.stopBGM = EditorGUILayout.Toggle("Stop BGM", controlNode.stopBGM);
+            controlNode.stopAllLayers = EditorGUILayout.Toggle("Stop All Layers", controlNode.stopAllLayers);
 
             EditorGUILayout.LabelField("Background");
             controlNode.backgroundImage = (Sprite)EditorGUILayout.ObjectField(controlNode.backgroundImage, typeof(Sprite), true);

@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace Nanoreno.Game
 {
@@ -28,12 +29,28 @@ namespace Nanoreno.Game
         private bool showChoicesOnNextPrompt;
         private int currentIndex = 0;
 
+        private UIHolder fadeToBack;
+        private UIHolder blocker;
+
+        private UIHolder debugUi;
+        private Label dialogueIdText;
+        private Label chapterText;
+        private Label dialogueHolderText;
+
         private void Awake()
         {
             dialoguePanel.TextEndReached += Next;
             dialoguePanel.ChoiceMade += OnChoiceMade;
 
             characterPanel.Setup();
+
+            fadeToBack = new UIHolder("fadeToBlack");
+            blocker = new UIHolder("blocker");
+
+            debugUi = new UIHolder("debug");
+            dialogueIdText = debugUi.GetElement("dialogueId") as Label;
+            chapterText = debugUi.GetElement("chapter") as Label;
+            dialogueHolderText = debugUi.GetElement("dialogueHolder") as Label;
         }
 
         private void OnDisable()
@@ -44,6 +61,8 @@ namespace Nanoreno.Game
 
         public void Cleanup()
         {
+            characterPanel.ClearAllSlots();
+
             dialoguePanel.StopAllCoroutines();
         }
 
@@ -82,9 +101,21 @@ namespace Nanoreno.Game
             return null;
         }
 
+        public ControlNode FindBaseControlNode()
+        {
+            return null;
+        }
+
         public void SetChapter(DialogueHolder chapter)
         {       
             this.chapter = chapter;
+
+            currentIndex = 0;
+            showChoicesOnNextPrompt = false;
+
+            chapterText.text = chapter.name;
+
+            SetupLayeredAudio(chapter);
         }
 
         public void SetNode(DialogueNode node = null)
@@ -97,11 +128,38 @@ namespace Nanoreno.Game
             {
                 currentNode = chapter.dialogues[currentIndex].GetAllNodes().ToList()[0];
                 currentDialogues = chapter.dialogues[currentIndex];
+                dialogueHolderText.text = currentDialogues.name;
+            }
+
+            SaveState.chapterDialogueIndex = currentIndex;
+            SaveState.chapterDialogueName = currentDialogues.name;
+        }
+
+        private void SetupLayeredAudio(DialogueHolder holder)
+        {
+            AudioManager.Instance.ClearAllLayers();
+
+            var chapters = holder.dialogues;
+            foreach (Chapter chapter in chapters)
+            {
+                foreach (DialogueNode node in chapter.GetAllNodes())
+                {
+                    ControlNode controlNode = node.GetControlNode();
+                    if (controlNode != null && controlNode.layeredAudio.Count > 0)
+                    {
+                        foreach (LayerAudio layer in controlNode.layeredAudio)
+                        {
+                            AudioManager.Instance.AddAudioToLayers(layer.audioClip);
+                        }
+                    }
+                }
             }
         }
 
         public void TypeText()
         {
+            dialogueIdText.text = currentNode.name;
+
             if (showChoicesOnNextPrompt)
             {
                 dialoguePanel.SetupChoices(BuildChoices());
@@ -118,14 +176,11 @@ namespace Nanoreno.Game
             dialoguePanel.SetText(currentNode.GetText());
 
             Character character = characterManifest.GetCharacterByIndex(currentNode.GetCharacterIndex());
-
             dialoguePanel.SetCharacterName(character.GetName());
 
             if (currentNode.GetControlNode())
             {
                 ControlNode controlNode = currentNode.GetControlNode();
-
-                SaveState.lastControlNodeId = controlNode.name;
 
                 if (controlNode.clearCharacters)
                 {
@@ -136,10 +191,11 @@ namespace Nanoreno.Game
                 {
                     characterPanel.PlaceCharacterInSlot(characterPosition.screenPosition, characterPosition.character);
                 }
+
+                AudioManager.Instance.SetupAudioForSection(controlNode);
             }
 
             logPanel.AddEntry(character.GetName(), currentNode.GetText(), character.GetSprite());
-            SaveState.textUniqueId = currentNode.name;
 
             StartCoroutine(FadeInTalkingSprite(character));
             StartCoroutine(dialoguePanel.Type());
@@ -175,26 +231,70 @@ namespace Nanoreno.Game
                     return;
                 }
 
-                OnChapterEnded();
+                StartCoroutine(OnChapterEnded());
             }
             else
             {
-                if (!showChoicesOnNextPrompt)
+                ControlNode controlNode = currentNode.GetControlNode();
+                if (controlNode != null && controlNode.transition == Transition.FadeToBlack)
                 {
-                    currentNode = currentDialogues.GetChild(children[0]);
+                    StartCoroutine(FadeToBlack());
                 }
+                else
+                {
+                    if (!showChoicesOnNextPrompt)
+                    {
+                        currentNode = currentDialogues.GetChild(children[0]);
+                    }
 
-                TypeText();
+                    TypeText();
+                }
             }
+        }
+
+        private IEnumerator FadeToBlack()
+        {
+            blocker.Element.style.display = DisplayStyle.Flex;
+
+            fadeToBack.Element.style.backgroundColor = new Color(0, 0, 0, 1);
+
+            List<string> children = currentNode.GetChildren();
+            currentNode = currentDialogues.GetChild(children[0]);
+
+            yield return new WaitForSeconds(2.5f);
+
+            fadeToBack.Element.style.backgroundColor = new Color(0, 0, 0, 0);
+
+            TypeText();
+
+            yield return new WaitForSeconds(0.5f);
+
+            blocker.Element.style.display = DisplayStyle.None;
         }
 
         private void SetNextIndex()
         {
             currentIndex++;
+            SaveState.chapterDialogueIndex = currentIndex;
+
             currentDialogues = chapter.dialogues[currentIndex];
+            dialogueHolderText.text = currentDialogues.name;
+
             currentNode = chapter.dialogues[currentIndex].GetAllNodes().ToList()[0];
 
-            Next();
+            SaveState.chapterDialogueName = currentDialogues.name;
+
+            // resetting as this node will probably have its own audio setup!
+            AudioManager.Instance.ResetAudio();
+
+            TypeText();
+        }
+
+        public void SetIndex(int index)
+        {
+            currentIndex = index;
+            currentDialogues = chapter.dialogues[currentIndex];
+            currentNode = chapter.dialogues[currentIndex].GetAllNodes().ToList()[0];
         }
 
         public void OnChoiceMade(DialogueNode choice)
@@ -205,9 +305,19 @@ namespace Nanoreno.Game
             TypeText();
         }
 
-        public void OnChapterEnded()
+        public IEnumerator OnChapterEnded()
         {
+            blocker.Element.style.display = DisplayStyle.Flex;
+            fadeToBack.Element.style.backgroundColor = new Color(0, 0, 0, 1);
+
+            yield return new WaitForSeconds(2.5f);
+
+            fadeToBack.Element.style.backgroundColor = new Color(0, 0, 0, 0);
+
             OnChapterEnd?.Invoke();
+
+            yield return new WaitForSeconds(0.5f);
+            blocker.Element.style.display = DisplayStyle.None;
         }
     }
 }

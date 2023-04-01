@@ -1,0 +1,956 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8536807540947270077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 926a0f26-2fdf-409a-9a45-1ee07ad4e82e
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "We\u2019re here! We made it! The mystic forest is real!"
+  controlNode: {fileID: 0}
+  children:
+  - d3d300a2-127e-4595-8b9d-627b590185b4
+  rect:
+    serializedVersion: 2
+    x: 7292
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &-8415626717431781168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d3d300a2-127e-4595-8b9d-627b590185b4
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: ' I felt a burst of joy as I shoved the book back in my bag.'
+  controlNode: {fileID: 0}
+  children:
+  - dd26bf62-b6c0-459f-829c-81c597c5aa5d
+  rect:
+    serializedVersion: 2
+    x: 7544
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &-8265383327277778538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 79ca7a46-9650-42b0-b259-505649e58730
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: When I was close enough, I let his sleeve go and jogged ahead, dropping down
+    to my knees and staring at the flower.
+  controlNode: {fileID: 0}
+  children:
+  - 17c9ae27-3bc3-4847-9db0-c22b4546225d
+  rect:
+    serializedVersion: 2
+    x: 5791
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &-7111863345076932212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a6d3b8fd-e88b-4ad2-b2bb-e637245bae72
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: Are you afraid?
+  controlNode: {fileID: 0}
+  children:
+  - 8b4f8a4e-0d51-438f-95a4-1c8b64163200
+  rect:
+    serializedVersion: 2
+    x: 2543
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &-5496143784554023083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 0f6e0d5b-3c41-46fb-a1ef-9a3e37a5b388-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 8044
+    y: 375
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &-5359777828896062089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8b4f8a4e-0d51-438f-95a4-1c8b64163200
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I was thinking of nodding, but he probably wouldn\u2019t be able to see
+    it, or maybe he could. He walks around like the forest isn\u2019t pitch black."
+  controlNode: {fileID: 0}
+  children:
+  - 246c0733-ace2-41ab-bfa2-91fcb0c4baf7
+  rect:
+    serializedVersion: 2
+    x: 2793
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &-5059164918065965725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: df2ddfb3-59fc-4aa7-acc1-16d236a0ab0c
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: Well?  Are you going to take it or not?
+  controlNode: {fileID: 0}
+  children:
+  - 83ce581f-2274-4803-99ea-e8cb8eb52219
+  rect:
+    serializedVersion: 2
+    x: 4041
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &-4803019456068088752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: dd957fe1-aa97-40f0-95a5-4f878b7522b8
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: 'I was scared.. '
+  controlNode: {fileID: 0}
+  children:
+  - c5ccb0c0-2338-4420-8898-3e90a10fbaa5
+  rect:
+    serializedVersion: 2
+    x: 793
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &-4725190507537265522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: cd097ed9-17e7-465c-bbb0-7951fa0ea950-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 43
+    y: 374
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio:
+  - Play: 1
+    audioClip: {fileID: 8300000, guid: 27114d5446f441d4da7cb15ebc6e347c, type: 3}
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &-3642277410011926952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 3d23c137-246f-4de3-b8a6-94e85c7ba4ea
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "We\u2019re here."
+  controlNode: {fileID: 0}
+  children:
+  - b7f24043-6c6f-4a0c-ae5e-47cd88d8821d
+  rect:
+    serializedVersion: 2
+    x: 6792
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &-3299236963881754788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: d695f3e1-da9d-4406-8f27-b54d68f436e6
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Uhm, why is it getting darker?
+  controlNode: {fileID: -2106098205897798619}
+  children:
+  - de1c01b5-f314-447c-825f-a7d2a9f64afb
+  rect:
+    serializedVersion: 2
+    x: 293
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &-2597339139238134522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: cd097ed9-17e7-465c-bbb0-7951fa0ea950
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The walk with the man was quiet; he didn\u2019t talk to me. He just kept
+    going ahead, and I trailed behind him. I looked around the forest, noticing the
+    forest getting darker and darker . I rushed ahead so I could be next to the man."
+  controlNode: {fileID: -4725190507537265522}
+  children:
+  - d695f3e1-da9d-4406-8f27-b54d68f436e6
+  rect:
+    serializedVersion: 2
+    x: 43
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &-2512343680170055057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: e8468cba-d440-46ce-8693-81c01d67d4d1
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: Thank you.
+  controlNode: {fileID: 0}
+  children:
+  - a216c458-1e63-49ab-be89-7868ae523ce9
+  rect:
+    serializedVersion: 2
+    x: 4541
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &-2494573319803622601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: b7f24043-6c6f-4a0c-ae5e-47cd88d8821d
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I said in disbelief as the realization hit me. I scrambled to my feet, picking
+    up the book with me.
+  controlNode: {fileID: 0}
+  children:
+  - 926a0f26-2fdf-409a-9a45-1ee07ad4e82e
+  rect:
+    serializedVersion: 2
+    x: 7042
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &-2106098205897798619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: d695f3e1-da9d-4406-8f27-b54d68f436e6-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 293
+    y: 374
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 306c9c3d1b9f9f24bbb3fec34d542d99, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &-629264601145974977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 77d10885-1cd1-49ee-9645-fabd9b981867
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man stops walking, taking a few steps ahead. I turn back to look up at
+    him.
+  controlNode: {fileID: 0}
+  children:
+  - a6d3b8fd-e88b-4ad2-b2bb-e637245bae72
+  rect:
+    serializedVersion: 2
+    x: 2293
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &-297722237510688626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 7677b19f-7d3d-4d14-b8d8-18f6c66f3126
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "\u2026.Sir?"
+  controlNode: {fileID: 0}
+  children:
+  - bee7b05f-a407-48af-81d6-ce99d779486a
+  rect:
+    serializedVersion: 2
+    x: 1293
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d245974386522694baaa77f303c49152, type: 3}
+  m_Name: WalkToMysticForest
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2597339139238134522}
+  - {fileID: -3299236963881754788}
+  - {fileID: 5425336488089681403}
+  - {fileID: -4803019456068088752}
+  - {fileID: 322825388611224561}
+  - {fileID: -297722237510688626}
+  - {fileID: 165978354334097589}
+  - {fileID: 8150837150928375906}
+  - {fileID: 8230830189370885314}
+  - {fileID: -629264601145974977}
+  - {fileID: -7111863345076932212}
+  - {fileID: -5359777828896062089}
+  - {fileID: 1734061116938579181}
+  - {fileID: 1873557915141576975}
+  - {fileID: 2218982991762902749}
+  - {fileID: 3880394354315456622}
+  - {fileID: -5059164918065965725}
+  - {fileID: 8687472639071206470}
+  - {fileID: -2512343680170055057}
+  - {fileID: 680626487190277508}
+  - {fileID: 6371324733893802915}
+  - {fileID: 6704533658230314858}
+  - {fileID: 6185046454647224360}
+  - {fileID: -8265383327277778538}
+  - {fileID: 7664720888927552591}
+  - {fileID: 3935385648656746618}
+  - {fileID: 5632561741763996948}
+  - {fileID: -3642277410011926952}
+  - {fileID: -2494573319803622601}
+  - {fileID: -8536807540947270077}
+  - {fileID: -8415626717431781168}
+  - {fileID: 608263359012264563}
+  - {fileID: 4043426570237756048}
+  background: {fileID: 0}
+  newNodeOffset: {x: 250, y: 0}
+  newControlNodeOffset: {x: 0, y: 200}
+--- !u!114 &165978354334097589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: bee7b05f-a407-48af-81d6-ce99d779486a
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: What is it?
+  controlNode: {fileID: 0}
+  children:
+  - 5a4f3f33-d367-4be5-9b73-9591ca21582f
+  rect:
+    serializedVersion: 2
+    x: 1543
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &322825388611224561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: c5ccb0c0-2338-4420-8898-3e90a10fbaa5
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I looked at the man from the corner of my eyes, and I could faintly see him.
+    I managed to gather the courage to speak again.
+  controlNode: {fileID: 0}
+  children:
+  - 7677b19f-7d3d-4d14-b8d8-18f6c66f3126
+  rect:
+    serializedVersion: 2
+    x: 1043
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &608263359012264563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: dd26bf62-b6c0-459f-829c-81c597c5aa5d
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "Let\u2019s keep going! We could be close! "
+  controlNode: {fileID: 0}
+  children:
+  - 0f6e0d5b-3c41-46fb-a1ef-9a3e37a5b388
+  rect:
+    serializedVersion: 2
+    x: 7794
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &680626487190277508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a216c458-1e63-49ab-be89-7868ae523ce9
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man dropped his arm once I grabbed his sleeve and continued walking,
+    pulling me along with him.
+  controlNode: {fileID: 0}
+  children:
+  - a5ac1c13-f672-4049-b077-30e97b460e64
+  rect:
+    serializedVersion: 2
+    x: 4791
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &1734061116938579181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 246c0733-ace2-41ab-bfa2-91fcb0c4baf7
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: I am
+  controlNode: {fileID: 0}
+  children:
+  - a1afc9da-f6fa-4a34-8638-7782a9ddcffa
+  rect:
+    serializedVersion: 2
+    x: 3041
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &1873557915141576975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a1afc9da-f6fa-4a34-8638-7782a9ddcffa
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The man doesn\u2019t say anything else; he just brushes past me. I felt
+    sad being ignored like that. I knew it wasn\u2019t very smart to ask something
+    like that, but I was scared. Being in the dark with nothing but a strange man
+    to lead me through it, I wanted some sort of comfort."
+  controlNode: {fileID: 0}
+  children:
+  - b4be5678-9a56-4116-9778-4de76b20a023
+  rect:
+    serializedVersion: 2
+    x: 3291
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &2218982991762902749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: b4be5678-9a56-4116-9778-4de76b20a023
+  m_EditorClassIdentifier: 
+  characterIndex: 13
+  text: Are you coming?
+  controlNode: {fileID: 0}
+  children:
+  - 4f8d581e-e0d8-4982-8073-9f51f0526e84
+  rect:
+    serializedVersion: 2
+    x: 3541
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &3880394354315456622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 4f8d581e-e0d8-4982-8073-9f51f0526e84
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: The man snapped me out of my thoughts. I quietly followed and stood next
+    to him. He lifts his arm in front of me.
+  controlNode: {fileID: 0}
+  children:
+  - df2ddfb3-59fc-4aa7-acc1-16d236a0ab0c
+  rect:
+    serializedVersion: 2
+    x: 3791
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &3935385648656746618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6b03de1f-4880-4cae-964c-a12f12e4f57c
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "That\u2019s not it."
+  controlNode: {fileID: 0}
+  children:
+  - 8c3138ad-930c-4d89-a043-26c44c591678
+  rect:
+    serializedVersion: 2
+    x: 6292
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &4043426570237756048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 0f6e0d5b-3c41-46fb-a1ef-9a3e37a5b388
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "The fear I felt began to dwindle and was replaced with excitement. Finding
+    something I wasn\u2019t sure was real made me the happiest. I grabbed the man\u2019s
+    sleeve again, gently pulling. He understood and continued ahead, leaving the
+    flower behind."
+  controlNode: {fileID: -5496143784554023083}
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 8044
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &5272955464897074633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 6e793fbd-3757-43e8-916f-49c066dcd9b9-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 5291
+    y: 375
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio:
+  - Play: 0
+    audioClip: {fileID: 8300000, guid: 27114d5446f441d4da7cb15ebc6e347c, type: 3}
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 8300000, guid: daa1bca80270ab046bf27aabb51449ab, type: 3}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &5425336488089681403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: de1c01b5-f314-447c-825f-a7d2a9f64afb
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: He ignores me, unbothered by the pitch black surrounding us. I could no longer
+    see the outlines of the trees or what was coming ahead.
+  controlNode: {fileID: 0}
+  children:
+  - dd957fe1-aa97-40f0-95a5-4f878b7522b8
+  rect:
+    serializedVersion: 2
+    x: 543
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &5632561741763996948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 8c3138ad-930c-4d89-a043-26c44c591678
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: As I close the book, I suddenly remember some of the early pages. I quickly
+    flip through the pages until I reach the fourth page. It read, "Lumin blue flowers."
+  controlNode: {fileID: 0}
+  children:
+  - 3d23c137-246f-4de3-b8a6-94e85c7ba4ea
+  rect:
+    serializedVersion: 2
+    x: 6542
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &6185046454647224360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: ac4b8e2d-b05a-4381-a337-bdd69215e7fa
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: As we walked closer, I noticed it was a small glowing flower, giving out
+    a blue glow. I slightly gasped.
+  controlNode: {fileID: 0}
+  children:
+  - 79ca7a46-9650-42b0-b259-505649e58730
+  rect:
+    serializedVersion: 2
+    x: 5541
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &6371324733893802915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: a5ac1c13-f672-4049-b077-30e97b460e64
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: We continued walking together like that for a while longer until something
+    ahead started shining.
+  controlNode: {fileID: 0}
+  children:
+  - 6e793fbd-3757-43e8-916f-49c066dcd9b9
+  rect:
+    serializedVersion: 2
+    x: 5041
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &6704533658230314858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 6e793fbd-3757-43e8-916f-49c066dcd9b9
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: What is that?
+  controlNode: {fileID: 5272955464897074633}
+  children:
+  - ac4b8e2d-b05a-4381-a337-bdd69215e7fa
+  rect:
+    serializedVersion: 2
+    x: 5291
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &7664720888927552591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 17c9ae27-3bc3-4847-9db0-c22b4546225d
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: "I pulled my book out and opened it on the page with the glowing moon lily.
+    Using the lamp\u2019s light to see, I compared the two. Noticing the difference,
+    I let out a sigh. The man standing behind me"
+  controlNode: {fileID: 0}
+  children:
+  - 6b03de1f-4880-4cae-964c-a12f12e4f57c
+  rect:
+    serializedVersion: 2
+    x: 6042
+    y: 175
+    width: 200
+    height: 200
+--- !u!114 &8150837150928375906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 5a4f3f33-d367-4be5-9b73-9591ca21582f
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I jumped at his words, half expecting him to ignore me again. I clenched
+    the strap on my bag.
+  controlNode: {fileID: 0}
+  children:
+  - 832dffb6-bea4-4924-b004-de0e204231dc
+  rect:
+    serializedVersion: 2
+    x: 1793
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &8230830189370885314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 832dffb6-bea4-4924-b004-de0e204231dc
+  m_EditorClassIdentifier: 
+  characterIndex: 4
+  text: "Can I... grab on to your sleeve? It\u2019s really dark."
+  controlNode: {fileID: 0}
+  children:
+  - 77d10885-1cd1-49ee-9645-fabd9b981867
+  rect:
+    serializedVersion: 2
+    x: 2043
+    y: 174
+    width: 200
+    height: 200
+--- !u!114 &8687472639071206470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
+  m_Name: 83ce581f-2274-4803-99ea-e8cb8eb52219
+  m_EditorClassIdentifier: 
+  characterIndex: 0
+  text: I stared down at his arm for a few moments before gently grasping his sleeve,
+    his fabric feeling soft to the touch.
+  controlNode: {fileID: 0}
+  children:
+  - e8468cba-d440-46ce-8693-81c01d67d4d1
+  rect:
+    serializedVersion: 2
+    x: 4291
+    y: 175
+    width: 200
+    height: 200

@@ -22,12 +22,12 @@ namespace Nanoreno.UI
         public VisualTreeAsset saveSlot;
         public int saveSlotCount = 4;
 
-        private UI uiPanel;
+        private UIHolder uiPanel;
         private PanelMode panelMode;
 
         private void Start()
         {
-            uiPanel = new UI(savePanel.CloneTree());
+            uiPanel = new UIHolder(savePanel.CloneTree());
             uiPanel.Element.style.width = Length.Percent(100);
             uiPanel.Element.style.height = Length.Percent(100);
 
@@ -71,15 +71,13 @@ namespace Nanoreno.UI
                 SlotBuilder slot = new SlotBuilder(saveSlot);
 
                 // find data for this
-                string uniqueId = PlayerPrefs.GetString($"save-{slotNumber}-textUniqueId", "");
-                if (!string.IsNullOrEmpty(uniqueId))
+                int chapter = PlayerPrefs.GetInt($"save-{slotNumber}-chapter", -1);
+                if (chapter > -1)
                 {
-                    int chapter = PlayerPrefs.GetInt($"save-{slotNumber}-chapter");
-
                     slot
                         .SetSlotNumber(slotNumber)
                         .SetChapterNumber(chapter + 1)
-                        .SetChapterName(uniqueId);
+                        .SetChapterName(PlayerPrefs.GetString($"save-{slotNumber}-chapterDialogueName"));
                 }
                 else
                 {
@@ -91,7 +89,7 @@ namespace Nanoreno.UI
 
                 VisualElement slotVisualElement = slot.Build();
 
-                if (panelMode == PanelMode.Save || (panelMode == PanelMode.Load && !string.IsNullOrEmpty(uniqueId)))
+                if (panelMode == PanelMode.Save || (panelMode == PanelMode.Load && chapter > -1))
                 {
                     Button button = slotVisualElement.Q("slotButton") as Button;
                     button.clicked += () => SlotClicked(slotNumber);

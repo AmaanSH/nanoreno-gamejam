@@ -59,6 +59,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-8565362284851361720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +119,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-8072203597572887736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,7 +137,7 @@ MonoBehaviour:
   text: I say a quick thank you and head inside. I walk in and take off my shoes,
     placing them on the side. The doctor shuts the door behind me. I could hear laughter
     and footsteps getting louder.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: 5433687448075472061}
   children:
   - 8d1e03ab-a58f-48ce-94a2-fba0f19fca59
   rect:
@@ -188,6 +192,42 @@ MonoBehaviour:
     y: 258
     width: 200
     height: 200
+--- !u!114 &-7435460666901880623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 8d1e03ab-a58f-48ce-94a2-fba0f19fca59-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1779
+    y: 456
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 49613d2abe20f294e9c6e07e221d7619, type: 2}
+    emotion: 0
+    screenPosition: 3
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 1
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-7358883038076710856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +244,7 @@ MonoBehaviour:
   - {fileID: -1287232653418658640}
   rect:
     serializedVersion: 2
-    x: 6275
+    x: 6274
     y: 457
     width: 200
     height: 300
@@ -223,6 +263,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-7298691147332726171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,6 +334,36 @@ MonoBehaviour:
     y: 257
     width: 200
     height: 200
+--- !u!114 &-7003673253346564952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 256afc30-cc5d-473b-92c8-ff4945ed16ef-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 14998
+    y: 457
+    width: 200
+    height: 300
+  characterPositions: []
+  layeredAudio:
+  - Play: 1
+    audioClip: {fileID: 8300000, guid: 746385e1f09d9a44ca4c0d24f86c0aab, type: 3}
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 1
+  stopAllLayers: 0
 --- !u!114 &-6974878328346192093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,6 +399,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-6717573370171557898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,6 +440,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-5955176918011210267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,6 +570,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-4770820251987133067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,8 +591,8 @@ MonoBehaviour:
   - 1042f0ce-4900-4a0c-b387-260aa82c8ea2
   rect:
     serializedVersion: 2
-    x: 4278
-    y: 255
+    x: 4281
+    y: 257
     width: 200
     height: 200
 --- !u!114 &-4577004079109480572
@@ -628,8 +706,8 @@ MonoBehaviour:
   - {fileID: -1920453617041971783}
   rect:
     serializedVersion: 2
-    x: 4278
-    y: 455
+    x: 4281
+    y: 457
     width: 200
     height: 300
   characterPositions:
@@ -647,6 +725,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-3678540795392163678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,6 +812,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-3421972512004939388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,8 +857,8 @@ MonoBehaviour:
   - 89917178-d664-4c3e-b304-952886a5314d
   rect:
     serializedVersion: 2
-    x: 14498
-    y: 257
+    x: 14497
+    y: 258
     width: 200
     height: 200
 --- !u!114 &-2996879079928169439
@@ -907,6 +989,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-1734063769110578715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,6 +1026,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-1703504942481225790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1046,6 +1132,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-1090617318908839632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1059,7 +1147,7 @@ MonoBehaviour:
   m_Name: 4bc23bf5-d773-44c7-903a-81a88bcbb634
   m_EditorClassIdentifier: 
   characterIndex: 0
-  text: Grimoire of the Hidden Forest?
+  text: Grimoire of the Mystic Forest?
   controlNode: {fileID: -1287232653418658640}
   children:
   - c59eebb2-b746-47ea-869c-f9a390d46e83
@@ -1084,7 +1172,7 @@ MonoBehaviour:
   characterIndex: 0
   text: The twins wave frantically as the doctor gives me a small wave." I turn back
     and start my journey back home.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -7003673253346564952}
   children: []
   rect:
     serializedVersion: 2
@@ -1292,12 +1380,16 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
-  layeredAudio: []
+  layeredAudio:
+  - Play: 0
+    audioClip: {fileID: 8300000, guid: 746385e1f09d9a44ca4c0d24f86c0aab, type: 3}
   screenEffect: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &479205221872478368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1333,6 +1425,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &876774857857009676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1514,6 +1608,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &2500244550999415434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1553,6 +1649,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &2869474219857359659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1719,7 +1817,7 @@ MonoBehaviour:
   - 9f7919b3-8ab3-4879-87cc-79c4dee1e2db
   rect:
     serializedVersion: 2
-    x: 6275
+    x: 6274
     y: 257
     width: 200
     height: 200
@@ -1744,12 +1842,18 @@ MonoBehaviour:
     width: 200
     height: 300
   characterPositions: []
-  layeredAudio: []
+  layeredAudio:
+  - Play: 1
+    audioClip: {fileID: 8300000, guid: f999c2081de92de43af5864a3b5b281d, type: 3}
+  - Play: 1
+    audioClip: {fileID: 8300000, guid: 746385e1f09d9a44ca4c0d24f86c0aab, type: 3}
   screenEffect: 0
   backgroundImage: {fileID: 0}
-  BGM: {fileID: 8300000, guid: 079f0c18411336641a007458d7b2f97c, type: 3}
+  BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 1
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &4377066228619580483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1860,6 +1964,44 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &5433687448075472061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 0a167f37-6bf9-4883-8de9-cca66ded5e8f-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1529
+    y: 456
+    width: 200
+    height: 300
+  characterPositions:
+  - character: {fileID: 11400000, guid: 69fb8869b1a8d954598b97ba97708ec3, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: c8188c42d5bebc64ba486ebdc109ba6f, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
+  layeredAudio: []
+  screenEffect: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 8300000, guid: 95901167db6175e4d8f74863572952b8, type: 3}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 1
 --- !u!114 &5560999056886800768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1943,7 +2085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 1
   text: Leilani!
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -7435460666901880623}
   children:
   - b89a83ba-ca0c-4b4c-af8d-ccf4a7391b0f
   rect:
@@ -1987,6 +2129,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &7493713738305011359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2073,8 +2217,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 14498
-    y: 457
+    x: 14497
+    y: 458
     width: 200
     height: 300
   characterPositions:
@@ -2096,6 +2240,8 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &8228199998788022844
 MonoBehaviour:
   m_ObjectHideFlags: 0

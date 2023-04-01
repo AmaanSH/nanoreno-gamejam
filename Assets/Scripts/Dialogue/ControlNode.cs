@@ -27,7 +27,7 @@ namespace Nanoreno.Dialogue
     [System.Serializable]
     public class LayerAudio
     {
-        //public int layer = 0;
+        public bool Play;
         public AudioClip audioClip;
     }
 
@@ -38,23 +38,35 @@ namespace Nanoreno.Dialogue
         Shake
     }
 
+    [System.Serializable]
+    public enum Transition
+    {
+        None,
+        FadeToBlack
+    }
+
+
     public class ControlNode : ScriptableObject
     {
         [SerializeField]
         private List<ControlNode> children = new List<ControlNode>();
 
         [SerializeField]
-        Rect rect = new Rect(0, 0, 200, 300);
+        Rect rect = new Rect(0, 0, 200, 400);
 
         public List<CharacterPosition> characterPositions = new List<CharacterPosition>();
         public List<LayerAudio> layeredAudio = new List<LayerAudio>();
 
         public ScreenEffect screenEffect;
+        public Transition transition;
         public Sprite backgroundImage;
 
         public AudioClip BGM;
         public AudioClip SFX;
         public bool clearCharacters = false;
+
+        public bool stopBGM;
+        public bool stopAllLayers;
 
         public IEnumerable<CharacterPosition> GetCharacterPositions()
         {

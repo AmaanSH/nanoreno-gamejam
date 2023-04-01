@@ -17,12 +17,12 @@ namespace Nanoreno.UI
 
     public class CharacterPanel : MonoBehaviour
     {
-        private UI uiPanel;
+        private UIHolder uiPanel;
 
         private List<CharacterHolder> characterHolders = new List<CharacterHolder>();
         public void Setup()
         {
-            uiPanel = new UI("overlay");
+            uiPanel = new UIHolder("overlay");
         }
 
         public void CreateHolder(VisualElement element, string characterName, SpritePosition position)
@@ -58,9 +58,13 @@ namespace Nanoreno.UI
             uiPanel.Element.Remove(holder.element);
         }
 
-        public void RemoveHolder(CharacterHolder holder)
+        public void RemoveHolder(CharacterHolder holder, bool remove = false)
         {
-            characterHolders.Remove(holder);
+            if (remove)
+            {
+                characterHolders.Remove(holder);
+            }
+
             uiPanel.Element.Remove(holder.element);
         }
 
@@ -80,6 +84,8 @@ namespace Nanoreno.UI
             {
                 RemoveHolder(holder);
             }
+
+            characterHolders.Clear();
         }
 
         public void PlaceCharacterInSlot(SpritePosition position, Character character, int percentage = 0)
@@ -95,7 +101,7 @@ namespace Nanoreno.UI
             CharacterHolder positionHolder = GetHolderAtPosition(position);
             if (positionHolder != null)
             {
-                RemoveHolder(positionHolder);
+                RemoveHolder(positionHolder, true);
             }
 
             if (position == SpritePosition.None) { return; }

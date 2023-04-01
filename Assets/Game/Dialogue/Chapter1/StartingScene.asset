@@ -54,10 +54,13 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-6248229669667063664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,16 +78,19 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 46
-    y: 481
+    y: 482
     width: 200
     height: 300
   characterPositions: []
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
-  BGM: {fileID: 8300000, guid: 079f0c18411336641a007458d7b2f97c, type: 3}
+  BGM: {fileID: 8300000, guid: c5c9666caf791544a94f6b74d9192096, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 1
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-6227244996708150437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,7 +155,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 3483
-    y: 481
+    y: 482
     width: 200
     height: 300
   characterPositions:
@@ -163,10 +169,13 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-4452271852741416679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,10 +457,13 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &2628315190604843083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,10 +514,13 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 1
+  stopAllLayers: 0
 --- !u!114 &4530651788067258205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,7 +588,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 3483
-    y: 281
+    y: 282
     width: 200
     height: 200
 --- !u!114 &7018595464872139332
@@ -597,7 +612,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 48
-    y: 280
+    y: 281
     width: 200
     height: 200
 --- !u!114 &7648497342689869386
@@ -631,10 +646,13 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &7670296446840769686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,10 +727,13 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &8587959438709624898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,10 +756,13 @@ MonoBehaviour:
   characterPositions: []
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &8596530986760777394
 MonoBehaviour:
   m_ObjectHideFlags: 0
