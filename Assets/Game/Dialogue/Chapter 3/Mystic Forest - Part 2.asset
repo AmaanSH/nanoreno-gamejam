@@ -53,6 +53,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -205,6 +206,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -540,6 +542,7 @@ MonoBehaviour:
   - Play: 0
     audioClip: {fileID: 8300000, guid: 27114d5446f441d4da7cb15ebc6e347c, type: 3}
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -649,6 +652,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -731,6 +735,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -1006,6 +1011,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -1065,6 +1071,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -1095,6 +1102,7 @@ MonoBehaviour:
   - Play: 1
     audioClip: {fileID: 8300000, guid: 27114d5446f441d4da7cb15ebc6e347c, type: 3}
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 8300000, guid: daa1bca80270ab046bf27aabb51449ab, type: 3}
   SFX: {fileID: 0}

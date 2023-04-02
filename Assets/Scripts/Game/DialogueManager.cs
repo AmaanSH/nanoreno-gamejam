@@ -37,12 +37,15 @@ namespace Nanoreno.Game
         private Label chapterText;
         private Label dialogueHolderText;
 
-        private void Awake()
+        public void Setup()
         {
+            dialoguePanel.Setup();
+
             dialoguePanel.TextEndReached += Next;
             dialoguePanel.ChoiceMade += OnChoiceMade;
 
             characterPanel.Setup();
+            logPanel.Setup();
 
             fadeToBack = new UIHolder("fadeToBlack");
             blocker = new UIHolder("blocker");
@@ -283,9 +286,6 @@ namespace Nanoreno.Game
             currentNode = chapter.dialogues[currentIndex].GetAllNodes().ToList()[0];
 
             SaveState.chapterDialogueName = currentDialogues.name;
-
-            // resetting as this node will probably have its own audio setup!
-            AudioManager.Instance.ResetAudio();
 
             TypeText();
         }

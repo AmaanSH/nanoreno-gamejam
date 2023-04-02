@@ -28,7 +28,7 @@ namespace Nanoreno.UI
 
         private const string CHOICE_BUTTON_CLASS = "choiceButton";
 
-        private void Start()
+        public void Setup()
         {
             uiPanel = new UIHolder("narrativePanel");
 

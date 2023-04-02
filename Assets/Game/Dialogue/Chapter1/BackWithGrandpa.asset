@@ -31,6 +31,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -145,7 +146,7 @@ MonoBehaviour:
   m_Name: 2cead7e4-46b0-4311-891b-06c0611d70d7
   m_EditorClassIdentifier: 
   characterIndex: 4
-  text: Native to the hidden forest, this flower is said to heal any illness or injury.
+  text: Native to the mystic forest, this flower is said to heal any illness or injury.
     They give off a small white glow. They are cultivated in a small area hidden
     within the mystic forest. Only a small number of them exist.
   controlNode: {fileID: -1913708716897922222}
@@ -211,6 +212,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -311,6 +313,7 @@ MonoBehaviour:
   characterPositions: []
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 8300000, guid: 079f0c18411336641a007458d7b2f97c, type: 3}
   SFX: {fileID: 0}
@@ -515,8 +518,11 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
-  layeredAudio: []
+  layeredAudio:
+  - Play: 0
+    audioClip: {fileID: 8300000, guid: 746385e1f09d9a44ca4c0d24f86c0aab, type: 3}
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -576,6 +582,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -660,6 +667,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -960,6 +968,7 @@ MonoBehaviour:
   characterPositions: []
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}

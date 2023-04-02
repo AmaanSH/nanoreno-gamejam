@@ -297,6 +297,18 @@ PrefabInstance:
       propertyPath: dialogeManager
       value: 
       objectReference: {fileID: 333486638}
+    - target: {fileID: 956038108401623551, guid: 01d680febe04fde42b114e6b3476f2e4, type: 3}
+      propertyPath: chapters.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0485ec48c68c0fa40b8a65a3eb72e140, type: 2}
+    - target: {fileID: 956038108401623551, guid: 01d680febe04fde42b114e6b3476f2e4, type: 3}
+      propertyPath: chapters.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2761d9e4c4545454985a57993317e340, type: 2}
+    - target: {fileID: 956038108401623551, guid: 01d680febe04fde42b114e6b3476f2e4, type: 3}
+      propertyPath: chapters.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 125a7052f8c756c48a4d58abd489cf4e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

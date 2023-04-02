@@ -16,7 +16,7 @@ namespace Nanoreno.UI
 
         private List<LogEntryBuilder> elements = new List<LogEntryBuilder>();
 
-        private void Start()
+        public void Setup()
         {
             uiPanel = new UIHolder("logPanel");
 

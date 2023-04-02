@@ -19,6 +19,8 @@ namespace Nanoreno.Game
 
         public void Start()
         {
+            SetupGame();
+            
             dialogeManager.OnChapterEnd += OnChapterEnded;
             
             if (SaveState.chapterIndex != -1)
@@ -29,6 +31,11 @@ namespace Nanoreno.Game
             {
                 StartChapter(0);
             }
+        }
+
+        public void SetupGame()
+        {
+            dialogeManager.Setup();
         }
 
         public void LoadSave()

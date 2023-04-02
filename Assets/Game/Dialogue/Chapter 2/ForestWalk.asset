@@ -360,6 +360,7 @@ MonoBehaviour:
   - Play: 1
     audioClip: {fileID: 8300000, guid: 27114d5446f441d4da7cb15ebc6e347c, type: 3}
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -753,6 +754,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -788,6 +790,7 @@ MonoBehaviour:
   - Play: 1
     audioClip: {fileID: 8300000, guid: 0e58598b9a83dca458b093eea735b21f, type: 3}
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -817,6 +820,7 @@ MonoBehaviour:
   characterPositions: []
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -1062,6 +1066,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -1632,6 +1637,7 @@ MonoBehaviour:
   characterPositions: []
   layeredAudio: []
   screenEffect: 1
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -1688,6 +1694,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -1959,6 +1966,7 @@ MonoBehaviour:
   characterPositions: []
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -2163,6 +2171,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -2220,6 +2229,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -2327,6 +2337,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -2360,6 +2371,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -2443,6 +2455,7 @@ MonoBehaviour:
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -2564,6 +2577,7 @@ MonoBehaviour:
   characterPositions: []
   layeredAudio: []
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
@@ -2711,6 +2725,7 @@ MonoBehaviour:
   - Play: 1
     audioClip: {fileID: 8300000, guid: 0e58598b9a83dca458b093eea735b21f, type: 3}
   screenEffect: 0
+  transition: 0
   backgroundImage: {fileID: 0}
   BGM: {fileID: 0}
   SFX: {fileID: 0}

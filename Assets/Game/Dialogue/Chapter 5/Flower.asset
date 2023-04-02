@@ -1246,7 +1246,7 @@ MonoBehaviour:
   characterIndex: 0
   text: "I almost have the flower so don\u2019t worry Grandpa. I\u2019ll be home
     soon."
-  controlNode: {fileID: 1619558173778626055}
+  controlNode: {fileID: 0}
   children:
   - 4af59061-f980-4009-b227-86f01aa0d457
   rect:
@@ -2469,7 +2469,7 @@ MonoBehaviour:
     but at the end was bright.
   controlNode: {fileID: 0}
   children:
-  - 98be664f-8d43-43ad-a40f-cbb4d0de4a37
+  - bba2fd77-72f1-42d9-9421-800b19dc39fe
   rect:
     serializedVersion: 2
     x: 10027
@@ -2895,14 +2895,14 @@ MonoBehaviour:
   m_Name: 52963aa4-c30c-425c-8aff-6ff85b208931
   m_EditorClassIdentifier: 
   characterIndex: 4
-  text: Woah
+  text: Wow
   controlNode: {fileID: 0}
   children:
   - f188b837-ef7a-478a-bfae-14d14ffbe6a2
   rect:
     serializedVersion: 2
-    x: 9777
-    y: 181
+    x: 9768
+    y: 179
     width: 200
     height: 200
 --- !u!114 &-1642849899375927622
@@ -3578,7 +3578,6 @@ MonoBehaviour:
   - {fileID: 4596184006260210561}
   - {fileID: -1738973058287636517}
   - {fileID: -3173909177659113306}
-  - {fileID: 4870785920149156870}
   - {fileID: 3247696854074679499}
   - {fileID: 7669942135298181116}
   - {fileID: -3601131655454272890}
@@ -4373,7 +4372,7 @@ MonoBehaviour:
   screenEffect: 0
   transition: 0
   backgroundImage: {fileID: 0}
-  BGM: {fileID: 0}
+  BGM: {fileID: 8300000, guid: daa1bca80270ab046bf27aabb51449ab, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 0
   stopBGM: 1
@@ -4448,35 +4447,6 @@ MonoBehaviour:
     y: 181
     width: 200
     height: 200
---- !u!114 &1619558173778626055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
-  m_Name: f6f2de11-9cf3-4f4d-9ced-90b83cc48b83-CONTROL
-  m_EditorClassIdentifier: 
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 4049
-    y: 382
-    width: 200
-    height: 400
-  characterPositions: []
-  layeredAudio: []
-  screenEffect: 0
-  transition: 0
-  backgroundImage: {fileID: 0}
-  BGM: {fileID: 8300000, guid: daa1bca80270ab046bf27aabb51449ab, type: 3}
-  SFX: {fileID: 0}
-  clearCharacters: 0
-  stopBGM: 0
-  stopAllLayers: 0
 --- !u!114 &1620374808676713189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5130,8 +5100,8 @@ MonoBehaviour:
   - 92f26a8e-585a-4d11-b2f0-2ba05dbe34b8
   rect:
     serializedVersion: 2
-    x: 10527
-    y: 181
+    x: 10450
+    y: 180
     width: 200
     height: 200
 --- !u!114 &3257598655623039535
@@ -5887,29 +5857,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 29056
     y: 17
-    width: 200
-    height: 200
---- !u!114 &4870785920149156870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
-  m_Name: 98be664f-8d43-43ad-a40f-cbb4d0de4a37
-  m_EditorClassIdentifier: 
-  characterIndex: 4
-  text: Woah!
-  controlNode: {fileID: 0}
-  children:
-  - bba2fd77-72f1-42d9-9421-800b19dc39fe
-  rect:
-    serializedVersion: 2
-    x: 10277
-    y: 181
     width: 200
     height: 200
 --- !u!114 &4887682793248288020

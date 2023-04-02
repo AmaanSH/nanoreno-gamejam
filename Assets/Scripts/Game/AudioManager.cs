@@ -18,7 +18,7 @@ public class AudioManager : MonoBehaviour
     private List<AudioSource> audioSources = new List<AudioSource>();
 
     private const string VOLUME_BGM_MIXER = "volume";
-    private const float FADE_DURATION = 1.0f;
+    private const float FADE_DURATION = 10.0f;
 
     private void Awake()
     {
@@ -113,7 +113,7 @@ public class AudioManager : MonoBehaviour
         if (bgmSource.isPlaying)
         {
             if (bgmSource.clip == clip)
-                yield return null;
+                yield break;
 
             yield return StartFade(bgmMixer, VOLUME_BGM_MIXER, FADE_DURATION, 0);
         }
@@ -140,9 +140,9 @@ public class AudioManager : MonoBehaviour
             Destroy(source.gameObject);
         }
 
-        bgmSource.Stop();
-        sfxSource.Stop();
+        StartCoroutine(StartFade(bgmMixer, VOLUME_BGM_MIXER, FADE_DURATION, 0));
 
+        sfxSource.Stop();
         audioSources.Clear();
     }
 
