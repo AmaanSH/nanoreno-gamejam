@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   undiscoveredName: 
   characterName: Lua
-  sprite: {fileID: 21300000, guid: 395f6b9556f14704790df6035be6ee3a, type: 3}
+  sprite: {fileID: 21300000, guid: a93e74eab9f760f418f393dd8bf57856, type: 3}

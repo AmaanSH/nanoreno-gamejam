@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 0505e3cd-9d8b-4e1b-a182-dd1a712a0dc0
   m_EditorClassIdentifier: 
   characterIndex: 0
-  text: "He\u2019s so pale and is weaker than before."
+  text: "He\u2019s so pale and weaker than before."
   controlNode: {fileID: 0}
   children:
   - 6215cfb2-f5a4-4fda-b5b0-3e7d449eaf60
   rect:
     serializedVersion: 2
-    x: 774
+    x: 781
     y: 281
     width: 200
     height: 200
@@ -85,7 +85,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: d3d7beff45832724cafbbf88c8c53d5b, type: 3}
   BGM: {fileID: 8300000, guid: c5c9666caf791544a94f6b74d9192096, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 1
@@ -127,8 +127,8 @@ MonoBehaviour:
   m_Name: 9f9ed73b-dd21-4f05-beb1-5a610b05d55f
   m_EditorClassIdentifier: 
   characterIndex: 0
-  text: I want to believe him, but the disease spreading has not been nice to others,
-    especially the village.
+  text: I want to believe him, but the disease has not been nice to others, especially
+    not to people in the village.
   controlNode: {fileID: 0}
   children:
   - 5f3bd706-5537-4721-bcae-5a2bf86e8f29
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 5f3bd706-5537-4721-bcae-5a2bf86e8f29
   m_EditorClassIdentifier: 
   characterIndex: 0
-  text: "There haven\u2019t been a lot of sick people, but the ones who got sick
+  text: "There hasn\u2019t been a lot of sick people, but the ones who did get sick
     didn\u2019t make it."
   controlNode: {fileID: 0}
   children:
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_Name: 360d7f7d-f8de-4775-b61e-c608c3bda773
   m_EditorClassIdentifier: 
   characterIndex: 4
-  text: "I'm going to go get you more medicine. I\u2019ll be back, Grandpa."
+  text: "I'm going to get you more medicine. I\u2019ll be back, Grandpa."
   controlNode: {fileID: 0}
   children:
   - 84ae55ec-df60-4e92-9c7a-ba932d8d5d21
@@ -519,7 +519,7 @@ MonoBehaviour:
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
-  stopBGM: 1
+  stopBGM: 0
   stopAllLayers: 0
 --- !u!114 &4530651788067258205
 MonoBehaviour:
@@ -535,7 +535,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 0
   text: "Grandpa makes a stern face. I know he\u2019s trying to be serious but I
-    can\u2019t help but smile; even while he\u2019s sick he still worries about me."
+    can\u2019t help but smile. Even while he\u2019s sick, he still worries about
+    me."
   controlNode: {fileID: 0}
   children:
   - 2206f813-a0c9-4a30-aab1-d86808d98dc5
@@ -604,8 +605,8 @@ MonoBehaviour:
   m_Name: c7779627-347a-43b2-a631-4eabc0aaba45
   m_EditorClassIdentifier: 
   characterIndex: 0
-  text: Sickness spread like wildfire in villages across the land. From young to
-    old, healthy or weak, the village of Woodhaerst was no exception.
+  text: "Sickness spread like wildfire in villages across the land. From young to
+    old, healthy or weak\u2026 the village of Woodhaerst was no exception."
   controlNode: {fileID: -6248229669667063664}
   children:
   - e9bf9981-ff14-4edb-bb26-e9a4090f8e9c
@@ -666,8 +667,8 @@ MonoBehaviour:
   m_Name: e48231da-9350-48b6-9327-d5c85d8511e5
   m_EditorClassIdentifier: 
   characterIndex: 5
-  text: "Be careful, Lei, don\u2019t stray away from the village; it\u2019s dangerous
-    out in the forest and more so during the night."
+  text: "Be careful Lei, don\u2019t stray away from the village. It\u2019s dangerous
+    out in the forest\u2014more so during the night."
   controlNode: {fileID: 0}
   children:
   - d515b48a-49b4-4e17-b166-bc2bc1df3391
@@ -690,7 +691,7 @@ MonoBehaviour:
   m_Name: 2206f813-a0c9-4a30-aab1-d86808d98dc5
   m_EditorClassIdentifier: 
   characterIndex: 4
-  text: "I won't, grandpa don\u2019t worry, just get some rest."
+  text: "I won't, grandpa. Don\u2019t worry, just get some rest."
   controlNode: {fileID: 0}
   children:
   - cf9775df-2228-4be2-a78f-6e177a5ff2e3

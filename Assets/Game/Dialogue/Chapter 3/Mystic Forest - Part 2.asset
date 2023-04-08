@@ -1103,7 +1103,7 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 27114d5446f441d4da7cb15ebc6e347c, type: 3}
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: a41b61bf637fab54ea36dad0cfa96230, type: 3}
   BGM: {fileID: 8300000, guid: daa1bca80270ab046bf27aabb51449ab, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 0

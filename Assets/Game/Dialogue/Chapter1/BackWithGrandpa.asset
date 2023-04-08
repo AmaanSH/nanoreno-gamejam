@@ -110,6 +110,35 @@ MonoBehaviour:
     y: 201
     width: 200
     height: 200
+--- !u!114 &-7277284537043528066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 9f6dc5ef-0e18-44e6-ac07-dbfde3a3f52e-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 8532
+    y: 401
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: d3d7beff45832724cafbbf88c8c53d5b, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-6727908536775322195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,7 +310,7 @@ MonoBehaviour:
   text: I head into my room, with my bag in hand. I took the book out and sat down
     on my bed. I began to flip through the pages, slowly coming across different
     things.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: 5971790023756938092}
   children:
   - ce3b04b7-702e-4e77-bc73-ea8d9bfefc7e
   rect:
@@ -314,7 +343,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: db63a100d3813e142857dd7f7574a5a9, type: 3}
   BGM: {fileID: 8300000, guid: 079f0c18411336641a007458d7b2f97c, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 1
@@ -523,7 +552,7 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 746385e1f09d9a44ca4c0d24f86c0aab, type: 3}
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: d3d7beff45832724cafbbf88c8c53d5b, type: 3}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
@@ -886,7 +915,7 @@ MonoBehaviour:
     I stepped out of my room, and walking in the hallway, I stopped in front of my
     grandfather's room. Standing outside of it, I gently pressed my hand against
     the door.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -7277284537043528066}
   children:
   - 4e2e7159-e3c6-4d18-8720-af8da6eb78bb
   rect:
@@ -1115,6 +1144,35 @@ MonoBehaviour:
     y: 201
     width: 200
     height: 200
+--- !u!114 &5971790023756938092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: c76db0e9-47e3-4d6b-99aa-854aadd29828-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 6532
+    y: 401
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 0}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &6014758192594012470
 MonoBehaviour:
   m_ObjectHideFlags: 0

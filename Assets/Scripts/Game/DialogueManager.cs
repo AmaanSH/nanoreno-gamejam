@@ -22,6 +22,9 @@ namespace Nanoreno.Game
         [SerializeField]
         private LogPanel logPanel;
 
+        [SerializeField]
+        private BackgroundController backgroundController;
+
         private DialogueHolder chapter;
         private Chapter currentDialogues;
         private DialogueNode currentNode;
@@ -40,6 +43,7 @@ namespace Nanoreno.Game
         public void Setup()
         {
             dialoguePanel.Setup();
+            backgroundController.Setup();
 
             dialoguePanel.TextEndReached += Next;
             dialoguePanel.ChoiceMade += OnChoiceMade;
@@ -184,6 +188,11 @@ namespace Nanoreno.Game
             if (currentNode.GetControlNode())
             {
                 ControlNode controlNode = currentNode.GetControlNode();
+
+                if (controlNode.backgroundImage)
+                {
+                    backgroundController.Set(controlNode.backgroundImage);
+                }
 
                 if (controlNode.clearCharacters)
                 {

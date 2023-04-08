@@ -40,11 +40,11 @@ public class AudioManager : MonoBehaviour
             {
                 if (audio.Play)
                 {
-                    StartCoroutine(PlayLayer(audio.audioClip));
+                    PlayLayer(audio.audioClip);
                 }
                 else
                 {
-                    StartCoroutine(StopLayer(audio.audioClip));
+                    StopLayer(audio.audioClip);
                 }
             }
         }
@@ -53,7 +53,8 @@ public class AudioManager : MonoBehaviour
         {
             ResetAudio();
         }
-        else if (controlNode.BGM)
+        
+        if (controlNode.BGM)
         {
             StartCoroutine(PlayBGM(controlNode.BGM));
         }
@@ -79,21 +80,21 @@ public class AudioManager : MonoBehaviour
         audioSources.Add(source);
     }
 
-    public IEnumerator PlayLayer(AudioClip clip)
+    public void PlayLayer(AudioClip clip)
     {
         AudioSource source = audioSources.Find(x => x.clip == clip);
         if (source != null)
         {
-            yield return FadeAudio(source);
+            StartCoroutine(FadeAudio(source));
         }
     }
 
-    public IEnumerator StopLayer(AudioClip clip)
+    public void StopLayer(AudioClip clip)
     {
         AudioSource source = audioSources.Find(x => x.clip == clip);
         if (source != null)
         {
-            yield return FadeAudio(source, true);
+            StartCoroutine(FadeAudio(source, true));
         }
     }
 
@@ -122,7 +123,21 @@ public class AudioManager : MonoBehaviour
         bgmSource.clip = clip;
         bgmSource.Play();
 
-        yield return StartFade(bgmMixer, VOLUME_BGM_MIXER, FADE_DURATION, 1);
+        StartCoroutine(StartFade(bgmMixer, VOLUME_BGM_MIXER, FADE_DURATION, 1));
+    }
+
+    public void ForceStopAllAudio()
+    {
+        foreach (AudioSource source in audioSources)
+        {
+            source.Stop();
+            Destroy(source.gameObject);
+        }
+
+        sfxSource.Stop();
+
+        bgmSource.Stop();
+        bgmMixer.SetFloat(VOLUME_BGM_MIXER, 0);
     }
 
     public void ResetAudio()

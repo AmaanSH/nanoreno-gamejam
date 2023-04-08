@@ -162,7 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 10
   text: "I\u2019ll have to get it ready; come in."
-  controlNode: {fileID: 0}
+  controlNode: {fileID: 6913237507794367309}
   children:
   - 0a167f37-6bf9-4883-8de9-cca66ded5e8f
   rect:
@@ -363,7 +363,7 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 746385e1f09d9a44ca4c0d24f86c0aab, type: 3}
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: db63a100d3813e142857dd7f7574a5a9, type: 3}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
@@ -1866,7 +1866,7 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 746385e1f09d9a44ca4c0d24f86c0aab, type: 3}
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: db63a100d3813e142857dd7f7574a5a9, type: 3}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 1
@@ -2068,6 +2068,35 @@ MonoBehaviour:
     y: 256
     width: 200
     height: 200
+--- !u!114 &6913237507794367309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 923e9859-4720-41cc-a413-2be929d6eec7-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1279
+    y: 456
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: 2f7b4e68006f0964ab3dc9525a6ae039, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &7210212609299277974
 MonoBehaviour:
   m_ObjectHideFlags: 0

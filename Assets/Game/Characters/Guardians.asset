@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61834895a4d90054d8b0b33eb7ee220a, type: 3}
   m_Name: Guardians
   m_EditorClassIdentifier: 
-  undiscoveredName: 
-  characterName: Guardians
+  undiscoveredName: ???
+  characterName: Guardian
   sprite: {fileID: 21300000, guid: 30bef14e60041784d84b1cb3686e1fcc, type: 3}

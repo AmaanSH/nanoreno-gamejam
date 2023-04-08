@@ -1401,7 +1401,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 48
-    y: 180
+    y: 179
     width: 200
     height: 200
 --- !u!114 &11400000
@@ -2717,7 +2717,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 48
-    y: 380
+    y: 379
     width: 200
     height: 300
   characterPositions: []
@@ -2726,7 +2726,7 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 0e58598b9a83dca458b093eea735b21f, type: 3}
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: 188e154b38dec8a44b16579411cf8ccc, type: 3}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 1

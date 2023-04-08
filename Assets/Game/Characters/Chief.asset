@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   undiscoveredName: 
   characterName: Chief
-  sprite: {fileID: 21300000, guid: e60718119cec31e4190849292fcde068, type: 3}
+  sprite: {fileID: 21300000, guid: bfda41715f9817c49a3da985e5502485, type: 3}

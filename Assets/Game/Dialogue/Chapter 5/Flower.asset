@@ -393,6 +393,35 @@ MonoBehaviour:
     y: 18
     width: 200
     height: 200
+--- !u!114 &-7958326010456374637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 9b2d69c9-1694-4551-89fc-07cab6136d74-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 28811
+    y: 219
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: 188e154b38dec8a44b16579411cf8ccc, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-7887750879129754850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,7 +449,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: 188e154b38dec8a44b16579411cf8ccc, type: 3}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
@@ -683,7 +712,7 @@ MonoBehaviour:
   characterIndex: 0
   text: "It\u2019s been a while since I gave Grandpa the flower. I made some tea
     with the flower for him, and he got better so fast. "
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -2780750512665915063}
   children:
   - 24f205e6-59e7-4cbe-89d3-74e3b7b7fac0
   rect:
@@ -873,6 +902,10 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 0
     customPercentage: 0
+  - character: {fileID: 11400000, guid: 8bf4f3d2f5d716e4a9fd94f2fac377b8, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
   layeredAudio: []
   screenEffect: 0
   transition: 0
@@ -942,7 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
   m_Name: ab18c3da-246e-4338-a93f-f0a251ae95cb
   m_EditorClassIdentifier: 
-  characterIndex: 3
+  characterIndex: 16
   text: You have no right to speak to us in this manner, child of the night. We are
     working tirelessly to save lua.
   controlNode: {fileID: 0}
@@ -950,8 +983,8 @@ MonoBehaviour:
   - 7965be64-e08c-41eb-9c51-7bbae0b7561a
   rect:
     serializedVersion: 2
-    x: 31186
-    y: 718
+    x: 31205
+    y: 716
     width: 200
     height: 200
 --- !u!114 &-6550565540822106226
@@ -1306,7 +1339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 0
   text: "I don\u2019t know how long I was asleep; the sound of a hoot woke me up."
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -1285113874204221176}
   children:
   - c07ac97e-c788-41c8-ba28-1a1e03e09c1d
   rect:
@@ -1514,6 +1547,10 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 2
     customPercentage: 0
+  - character: {fileID: 11400000, guid: 8bf4f3d2f5d716e4a9fd94f2fac377b8, type: 2}
+    emotion: 0
+    screenPosition: 0
+    customPercentage: 0
   layeredAudio: []
   screenEffect: 0
   transition: 0
@@ -1539,7 +1576,7 @@ MonoBehaviour:
   text: Everything felt blurry, and before I knew it, I was back where I first met
     Crow. I heard weak hoots ahead; the owl was staring at me from a tree. Jax seemed
     to recognise the owl; he let out small squeals as if he were greeting it.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -7958326010456374637}
   children:
   - 70d1603b-f235-4f56-a319-006d821adeea
   rect:
@@ -1612,7 +1649,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: a41b61bf637fab54ea36dad0cfa96230, type: 3}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
@@ -1735,7 +1772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 4
   text: I should bring the chief's stuff back.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -1727878448001191119}
   children:
   - 87410fc8-438e-4ffd-9f48-5eafde9468f6
   rect:
@@ -1883,7 +1920,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: d3d7beff45832724cafbbf88c8c53d5b, type: 3}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 0
@@ -2135,7 +2172,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: d3d7beff45832724cafbbf88c8c53d5b, type: 3}
   BGM: {fileID: 8300000, guid: c5c9666caf791544a94f6b74d9192096, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 0
@@ -2583,6 +2620,35 @@ MonoBehaviour:
     y: 180
     width: 200
     height: 200
+--- !u!114 &-2780750512665915063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: a8ffad3b-6c62-4d97-b249-1726ba989222-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 33389
+    y: 209
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: db63a100d3813e142857dd7f7574a5a9, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-2749453136223593560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2635,6 +2701,10 @@ MonoBehaviour:
     emotion: 0
     screenPosition: 3
     customPercentage: 0
+  - character: {fileID: 11400000, guid: 8bf4f3d2f5d716e4a9fd94f2fac377b8, type: 2}
+    emotion: 0
+    screenPosition: 2
+    customPercentage: 0
   layeredAudio: []
   screenEffect: 0
   transition: 0
@@ -2656,15 +2726,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887f576f985eb8640af686a9752e2f77, type: 3}
   m_Name: a8f0d14e-1a80-433c-a5f9-dc9cadd8360d
   m_EditorClassIdentifier: 
-  characterIndex: 3
+  characterIndex: 16
   text: You will be punished if you act irresponsibly, child of the night.
   controlNode: {fileID: 834779872720174059}
   children:
   - 6f2d6baa-ab13-4624-8981-2bd1a2d79839
   rect:
     serializedVersion: 2
-    x: 32186
-    y: 718
+    x: 32226
+    y: 717
     width: 200
     height: 200
 --- !u!114 &-2632017800335639468
@@ -2704,7 +2774,7 @@ MonoBehaviour:
   m_Name: 7ac04580-1b60-4593-893b-1c75e9f3606d
   m_EditorClassIdentifier: 
   characterIndex: 0
-  text: "Weird.  I look back, seeing the lights of the village in the distance. I
+  text: "Weird. I look back, seeing the lights of the village in the distance. I
     couldn\u2019t help but run, wanting to see Grandpa again. Even if I didn\u2019t
     get the flower, I hope whatever medicine we have can help him."
   controlNode: {fileID: 0}
@@ -2712,8 +2782,8 @@ MonoBehaviour:
   - 6097b456-11e9-4c0f-bdaf-ee59b6554fed
   rect:
     serializedVersion: 2
-    x: 36959
-    y: 717
+    x: 36956
+    y: 713
     width: 200
     height: 200
 --- !u!114 &-2585286954041146999
@@ -2905,6 +2975,35 @@ MonoBehaviour:
     y: 179
     width: 200
     height: 200
+--- !u!114 &-1727878448001191119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 84561741-d8ac-4dd2-940d-bcd0eb20a345-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 46103
+    y: 917
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: db63a100d3813e142857dd7f7574a5a9, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-1642849899375927622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3077,6 +3176,35 @@ MonoBehaviour:
     y: 178
     width: 200
     height: 200
+--- !u!114 &-1285113874204221176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: fc3c43e1-4757-479b-aa2c-62762b7a2c81-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 33459
+    y: 917
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: 188e154b38dec8a44b16579411cf8ccc, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &-1052734750755369801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3192,7 +3320,7 @@ MonoBehaviour:
   m_Name: 9c4e439c-7d74-433e-9d19-6619bc0fa750
   m_EditorClassIdentifier: 
   characterIndex: 0
-  text: "The owl flaps its wings. Turn my head to stare at  crow and Jax one last
+  text: "The owl flaps its wings. I turn my head to stare at Crow and Jax one last
     time. I couldn\u2019t speak; it felt like I had something stuck in my throat.
     All I could do was wave with my free hand before heading off with the owl, away
     from the mystic forest and the little creatures."
@@ -3228,7 +3356,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: a41b61bf637fab54ea36dad0cfa96230, type: 3}
   BGM: {fileID: 8300000, guid: daa1bca80270ab046bf27aabb51449ab, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 1
@@ -3297,7 +3425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 4
   text: What do we do now?
-  controlNode: {fileID: 0}
+  controlNode: {fileID: 9170921149845959116}
   children:
   - 3472ce67-bf51-4b0d-95b5-16b53c8d14b7
   rect:
@@ -3832,9 +3960,9 @@ MonoBehaviour:
   m_Name: 4bfbc63c-13f5-4387-81ac-2cf1a841273c
   m_EditorClassIdentifier: 
   characterIndex: 0
-  text: ' The little fox leads us further ahead, into an area covered by bushes and
+  text: The little fox leads us further ahead, into an area covered by bushes and
     rocks.  Jax stands in front of the rocks, jumping in front of them. Crow walks
-    and stands in front of the rocks, staring at them.'
+    and stands in front of the rocks, staring at them.
   controlNode: {fileID: 0}
   children:
   - 6bac3620-5d1e-46a2-b966-ee60672b8261
@@ -4147,8 +4275,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 32186
-    y: 918
+    x: 32226
+    y: 917
     width: 200
     height: 400
   characterPositions: []
@@ -4371,7 +4499,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: a41b61bf637fab54ea36dad0cfa96230, type: 3}
   BGM: {fileID: 8300000, guid: daa1bca80270ab046bf27aabb51449ab, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 0
@@ -4568,6 +4696,35 @@ MonoBehaviour:
   clearCharacters: 0
   stopBGM: 0
   stopAllLayers: 0
+--- !u!114 &1941960208046088099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 7798ad29-5a82-4c60-af3d-ddc0c958511c-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 35139
+    y: 209
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: 7aedc98ae33bdb342a6fdc18a963d5bf, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &1949846150154299424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4742,7 +4899,7 @@ MonoBehaviour:
     getting brighter and brighter. I saw the doctor walking around, and hearing footsteps,
     he turned his head towards me. He looks shocked, making his way over and meeting
     me halfway.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: 6506941982432976381}
   children:
   - 018db3e2-0789-4313-8ab1-fc63ea43ed6f
   rect:
@@ -4917,7 +5074,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: b7fec0464729fd24fb04eb539aa9e646, type: 3}
   BGM: {fileID: 0}
   SFX: {fileID: 0}
   clearCharacters: 1
@@ -4974,6 +5131,10 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: ea2e49d1c25aba849a1fefc6e3932ef2, type: 2}
     emotion: 0
     screenPosition: 3
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: ff5b0e55c2317e5499ad19f406e694b5, type: 2}
+    emotion: 0
+    screenPosition: 2
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
@@ -5522,7 +5683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIndex: 0
   text: I stare at the sky, looking at all the shiny stars.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: 1941960208046088099}
   children:
   - 092dc595-9cf4-481e-9634-97db8e4ba0d0
   rect:
@@ -5575,7 +5736,7 @@ MonoBehaviour:
   - b0545598-29d5-47ff-8130-ce184b7a42d3
   rect:
     serializedVersion: 2
-    x: 28311
+    x: 28310
     y: 19
     width: 200
     height: 200
@@ -6484,6 +6645,35 @@ MonoBehaviour:
     y: 181
     width: 200
     height: 200
+--- !u!114 &6506941982432976381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: abc213ae-69f8-403f-b5f2-926a909d05cc-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 37459
+    y: 917
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: db63a100d3813e142857dd7f7574a5a9, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &6546630222331182590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6752,7 +6942,7 @@ MonoBehaviour:
   text: "I stare at the forest, hoping something would happen\u2014hoping a crow
     would walk out from a bush with Jax following behind, jumping and squealing.
     but nothing happened."
-  controlNode: {fileID: 0}
+  controlNode: {fileID: 9050205874144490124}
   children:
   - d90b76f0-2b6b-4e36-8774-6f95f2e10ee1
   rect:
@@ -6961,7 +7151,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: 076d3e5bfb8c12147adb308c9307813a, type: 3}
   BGM: {fileID: 8300000, guid: daa1bca80270ab046bf27aabb51449ab, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 1
@@ -6980,7 +7170,7 @@ MonoBehaviour:
   m_Name: 018db3e2-0789-4313-8ab1-fc63ea43ed6f
   m_EditorClassIdentifier: 
   characterIndex: 10
-  text: ' Leilani, there you are; where have you been?'
+  text: Leilani, there you are; where have you been?
   controlNode: {fileID: 5898777064113152308}
   children:
   - eb3f4cb7-2970-4886-9c16-bde1d92a361a
@@ -7297,7 +7487,7 @@ MonoBehaviour:
   layeredAudio: []
   screenEffect: 0
   transition: 0
-  backgroundImage: {fileID: 0}
+  backgroundImage: {fileID: 21300000, guid: 2f7b4e68006f0964ab3dc9525a6ae039, type: 3}
   BGM: {fileID: 8300000, guid: c5c9666caf791544a94f6b74d9192096, type: 3}
   SFX: {fileID: 0}
   clearCharacters: 0
@@ -7330,6 +7520,10 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 306c9c3d1b9f9f24bbb3fec34d542d99, type: 2}
     emotion: 0
     screenPosition: 3
+    customPercentage: 0
+  - character: {fileID: 11400000, guid: 8bf4f3d2f5d716e4a9fd94f2fac377b8, type: 2}
+    emotion: 0
+    screenPosition: 2
     customPercentage: 0
   layeredAudio: []
   screenEffect: 0
@@ -7412,6 +7606,35 @@ MonoBehaviour:
     y: 181
     width: 200
     height: 200
+--- !u!114 &9050205874144490124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 61551b3d-e7b5-4d46-9994-489a090b58dc-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 34139
+    y: 209
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: 188e154b38dec8a44b16579411cf8ccc, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &9112712079472932970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7519,6 +7742,35 @@ MonoBehaviour:
     y: 718
     width: 200
     height: 200
+--- !u!114 &9170921149845959116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: 6bac3620-5d1e-46a2-b966-ee60672b8261-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 9277
+    y: 381
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: 076d3e5bfb8c12147adb308c9307813a, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
 --- !u!114 &9186389288851691732
 MonoBehaviour:
   m_ObjectHideFlags: 0

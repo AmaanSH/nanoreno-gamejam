@@ -1,6 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/Game/UI/Stylesheets/UIStyle.uss?fileID=7433441132597879392&amp;guid=6990184db6c2f224fa2a69b2306f8395&amp;type=3#UIStyle" />
     <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse;">
+        <ui:VisualElement name="background" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; background-image: none; -unity-background-scale-mode: scale-and-crop;" />
         <ui:VisualElement name="overlay" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; justify-content: center; align-self: auto; display: flex;">
             <ui:VisualElement name="character" class="characterStyle" style="display: none; scale: 1 1; opacity: 1; align-self: flex-start; translate: 0 0;" />
         </ui:VisualElement>
@@ -10,8 +11,8 @@
                 <ui:ListView focusable="false" name="textHolder" virtualization-method="DynamicHeight" show-border="false" reorder-mode="Simple" reorderable="false" show-add-remove-footer="false" fixed-item-height="50" horizontal-scrolling="false" show-alternating-row-backgrounds="None" show-bound-collection-size="false" selection-type="None" style="flex-grow: 0; flex-shrink: 1; width: 100%; height: 100%;" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="narrativePanel" class="panel" style="display: flex; flex-direction: column; height: auto; min-height: 180px;">
-            <ui:VisualElement name="textAndSpriteHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-shrink: 0;">
+        <ui:VisualElement name="narrativePanel" class="panel" style="display: flex; flex-direction: column; height: auto; min-height: 180px; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Game/UI/textPanel2.png?fileID=2800000&amp;guid=e0569e9be8d402f4b96673bdaa5615b4&amp;type=3#textPanel2&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-background-scale-mode: stretch-to-fill;">
+            <ui:VisualElement name="textAndSpriteHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-shrink: 0; -unity-slice-left: 0; margin-left: 40px; margin-top: 10px; margin-bottom: 17px; margin-right: 40px;">
                 <ui:VisualElement name="charSprite" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 150px; flex-shrink: 1; background-image: url(&apos;project://database/Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected/character_Mode@4x.png?fileID=2800000&amp;guid=0ccc508108fa6ed4fa11b4a467d7f609&amp;type=3#character_Mode@4x&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-background-scale-mode: scale-to-fit; display: none;" />
                 <ui:VisualElement name="textHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0;">
                     <ui:Label tabindex="-1" text="CHARACTER_NAME" display-tooltip-when-elided="true" name="characterName" enable-rich-text="false" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 18px;" />
@@ -25,19 +26,19 @@
         <ui:VisualElement name="choicePanel" style="flex-grow: 1; flex-direction: column; align-items: stretch; display: none; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; flex-shrink: 1; position: absolute; left: auto; visibility: visible;">
             <ui:VisualElement name="choiceButtonHolder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column; align-self: center; flex-shrink: 0; width: 100%; height: 100%; align-items: center; justify-content: center;" />
         </ui:VisualElement>
-        <ui:VisualElement name="optionButton" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 30px; flex-direction: row; align-self: flex-end;">
+        <ui:VisualElement name="optionButton" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; height: 30px; flex-direction: row; align-self: flex-end; margin-right: 30px;">
             <ui:Button text="Save" display-tooltip-when-elided="true" name="saveButton" class="optionButton" />
             <ui:Button text="Q.Save" display-tooltip-when-elided="true" name="quickSave" class="optionButton" style="visibility: visible; display: none;" />
             <ui:Button text="Load" display-tooltip-when-elided="true" name="loadButton" class="optionButton" />
             <ui:Button text="Q.Load" display-tooltip-when-elided="true" name="quickLoad" class="optionButton" style="visibility: visible; display: none;" />
-            <ui:Button text="Auto" display-tooltip-when-elided="true" name="autoButton" class="optionButton" />
+            <ui:Button text="Auto" display-tooltip-when-elided="true" name="autoButton" class="optionButton" style="display: none;" />
             <ui:Button text="Skip" display-tooltip-when-elided="true" name="skipButton" class="optionButton" style="display: none;" />
-            <ui:Button text="Config" display-tooltip-when-elided="true" name="configButton" class="optionButton" />
+            <ui:Button text="Menu" display-tooltip-when-elided="true" name="menuButton" class="optionButton" />
             <ui:Button text="Log" display-tooltip-when-elided="true" name="logButton" class="optionButton" />
         </ui:VisualElement>
         <ui:VisualElement name="fadeToBlack" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; transition-property: background-color; transition-duration: 1s; display: flex;" />
         <ui:VisualElement name="blocker" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; display: none;" />
-        <ui:VisualElement name="debug" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%;">
+        <ui:VisualElement name="debug" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; display: none;">
             <ui:Label tabindex="-1" text="Current Dialogue: XXX" display-tooltip-when-elided="true" name="dialogueId" style="color: rgb(255, 252, 0); -unity-font-style: bold; -unity-text-outline-width: 0; font-size: 25px; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=4567396bfb056094ea60bef0a58f53c2&amp;type=3#NotInter-Regular&apos;); white-space: normal; word-spacing: 0;" />
             <ui:Label tabindex="-1" text="Holder: XXX" display-tooltip-when-elided="true" name="dialogueHolder" style="color: rgb(255, 0, 0); -unity-font-style: bold; -unity-text-outline-width: 0; font-size: 25px; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=4567396bfb056094ea60bef0a58f53c2&amp;type=3#NotInter-Regular&apos;); white-space: normal; word-spacing: 0;" />
             <ui:Label tabindex="-1" text="Chapter: XXX" display-tooltip-when-elided="true" name="chapter" style="color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-outline-width: 0; font-size: 25px; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=4567396bfb056094ea60bef0a58f53c2&amp;type=3#NotInter-Regular&apos;); white-space: normal; word-spacing: 0;" />

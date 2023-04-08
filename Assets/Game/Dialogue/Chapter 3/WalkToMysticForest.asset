@@ -90,7 +90,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 2543
-    y: 174
+    y: 175
     width: 200
     height: 200
 --- !u!114 &-5496143784554023083
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: df2ddfb3-59fc-4aa7-acc1-16d236a0ab0c
   m_EditorClassIdentifier: 
   characterIndex: 13
-  text: Well?  Are you going to take it or not?
+  text: Well? Are you going to take it or not?
   controlNode: {fileID: 0}
   children:
   - 83ce581f-2274-4803-99ea-e8cb8eb52219
@@ -215,6 +215,35 @@ MonoBehaviour:
   layeredAudio:
   - Play: 1
     audioClip: {fileID: 8300000, guid: 27114d5446f441d4da7cb15ebc6e347c, type: 3}
+  screenEffect: 0
+  transition: 0
+  backgroundImage: {fileID: 21300000, guid: a41b61bf637fab54ea36dad0cfa96230, type: 3}
+  BGM: {fileID: 0}
+  SFX: {fileID: 0}
+  clearCharacters: 0
+  stopBGM: 0
+  stopAllLayers: 0
+--- !u!114 &-4322804019206243196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb18c9024ae5fc47a4f319427d88a89, type: 3}
+  m_Name: a5ac1c13-f672-4049-b077-30e97b460e64-CONTROL
+  m_EditorClassIdentifier: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 5041
+    y: 375
+    width: 200
+    height: 400
+  characterPositions: []
+  layeredAudio: []
   screenEffect: 0
   transition: 0
   backgroundImage: {fileID: 0}
@@ -660,8 +689,8 @@ MonoBehaviour:
   - df2ddfb3-59fc-4aa7-acc1-16d236a0ab0c
   rect:
     serializedVersion: 2
-    x: 3791
-    y: 175
+    x: 3792
+    y: 174
     width: 200
     height: 200
 --- !u!114 &3935385648656746618
@@ -830,7 +859,7 @@ MonoBehaviour:
   characterIndex: 0
   text: We continued walking together like that for a while longer until something
     ahead started shining.
-  controlNode: {fileID: 0}
+  controlNode: {fileID: -4322804019206243196}
   children:
   - 6e793fbd-3757-43e8-916f-49c066dcd9b9
   rect:

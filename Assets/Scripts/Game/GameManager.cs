@@ -1,7 +1,9 @@
 using Nanoreno.Dialogue;
+using Nanoreno.UI;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 namespace Nanoreno.Game
 {
@@ -36,11 +38,18 @@ namespace Nanoreno.Game
         public void SetupGame()
         {
             dialogeManager.Setup();
+
+            Button menuButton = UIManager.GetElement("menuButton") as Button;
+            menuButton.clicked += () =>
+            {
+                SceneManager.LoadScene(0);
+            };
         }
 
         public void LoadSave()
         {
             dialogeManager.Cleanup();
+            AudioManager.Instance.ForceStopAllAudio();
 
             currentChapterIndex = SaveState.chapterIndex;
             currentChapter = chapters[SaveState.chapterIndex];

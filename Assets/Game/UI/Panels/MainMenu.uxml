@@ -1,7 +1,32 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="holder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: center; width: 50%; align-items: center; align-self: center;">
-        <ui:Button text="Start" display-tooltip-when-elided="true" name="start" style="width: 80%;" />
-        <ui:Button text="Load" display-tooltip-when-elided="true" name="load" style="width: 80%;" />
-        <ui:Button text="Credits" display-tooltip-when-elided="true" name="credits" style="width: 80%;" />
+    <Style src="project://database/Assets/Game/UI/Stylesheets/UIStyle.uss?fileID=7433441132597879392&amp;guid=6990184db6c2f224fa2a69b2306f8395&amp;type=3#UIStyle" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Game/Backgrounds/field_background.png?fileID=2800000&amp;guid=076d3e5bfb8c12147adb308c9307813a&amp;type=3#field_background&apos;);" />
+    <ui:VisualElement name="menu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: center; width: 50%; align-items: center; align-self: center; display: flex;">
+        <ui:Button text="Start" display-tooltip-when-elided="true" name="start" class="optionButton" style="width: 185px; height: auto; font-size: 24px; margin-bottom: 15px;" />
+        <ui:Button text="Load" display-tooltip-when-elided="true" name="load" class="optionButton" style="width: 185px; font-size: 24px; margin-bottom: 15px;" />
+        <ui:Button text="Credits" display-tooltip-when-elided="true" name="credits" class="optionButton" style="width: 185px; font-size: 24px; margin-bottom: 15px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="creditsPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 100%; position: absolute; height: 100%; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; display: none;">
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="back" class="optionButton" style="width: 185px; height: auto; font-size: 24px;" />
+        <ui:VisualElement name="holder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+            <ui:VisualElement name="mainBlock" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Label tabindex="-1" text="Programmer" display-tooltip-when-elided="true" name="programmer" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 26px;" />
+                <ui:Label tabindex="-1" text="Amaan&#10;theaman.itch.io" display-tooltip-when-elided="true" name="programmerName" style="-unity-font-style: normal; color: rgb(255, 255, 255); font-size: 24px;" />
+                <ui:Label tabindex="-1" text="Narrative Design" display-tooltip-when-elided="true" name="storyWrtierName" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 26px;" />
+                <ui:Label tabindex="-1" text="Tanuki" display-tooltip-when-elided="true" name="narrativeDesign" style="-unity-font-style: normal; color: rgb(255, 255, 255); font-size: 24px;" />
+                <ui:Label tabindex="-1" text="Character Artist" display-tooltip-when-elided="true" name="artistTitle" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 26px;" />
+                <ui:Label tabindex="-1" text="MiFuWorks&#10;mifuworks.itch.io" display-tooltip-when-elided="true" name="artistName" style="-unity-font-style: normal; color: rgb(255, 255, 255); font-size: 24px;" />
+                <ui:Label tabindex="-1" text="Composer" display-tooltip-when-elided="true" name="audioTitle" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 26px;" />
+                <ui:Label tabindex="-1" text="Lisamichele&#10;itch.io/profile/lisamichele" display-tooltip-when-elided="true" name="audioName" style="-unity-font-style: normal; color: rgb(255, 255, 255); font-size: 24px;" />
+                <ui:Label tabindex="-1" text="Background Artist" display-tooltip-when-elided="true" name="backgroundArtistTitle" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 26px;" />
+                <ui:Label tabindex="-1" text="Retroknight" display-tooltip-when-elided="true" name="backgroundArtistName" style="-unity-font-style: normal; color: rgb(255, 255, 255); font-size: 24px;" />
+                <ui:Label tabindex="-1" text="UI Artist" display-tooltip-when-elided="true" name="uiArtistTitle" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 26px;" />
+                <ui:Label tabindex="-1" text="Abbeylily" display-tooltip-when-elided="true" name="uiArtist" style="-unity-font-style: normal; color: rgb(255, 255, 255); font-size: 24px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="mainBlock" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:Label tabindex="-1" text="Special Thanks To" display-tooltip-when-elided="true" name="extraTitle" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 26px;" />
+                <ui:Label tabindex="-1" text="&lt;B&gt;Proof Reader&lt;/b&gt;&#10;Anusha&#10;&#10;&lt;b&gt;Assets&lt;/b&gt;&#10;Fantasy Forest by Konett&#10;https://cloudnovel.net/konett/background/fantasy-forest&#10;&#10;Forest path 1920x1080 by Cortnth&#10;https://corynth.itch.io/free-bg-forest-path-1920x1080&#10;&#10;Rana Village&#10;https://www.peakpx.com/en/hd-wallpaper-desktop-gdmzm&#10;&#10;Night sky&#10;https://cloudnovel.net/OchiMochi/background/night-background-1" display-tooltip-when-elided="true" name="extraBlock" style="-unity-font-style: normal; color: rgb(255, 255, 255); font-size: 24px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

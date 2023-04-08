@@ -309,6 +309,14 @@ PrefabInstance:
       propertyPath: chapters.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 125a7052f8c756c48a4d58abd489cf4e, type: 2}
+    - target: {fileID: 956038108401623551, guid: 01d680febe04fde42b114e6b3476f2e4, type: 3}
+      propertyPath: chapters.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1bc90803000358941b52c900c20eb38e, type: 2}
+    - target: {fileID: 956038108401623551, guid: 01d680febe04fde42b114e6b3476f2e4, type: 3}
+      propertyPath: chapters.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: bb4218c45d56b2a448f2835ab6b0570e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -135,7 +135,7 @@ namespace Nanoreno.UI
             {
                 if (holder == speakingHolder) { continue; }
 
-                holder.element.style.opacity = 0.3f;
+                holder.element.style.opacity = 0.5f;
             }
         }
 
